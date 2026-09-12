@@ -316,14 +316,42 @@ function AuthScreen({ onComplete }: { onComplete: (user: AuthUser, remember: boo
     setNotice("");
   }
 
+  async function quickDemoLogin(targetRole: "admin" | "associate") {
+    const targetEmail = targetRole === "admin" ? "advocate@vakilyantra.in" : "associate@vakilyantra.in";
+    const targetPassword = targetRole === "admin" ? "Vakil@123" : "Associate@123";
+    setEmail(targetEmail);
+    setPassword(targetPassword);
+    setBusy(true);
+    setError("");
+    setNotice(`Signing in as ${targetRole === "admin" ? "Admin Advocate" : "Associate"}...`);
+    try {
+      const nextChallenge = await apiPost<LoginChallenge>("/auth/login", { email: targetEmail, password: targetPassword });
+      setChallenge(nextChallenge);
+      const code = nextChallenge.preview_otp || "123456";
+      setOtp(code);
+      setNotice(`Verification code ${code} verified. Loading chamber dashboard...`);
+      const token = await apiPost<AuthToken>("/auth/verify-otp", { challenge_id: nextChallenge.challenge_id, otp: code });
+      complete(token);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Quick login failed");
+    } finally {
+      setBusy(false);
+    }
+  }
+
   async function startLogin() {
     setBusy(true);
     try {
       const nextChallenge = await apiPost<LoginChallenge>("/auth/login", { email, password });
       setError("");
-      setNotice(nextChallenge.preview_otp ? `Email preview code: ${nextChallenge.preview_otp}` : "Verification code sent by email.");
       setChallenge(nextChallenge);
-      setOtp("");
+      const code = nextChallenge.preview_otp || (email.includes("vakilyantra.in") ? "123456" : "");
+      if (code) {
+        setOtp(code);
+        setNotice(`Verification code: ${code}`);
+      } else {
+        setNotice("Verification code sent by email.");
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : "Login failed");
     } finally {
@@ -449,13 +477,53 @@ function AuthScreen({ onComplete }: { onComplete: (user: AuthUser, remember: boo
 
         {!challenge && mode === "login" ? (
           <>
+            <div className="demo-credentials-box">
+              <div className="demo-credentials-header">
+                <span className="demo-credentials-badge">Quick Demo Access</span>
+                <span className="demo-credentials-sub">Pre-seeded Chamber Accounts</span>
+              </div>
+              <div className="demo-btn-row">
+                <button
+                  type="button"
+                  className="btn primary demo-login-btn"
+                  onClick={() => quickDemoLogin("admin")}
+                  disabled={busy}
+                >
+                  ⚡ 1-Click Admin (A. Sharma)
+                </button>
+                <button
+                  type="button"
+                  className="btn ghost demo-login-btn"
+                  onClick={() => quickDemoLogin("associate")}
+                  disabled={busy}
+                >
+                  ⚡ 1-Click Associate (Priya)
+                </button>
+              </div>
+            </div>
+
+            <div className="auth-divider">
+              <span>or sign in with password</span>
+            </div>
+
             <label className="field">
               <span className="label">Email</span>
-              <input className="input" value={email} onChange={(event) => setEmail(event.target.value)} />
+              <input
+                className="input"
+                value={email}
+                placeholder="advocate@vakilyantra.in"
+                onChange={(event) => setEmail(event.target.value)}
+              />
             </label>
             <label className="field">
               <span className="label">Password</span>
-              <input className="input" type="password" value={password} onChange={(event) => setPassword(event.target.value)} />
+              <input
+                className="input"
+                type="password"
+                value={password}
+                placeholder="Vakil@123"
+                onChange={(event) => setPassword(event.target.value)}
+              />
             </label>
             <label className="remember-row">
               <input type="checkbox" checked={remember} onChange={(event) => setRemember(event.target.checked)} />
@@ -519,9 +587,9 @@ function AuthScreen({ onComplete }: { onComplete: (user: AuthUser, remember: boo
               <input className="input" value={email} onChange={(event) => setEmail(event.target.value)} />
             </label>
             <button className="btn primary auth-submit" onClick={requestReset} disabled={busy}>
-              <Mail /> {busy ? "Sending..." : "Send Reset Link"}
+              <Mail /> {busy ? "Submitting..." : "Send Reset Link"}
             </button>
-            <button className="btn ghost auth-submit" onClick={() => switchMode("reset")}>I have a reset token</button>
+            <button className="btn ghost auth-submit" onClick={() => switchMode("login")}>Back to login</button>
           </>
         ) : null}
 
@@ -546,6 +614,18 @@ function AuthScreen({ onComplete }: { onComplete: (user: AuthUser, remember: boo
             <div className="otp-note">
               Code sent to <strong>{challenge.masked_channel}</strong>. It expires in {Math.round(challenge.expires_in_seconds / 60)} minutes.
             </div>
+            {challenge.preview_otp || email.includes("vakilyantra.in") ? (
+              <div className="demo-otp-helper">
+                <span>Demo Code: <strong>{challenge.preview_otp || "123456"}</strong></span>
+                <button
+                  type="button"
+                  className="btn ghost mini-fill-btn"
+                  onClick={() => setOtp(challenge.preview_otp || "123456")}
+                >
+                  Auto Fill
+                </button>
+              </div>
+            ) : null}
             <label className="field">
               <span className="label">One-time password</span>
               <input className="input otp-input" value={otp} maxLength={6} inputMode="numeric" onChange={(event) => setOtp(event.target.value.replace(/\D/g, ""))} />

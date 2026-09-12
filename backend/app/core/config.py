@@ -28,7 +28,9 @@ class Settings(BaseSettings):
     frontend_url: str = "http://localhost:3000"
     auth_otp_minutes: int = 10
     auth_token_minutes: int = 60
-    auth_email_preview: bool = False
+    auth_email_preview: bool = Field(
+        default_factory=lambda: bool(os.environ.get("VERCEL") or not os.environ.get("SMTP_HOST"))
+    )
     email_from: str = "Vakil Yantra <no-reply@vakilyantra.app>"
     smtp_host: str | None = None
     smtp_port: int = 587
