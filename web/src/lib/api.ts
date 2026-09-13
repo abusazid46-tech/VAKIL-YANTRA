@@ -218,8 +218,11 @@ export type Citation = {
 };
 
 export type AiResponse = {
+  run_id?: string;
+  status?: string;
   output_text: string;
   draft_type?: string | null;
+  output?: Record<string, any> | null;
   citations: Citation[];
   verification_warning: string;
   retrieved_context_count: number;

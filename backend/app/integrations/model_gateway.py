@@ -4,8 +4,13 @@ import json
 import logging
 import os
 from typing import Any
+import urllib.request
+import urllib.error
 
-import httpx
+try:
+    import httpx
+except ImportError:
+    httpx = None  # type: ignore[assignment]
 
 logger = logging.getLogger("vakil_yantra.model_gateway")
 

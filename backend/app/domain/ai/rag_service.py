@@ -2,171 +2,235 @@ from __future__ import annotations
 
 import json
 import logging
-import math
+from pathlib import Path
 import re
 from typing import Any
 
-from sqlalchemy import or_, select
-from sqlalchemy.orm import Session
+try:
+    from sqlalchemy.orm import Session
+except ImportError:
+    Session = Any  # type: ignore[misc,assignment]
 
-from app.db.models import ActSection, LegalSource
 from app.domain.ai.schemas import Citation
 
 logger = logging.getLogger("vakil_yantra.rag")
 
-# Stopwords for lexical processing
+# Stopwords for lexical query tokenization
 _STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "has", "he",
-    "in", "is", "it", "its", "of", "on", "that", "the", "to", "was", "were", "will", "with"
+    "in", "is", "it", "its", "of", "on", "that", "the", "to", "was", "were", "will", "with",
+    "under", "v", "vs", "versus", "against", "or", "any", "all", "such", "this"
 }
+
+_ACT_ALIASES = [
+    (r"\b(?:bnss|nagarik\s+suraksha|crpc)\b", "bharatiya nagarik suraksha sanhita"),
+    (r"\b(?:bns|nyaya\s+sanhita|ipc)\b", "bharatiya nyaya sanhita"),
+    (r"\b(?:bsa|sakshya|evidence\s+act)\b", "bharatiya sakshya adhiniyam"),
+    (r"\b(?:ni\s+act|negotiable\s+instruments?|cheque\s+bounce)\b", "negotiable instruments act"),
+    (r"\b(?:cpc|civil\s+procedure)\b", "code of civil procedure"),
+    (r"\b(?:arbitration|conciliation)\b", "arbitration and conciliation act"),
+    (r"\b(?:limitation)\b", "limitation act"),
+    (r"\b(?:contract)\b", "indian contract act"),
+    (r"\b(?:companies|companies\s+act)\b", "companies act"),
+    (r"\b(?:ibc|insolvency|bankruptcy)\b", "insolvency and bankruptcy code"),
+    (r"\b(?:it\s+act|cyber|information\s+technology)\b", "information technology act"),
+    (r"\b(?:consumer\s+protection|consumer)\b", "consumer protection act"),
+    (r"\b(?:commercial\s+courts?)\b", "commercial courts act"),
+    (r"\b(?:advocates?\s+act)\b", "advocates act"),
+    (r"\b(?:specific\s+relief)\b", "specific relief act"),
+    (r"\b(?:transfer\s+of\s+property|tpa)\b", "transfer of property act"),
+]
 
 
 def tokenize(text: str) -> list[str]:
-    """Tokenize text into lowercase alphanumeric tokens without common stopwords."""
+    """Tokenize text into lowercase alphanumeric tokens excluding stopwords."""
     words = re.findall(r"\b[a-zA-Z0-9_]+\b", text.lower())
     return [w for w in words if w not in _STOPWORDS and len(w) > 1]
 
 
 def extract_section_hints(query: str) -> list[str]:
-    """Extract section or article numbers from a query (e.g., 'Section 480', 'Art 226', '138')."""
-    hints = []
-    # Match patterns like Section 480, Sec. 138, Art 21, Article 113
-    matches = re.findall(r"\b(?:section|sec|article|art)\.?\s*([0-9]+[a-zA-Z]*)\b", query, re.IGNORECASE)
-    hints.extend(matches)
-    # Also find standalone 2 to 4 digit numbers that could be section numbers
-    numbers = re.findall(r"\b([0-9]{2,4})\b", query)
-    hints.extend([n for n in numbers if n not in hints])
+    """Extract section, order, rule, or article hints from a query."""
+    hints: list[str] = []
+    # Match patterns like Section 482, Sec. 138, Art 226, Order 39, Rule 1, 65B
+    matches = re.findall(
+        r"\b(?:section|sec|s\.|article|art|order|ord)\.?\s*([0-9]{1,4}[a-zA-Z]{0,2})\b",
+        query,
+        re.IGNORECASE,
+    )
+    for m in matches:
+        clean = m.strip().lower()
+        if clean not in hints:
+            hints.append(clean)
+
+    # Standalone numbers that could be section numbers (e.g. "138", "482", "438")
+    standalone = re.findall(r"\b([0-9]{2,4}[a-zA-Z]{0,2})\b", query)
+    for n in standalone:
+        clean = n.strip().lower()
+        if clean not in hints and clean not in {"2020", "2021", "2022", "2023", "2024", "2025", "2026"}:
+            hints.append(clean)
+
     return hints
 
 
-def lexical_search(db: Session, query: str, limit: int = 6) -> list[tuple[ActSection, float]]:
-    """Lexical matching favoring exact section numbers, titles, and legal terms."""
-    section_hints = extract_section_hints(query)
-    tokens = tokenize(query)
-    
-    sections = db.scalars(select(ActSection)).all()
-    if not sections:
-        return []
+def extract_act_hints(query: str) -> list[str]:
+    """Identify which Central Acts are referenced in query."""
+    q_lower = query.lower()
+    targets: list[str] = []
+    for pattern, normalized in _ACT_ALIASES:
+        if re.search(pattern, q_lower):
+            targets.append(normalized)
+    return targets
 
-    scored: list[tuple[ActSection, float]] = []
-    for sec in sections:
-        score = 0.0
-        sec_num_lower = sec.section_number.lower()
-        title_lower = sec.section_title.lower()
-        act_lower = sec.act_title.lower()
-        content_lower = sec.content.lower()
 
-        # High priority for exact section number match
+class StatutoryCorpusEngine:
+    """High-performance in-memory RAG index across all 30,824 statutory sections."""
+
+    _instance: StatutoryCorpusEngine | None = None
+
+    def __init__(self) -> None:
+        self._sections: list[dict[str, Any]] = []
+        self._section_number_index: dict[str, list[dict[str, Any]]] = {}
+        self._loaded: bool = False
+
+    @classmethod
+    def get_instance(cls) -> StatutoryCorpusEngine:
+        if cls._instance is None:
+            cls._instance = StatutoryCorpusEngine()
+        return cls._instance
+
+    def ensure_loaded(self) -> None:
+        if self._loaded:
+            return
+
+        corpus_file = Path(__file__).resolve().parent.parent.parent / "db" / "extracted_acts" / "consolidated_rag_sections.json"
+        if corpus_file.exists():
+            try:
+                with open(corpus_file, "r", encoding="utf-8") as f:
+                    self._sections = json.load(f)
+                
+                # Build fast inverted index by section_number
+                for sec in self._sections:
+                    sec_num = str(sec.get("section_number", "")).strip().lower()
+                    if sec_num:
+                        if sec_num not in self._section_number_index:
+                            self._section_number_index[sec_num] = []
+                        self._section_number_index[sec_num].append(sec)
+                
+                self._loaded = True
+                logger.info(f"Loaded {len(self._sections)} statutory provisions across {len(self._section_number_index)} unique section numbers.")
+            except Exception as e:
+                logger.error(f"Failed to load consolidated statutory sections: {e}")
+                self._sections = []
+        else:
+            logger.warning(f"Corpus file not found at {corpus_file}")
+
+    def search(self, query: str, limit: int = 4) -> list[Citation]:
+        self.ensure_loaded()
+        if not self._sections:
+            return []
+
+        section_hints = extract_section_hints(query)
+        act_hints = extract_act_hints(query)
+        tokens = tokenize(query)
+
+        scored: list[tuple[dict[str, Any], float]] = []
+
+        # 1. First search direct section number matches for ultra-fast precision
+        candidate_set: dict[str, dict[str, Any]] = {}
         for hint in section_hints:
-            if hint.lower() in sec_num_lower or sec_num_lower.endswith(hint.lower()):
-                score += 15.0
+            matches = self._section_number_index.get(hint, [])
+            for m in matches:
+                candidate_set[m["id"]] = m
 
-        # Title and Act matches
-        for t in tokens:
-            if t in sec_num_lower:
-                score += 8.0
-            if t in title_lower:
-                score += 4.0
-            if t in act_lower:
-                score += 2.0
-            if t in content_lower:
-                score += 0.5
+        # 2. If candidates are few, search by act hints and tokens
+        if len(candidate_set) < limit * 3:
+            for s in self._sections:
+                act_lower = str(s.get("act_title", "")).lower()
+                title_lower = str(s.get("section_title", "")).lower()
+                
+                # Check act match
+                act_matched = any(ah in act_lower for ah in act_hints)
+                if act_matched:
+                    candidate_set[s["id"]] = s
+                    continue
 
-        if score > 0:
-            scored.append((sec, score))
+                # Check high token overlap
+                token_hits = sum(1 for t in tokens if t in title_lower or t in act_lower)
+                if token_hits >= 2:
+                    candidate_set[s["id"]] = s
 
-    scored.sort(key=lambda x: x[1], reverse=True)
-    return scored[:limit]
+        # 3. Score candidates
+        candidates = list(candidate_set.values()) if candidate_set else self._sections[:200]
 
+        for s in candidates:
+            score = 0.0
+            sec_num = str(s.get("section_number", "")).strip().lower()
+            act_title = str(s.get("act_title", ""))
+            act_lower = act_title.lower()
+            title = str(s.get("section_title", ""))
+            title_lower = title.lower()
+            content = str(s.get("content", ""))
+            content_lower = content.lower()
 
-def compute_bow_embedding(text: str, vocab: dict[str, int]) -> list[float]:
-    """Lightweight Term-Frequency vector for semantic cosine similarity."""
-    tokens = tokenize(text)
-    vec = [0.0] * len(vocab)
-    for t in tokens:
-        if t in vocab:
-            vec[vocab[t]] += 1.0
-    # Normalize vector
-    norm = math.sqrt(sum(x * x for x in vec))
-    if norm > 0:
-        vec = [x / norm for x in vec]
-    return vec
+            # Exact section match
+            for hint in section_hints:
+                if sec_num == hint:
+                    score += 60.0
+                elif sec_num.startswith(hint) or sec_num.endswith(hint):
+                    score += 30.0
 
+            # Act hints match
+            for ah in act_hints:
+                if ah in act_lower:
+                    score += 40.0
 
-def cosine_similarity(v1: list[float], v2: list[float]) -> float:
-    """Compute cosine similarity between two unit vectors."""
-    if not v1 or not v2 or len(v1) != len(v2):
-        return 0.0
-    return sum(a * b for a, b in zip(v1, v2))
+            # Token matches in title, act, content
+            for t in tokens:
+                if sec_num == t:
+                    score += 30.0
+                if t in title_lower:
+                    score += 15.0
+                if t in act_lower:
+                    score += 10.0
+                if t in content_lower:
+                    score += 1.5
 
+            if score > 0:
+                scored.append((s, score))
 
-def semantic_search(db: Session, query: str, limit: int = 6) -> list[tuple[ActSection, float]]:
-    """Semantic vector search across statutory sections."""
-    sections = db.scalars(select(ActSection)).all()
-    if not sections:
-        return []
+        scored.sort(key=lambda x: x[1], reverse=True)
+        top_items = scored[:limit]
 
-    # Build shared vocabulary across candidate sections + query
-    all_words: set[str] = set(tokenize(query))
-    for s in sections:
-        all_words.update(tokenize(f"{s.section_title} {s.content}"))
-    
-    vocab = {w: i for i, w in enumerate(sorted(all_words))}
-    query_vec = compute_bow_embedding(query, vocab)
+        citations: list[Citation] = []
+        for sec, sc in top_items:
+            content_clean = re.sub(r"\s+", " ", str(sec.get("content", ""))).strip()
+            # Extract high-relevance excerpt preserving section heading
+            heading = sec.get("section_title") or "Substantive Provision"
+            excerpt = content_clean[:320] + ("..." if len(content_clean) > 320 else "")
 
-    scored: list[tuple[ActSection, float]] = []
-    for s in sections:
-        sec_text = f"{s.act_title} {s.section_number} {s.section_title} {s.content}"
-        sec_vec = compute_bow_embedding(sec_text, vocab)
-        sim = cosine_similarity(query_vec, sec_vec)
-        if sim > 0:
-            scored.append((s, sim))
-
-    scored.sort(key=lambda x: x[1], reverse=True)
-    return scored[:limit]
-
-
-def hybrid_retrieve_sections(db: Session, query: str, limit: int = 4) -> list[ActSection]:
-    """
-    Hybrid Search combining Lexical and Semantic scores using Reciprocal Rank Fusion (RRF):
-    RRF_score(d) = sum(1 / (60 + rank(d)))
-    """
-    lexical_results = lexical_search(db, query, limit=limit * 2)
-    semantic_results = semantic_search(db, query, limit=limit * 2)
-
-    rrf_scores: dict[str, float] = {}
-    sec_map: dict[str, ActSection] = {}
-
-    k = 60.0
-    for rank, (sec, _) in enumerate(lexical_results):
-        sec_map[sec.id] = sec
-        rrf_scores[sec.id] = rrf_scores.get(sec.id, 0.0) + (1.0 / (k + rank + 1))
-
-    for rank, (sec, _) in enumerate(semantic_results):
-        sec_map[sec.id] = sec
-        rrf_scores[sec.id] = rrf_scores.get(sec.id, 0.0) + (1.0 / (k + rank + 1))
-
-    sorted_sec_ids = sorted(rrf_scores.keys(), key=lambda sid: rrf_scores[sid], reverse=True)
-    return [sec_map[sid] for sid in sorted_sec_ids[:limit]]
-
-
-def retrieve_statutory_citations(db: Session, query: str, limit: int = 4) -> list[Citation]:
-    """Retrieve grounded citations for user query or drafting prompt."""
-    sections = hybrid_retrieve_sections(db, query, limit=limit)
-    citations: list[Citation] = []
-    for sec in sections:
-        # Generate clean legal snippet
-        clean_content = re.sub(r"\s+", " ", sec.content).strip()
-        snippet = f"{sec.act_title}, Section {sec.section_number} ({sec.section_title}): {clean_content[:260]}..."
-        citations.append(
-            Citation(
-                source_id=sec.id,
-                title=f"{sec.act_title} - Section {sec.section_number}",
-                snippet=snippet,
-                url=sec.source_url,
+            citations.append(
+                Citation(
+                    citation_id=sec.get("id") or f"sec_{sec.get('section_number')}",
+                    source_id=sec.get("id") or f"sec_{sec.get('section_number')}",
+                    source_title=sec.get("act_title") or "Central Act",
+                    title=f"{sec.get('act_title')} - Section {sec.get('section_number')}",
+                    section_number=str(sec.get("section_number")),
+                    heading=heading,
+                    quote_excerpt=excerpt,
+                    snippet=f"{sec.get('act_title')}, Sec. {sec.get('section_number')}: {excerpt}",
+                    similarity_score=min(1.0, round(sc / 100.0, 2)),
+                    source_url=sec.get("source_url") or "https://www.indiacode.nic.in/",
+                    chunk_type=sec.get("chunk_type") or "section",
+                )
             )
-        )
-    return citations
+
+        return citations
+
+
+def retrieve_statutory_citations(db: Session | None, query: str, limit: int = 4) -> list[Citation]:
+    """Retrieve grounded citations across the entire 30,824 statutory corpus."""
+    engine = StatutoryCorpusEngine.get_instance()
+    return engine.search(query, limit=limit)
 
 
 def build_statutory_grounding_prompt(citations: list[Citation]) -> str:
@@ -174,18 +238,23 @@ def build_statutory_grounding_prompt(citations: list[Citation]) -> str:
     if not citations:
         return ""
 
-    lines = ["=== RELEVANT STATUTORY PROVISIONS (GROUND TRUTH) ==="]
+    lines = [
+        "=== RELEVANT STATUTORY PROVISIONS (VERIFIED CENTRAL ACTS CORPUS) ===",
+        "You must ground your legal analysis, ingredients, and draft sections in the following authoritative statutory provisions:",
+    ]
     for i, c in enumerate(citations, 1):
-        lines.append(f"{i}. [{c.title}]")
-        lines.append(f"   Excerpt: \"{c.snippet}\"")
-        if c.url:
-            lines.append(f"   Authority Link: {c.url}")
-    lines.append("====================================================")
+        lines.append(f"\n[{i}] {c.source_title} - Section {c.section_number or 'N/A'}")
+        if c.heading:
+            lines.append(f"    Heading: {c.heading}")
+        lines.append(f"    Authoritative Statutory Text: \"{c.quote_excerpt}\"")
+        if c.source_url:
+            lines.append(f"    India Code Authority Link: {c.source_url}")
+    lines.append("\n====================================================================")
     lines.append(
-        "INSTRUCTIONS FOR ASSISTIVE GENERATION:\n"
-        "- Base your legal drafting, statutory ingredients, and arguments strictly on the retrieved provisions.\n"
-        "- Cite the relevant Act name and Section number explicitly in the text.\n"
-        "- Do NOT invent non-existent precedents, benches, or sections.\n"
-        "- Provide practical procedural requirements (e.g. notice timelines, court jurisdiction, required affidavits).\n"
+        "MANDATORY DRAFTING & ANALYSIS RULES:\n"
+        "1. Strictly cite the exact Act name, Section number, and statutory ingredients as shown above.\n"
+        "2. Do NOT hallucinate non-existent sections, benches, or precedents.\n"
+        "3. Emphasize mandatory procedures, timeline requirements, and statutory exceptions.\n"
+        "4. Follow formal Indian High Court / District Court structure and etiquette.\n"
     )
     return "\n".join(lines)

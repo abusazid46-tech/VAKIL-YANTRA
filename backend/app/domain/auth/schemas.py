@@ -1,4 +1,10 @@
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel
+
+try:
+    import email_validator  # noqa: F401
+    from pydantic import EmailStr
+except ImportError:
+    EmailStr = str  # type: ignore[misc,assignment]
 
 
 ROLE_ADMIN_ADVOCATE = "admin_advocate"
