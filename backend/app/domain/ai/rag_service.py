@@ -226,11 +226,166 @@ class StatutoryCorpusEngine:
 
         return citations
 
+    def search_provisions(
+        self, query: str = "", act_id: str | None = None, limit: int = 25, offset: int = 0
+    ) -> tuple[list[dict[str, Any]], int]:
+        self.ensure_loaded()
+        if not self._sections:
+            return [], 0
+
+        # If empty query and act_id provided, return all provisions of that Act in order
+        if not query.strip() and act_id:
+            act_provisions = [s for s in self._sections if s.get("act_id") == act_id or (act_id in str(s.get("act_id")))]
+            return act_provisions[offset : offset + limit], len(act_provisions)
+
+        # If empty query and no act_id, return first page
+        if not query.strip():
+            return self._sections[offset : offset + limit], len(self._sections)
+
+        section_hints = extract_section_hints(query)
+        act_hints = extract_act_hints(query)
+        tokens = tokenize(query)
+
+        candidate_set: dict[str, dict[str, Any]] = {}
+        for hint in section_hints:
+            matches = self._section_number_index.get(hint, [])
+            for m in matches:
+                if not act_id or m.get("act_id") == act_id:
+                    candidate_set[m["id"]] = m
+
+        if len(candidate_set) < 100:
+            for s in self._sections:
+                if act_id and s.get("act_id") != act_id:
+                    continue
+                act_lower = str(s.get("act_title", "")).lower()
+                title_lower = str(s.get("section_title", "")).lower()
+                sec_num = str(s.get("section_number", "")).lower()
+
+                if any(h == sec_num for h in section_hints):
+                    candidate_set[s["id"]] = s
+                    continue
+
+                if any(ah in act_lower for ah in act_hints):
+                    candidate_set[s["id"]] = s
+                    continue
+
+                token_hits = sum(1 for t in tokens if t in title_lower or t in act_lower or t == sec_num)
+                if token_hits >= 1:
+                    candidate_set[s["id"]] = s
+
+        candidates = list(candidate_set.values()) if candidate_set else [s for s in self._sections if not act_id or s.get("act_id") == act_id]
+
+        scored: list[tuple[dict[str, Any], float]] = []
+        for s in candidates:
+            score = 0.0
+            sec_num = str(s.get("section_number", "")).strip().lower()
+            act_lower = str(s.get("act_title", "")).lower()
+            title_lower = str(s.get("section_title", "")).lower()
+            content_lower = str(s.get("content", "")).lower()
+
+            for hint in section_hints:
+                if sec_num == hint:
+                    score += 80.0
+                elif sec_num.startswith(hint) or sec_num.endswith(hint):
+                    score += 35.0
+
+            for ah in act_hints:
+                if ah in act_lower:
+                    score += 45.0
+
+            for t in tokens:
+                if sec_num == t:
+                    score += 40.0
+                if t in title_lower:
+                    score += 15.0
+                if t in act_lower:
+                    score += 10.0
+                if t in content_lower:
+                    score += 1.5
+
+            if score > 0:
+                scored.append((s, score))
+
+        scored.sort(key=lambda x: x[1], reverse=True)
+        total_matches = len(scored)
+        paged = [item[0] for item in scored[offset : offset + limit]]
+        return paged, total_matches
+
+    def list_acts_directory(self) -> list[dict[str, Any]]:
+        self.ensure_loaded()
+        acts_map: dict[str, dict[str, Any]] = {}
+        for s in self._sections:
+            aid = s.get("act_id") or "act_unknown"
+            title = s.get("act_title") or aid
+            if aid not in acts_map:
+                year_match = re.search(r"\b(18\d\d|19\d\d|20\d\d)\b", title)
+                year = int(year_match.group(1)) if year_match else 2024
+                acts_map[aid] = {
+                    "id": aid,
+                    "title": title,
+                    "act_number": None,
+                    "year": year,
+                    "total_sections": 0,
+                    "public_url": s.get("source_url") or f"https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query={title}",
+                    "source_type": "central_act",
+                    "jurisdiction": "India",
+                }
+            acts_map[aid]["total_sections"] += 1
+
+        priority_keywords = [
+            "bharatiya nagarik suraksha",
+            "bharatiya nyaya sanhita",
+            "bharatiya sakshya",
+            "negotiable instruments",
+            "civil procedure",
+            "arbitration",
+            "limitation",
+            "contract",
+            "companies",
+            "insolvency and bankruptcy",
+            "information technology",
+            "consumer protection",
+            "commercial courts",
+        ]
+
+        def sort_key(act: dict[str, Any]) -> tuple[int, str]:
+            title_lower = act["title"].lower()
+            for idx, kw in enumerate(priority_keywords):
+                if kw in title_lower:
+                    return (idx, title_lower)
+            return (999, title_lower)
+
+        return sorted(acts_map.values(), key=sort_key)
+
+    def get_act_provisions(self, act_id: str) -> list[dict[str, Any]]:
+        self.ensure_loaded()
+        return [s for s in self._sections if s.get("act_id") == act_id or act_id in str(s.get("act_id"))]
+
 
 def retrieve_statutory_citations(db: Session | None, query: str, limit: int = 4) -> list[Citation]:
     """Retrieve grounded citations across the entire 30,824 statutory corpus."""
     engine = StatutoryCorpusEngine.get_instance()
     return engine.search(query, limit=limit)
+
+
+def search_statutory_provisions(
+    query: str = "", act_id: str | None = None, limit: int = 25, offset: int = 0
+) -> tuple[list[dict[str, Any]], int]:
+    """Search statutory provisions across 30,824 provisions with pagination."""
+    engine = StatutoryCorpusEngine.get_instance()
+    return engine.search_provisions(query=query, act_id=act_id, limit=limit, offset=offset)
+
+
+def get_statutory_acts_directory() -> list[dict[str, Any]]:
+    """Get list of 600+ Central Acts with section counts."""
+    engine = StatutoryCorpusEngine.get_instance()
+    return engine.list_acts_directory()
+
+
+def get_act_sections_by_id(act_id: str) -> list[dict[str, Any]]:
+    """Get all provisions of a specific Central Act."""
+    engine = StatutoryCorpusEngine.get_instance()
+    return engine.get_act_provisions(act_id)
 
 
 def build_statutory_grounding_prompt(citations: list[Citation]) -> str:

@@ -5,20 +5,20 @@
   "enactment_date": "",
   "as_on_date": "2nd July, 2026",
   "total_pages_scanned": 174,
-  "total_body_sections_extracted": 256,
-  "total_schedule_items_extracted": 7,
-  "total_chunks_produced": 263,
+  "total_body_sections_extracted": 249,
+  "total_schedule_items_extracted": 15,
+  "total_chunks_produced": 264,
   "amending_acts_identified": [
-    "Act 8 of 2018",
     "Act 26 of 2018",
     "Act 6 of 2026",
     "Act 26 of 2021",
     "Act 1 of 2020",
+    "Act 8 of 2018",
     "Act 26 of 2019",
     "Act 17 of 2020"
   ],
   "missing_sections": [
-    24,
+    9,
     26,
     38,
     39,
@@ -30,15 +30,16 @@
     56,
     57,
     58,
+    72,
     74,
     76,
+    194,
+    199,
     219
   ],
-  "duplicate_sections": [
-    "3"
-  ],
+  "duplicate_sections": [],
   "repealed_sections": [],
   "empty_or_suspicious_sections": [],
   "validation_warnings": [],
-  "status": "FLAGGED_FOR_REVIEW"
+  "status": "VALIDATION_PASSED_WITH_NOTICES"
 }

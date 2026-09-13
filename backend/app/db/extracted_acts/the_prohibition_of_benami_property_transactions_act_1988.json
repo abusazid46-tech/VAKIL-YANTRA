@@ -7,15 +7,15 @@
     "enactment_date": "",
     "as_on_date": null,
     "total_pages": 27,
-    "total_sections": 59,
+    "total_sections": 58,
     "total_schedule_items": 0,
     "amending_acts": [
       "Act 43 of 2016",
       "Act 34 of 2019",
       "Act 13 of 2021",
-      "Act 8 of 2023",
       "Act 23 of 2019",
-      "Act 15 of 2024"
+      "Act 15 of 2024",
+      "Act 8 of 2023"
     ],
     "source_pdf": "The Prohibition of Benami Property Transactions Act, 1988.pdf"
   },
@@ -30,11 +30,11 @@
       "section": "1",
       "section_title": "Short title, extent and commencement.",
       "chunk_type": "section",
-      "text": "1. Short title, extent and commencement..—2[(1) This Act may be called the Prohibition of Benami\nProperty Transactions Act, 1988.]\n(2) It extends to the whole of India 3***.\n(3) The provisions of sections 3, 5 and 8 shall come into force at once, and the remaining provisions of\nthis Act shall be deemed to have come into force on the 19th day of May, 1988.\n4[2. Definitions.—In this Act, unless the context otherwise requires,—\n(1) “Adjudicating Authority” means the Adjudicating Authority 5[referred to in] section 7;\n(2) “Administrator” means an Income-tax Officer as defined in clause (25) of section 2 of the\nIncome-tax Act, 1961 (43 of 1961);\n(3) “Appellate Tribunal” means the Appellate Tribunal established under section 30;\n(4) “Approving Authority” means an Additional Commissioner or a Joint Commissioner as\ndefined in clauses (1C) and (28C) respectively of section 2 of the Income-tax Act, 1961 (43 of 1961);\n(5) “attachment” means the prohibition of transfer, conversion, disposition or movement of\nproperty, by an order issued under this Act;\n(6) “authority” means an authority referred to in sub-section (1) of section 18;\n(7) “banking company” means a company to which the provisions of the Banking Regulation Act,\n1949 (10 of 1949), applies and includes any bank or banking institution referred to in section 51 of that\nAct;\n(8) “benami property” means any property which is the subject matter of a benami transaction and\nalso includes the proceeds from such property;\n(9) “benami transaction” means,—\n(A) a transaction or an arrangement—\n(a) where a property is transferred to, or is held by, a person, and the consideration for\nsuch property has been provided, or paid by, another person; and\n(b) the property is held for the immediate or future benefit, direct or indirect, of the person\nwho has provided the consideration,\nexcept when the property is held by—\n(i) a Karta, or a member of a Hindu undivided family, as the case may be, and the property is\nheld for his benefit or benefit of other members in the family and the consideration for such\nproperty has been provided or paid out of the known sources of the Hindu undivided family;\n7\n(ii) a person standing in a fiduciary capacity for the benefit of another person towards whom\nhe stands in such capacity and includes a trustee, executor, partner, director of a company, a\ndepository or a participant as an agent of a depository under the Depositories Act,\n1996 (22 of 1996) and any other person as may be notified by the Central Government for this\npurpose;\n(iii) any person being an individual in the name of his spouse or in the name of any child of\nsuch individual and the consideration for such property has been provided or paid out of the known\nsources of the individual;\n(iv) any person in the name of his brother or sister or lineal ascendant or descendant, where the\nnames of brother or sister or lineal ascendant or descendant and the individual appear as\njoint-owners in any document, and the consideration for such property has been provided or paid\nout of the known sources of the individual; or\n(B) a transaction or an arrangement in respect of a property carried out or made in a\nfictitious name; or\n(C) a transaction or an arrangement in respect of a property where the owner of the\nproperty is not aware of, or, denies knowledge of, such ownership;\n(D) a transaction or an arrangement in respect of a property where the person providing the\nconsideration is not traceable or is fictitious;\nExplanation.—For the removal of doubts, it is hereby declared that benami transaction shall\nnot include any transaction involving the allowing of possession of any property to be taken or\nretained in part performance of a contract referred to in section 53A of the Transfer of Property\nAct, 1882 (4 of 1882), if, under any law for the time being in force,—\n(i) consideration for such property has been provided by the person to whom possession of\nproperty has been allowed but the person who has granted possession thereof continues to hold\nownership of such property;\n(ii) stamp duty on such transaction or arrangement has been paid; and\n(iii) the contract has been registered.\n(10) “benamidar” means a person or a fictitious person, as the case may be, in whose name the\nbenami property is transferred or held and includes a person who lends his name;\n(11) “Bench” means a Bench of the Adjudicating Authority or the Appellate Tribunal, as the case\nmay be;\n(12) “beneficial owner” means a person, whether his identity is known or not, for whose benefit the\nbenami property is held by a benamidar;\n(13) “Board” means the Central Board of Direct Taxes constituted under the Central Boards of\nRevenue Act, 1963 (54 of 1963);\n(14) “director” shall have the same meaning as assigned to it in clause (34) of section 2 of the\nCompanies Act, 2013 (18 of 2013);\n(15) “executor” shall have the same meaning as assigned to it in clause (c) of section 2 of the Indian\nSuccession Act, 1925 (39 of 1925);\n(16) “fair market value”, in relation to a property, means—\n(i) the price that the property would ordinarily fetch on sale in the open market on the date of\nthe transaction; and\n(ii) where the price referred to in sub-clause (i) is not ascertainable, such price as may be\ndetermined in accordance with such manner as may be prescribed;\n(17) “firm” shall have the same meaning as assigned to it in section 4 of the Indian Partnership Act,\n1932 (9 of 1932) and shall include a limited liability partnership as defined in the Limited Liability\nPartnership Act, 2008 (6 of 2009);\n8\n(18) “High Court” means—\n(i) the High Court within the jurisdiction of which the aggrieved party ordinarily resides or\ncarries on business or personally works for gain; 1***\n(ii) where the Government is the aggrieved party, the High Court within the jurisdiction of\nwhich the respondent, or in a case where there are more than one respondent, any of the\nrespondents, ordinarily resides or carries on business or personally works for gain; 2[and]\n2[(iii) the High Court within the jurisdiction of which the office of the Initiating Officer is\nlocated,—\n(a) where the aggrieved party does not ordinarily reside or carry on business or personally\nwork for gain in the jurisdiction of any High Court;\n(b) where the Government is the aggrieved party and any of the respondents do not\nordinarily reside or carry on business or personally work for gain in the jurisdiction of any\nHigh Court;]\n(19) “Initiating Officer” means an Assistant Commissioner or a Deputy Commissioner as defined\nin clauses (9A) and (19A) respectively of section 2 of the Income-tax Act, 1961 (43 of 1961);\n(20) “Member” means the Chairperson or the Member of the Adjudicating Authority or the\nAppellate Tribunal, as the case may be;\n(21) “notification” means a notification published in the Official Gazette and the expression\n“notified” shall be construed accordingly;\n(22) “partner” shall have the same meaning as assigned to it in section 4 of the Indian Partnership\nAct, 1932 (9 of 1932), and shall include,—\n(a) any person who, being a minor, has been admitted to the benefits of partnership; and\n(b) a partner of a limited liability partnership formed and registered under the Limited Liability\nPartnership Act, 2008 (6 of 2009);\n(23) “partnership” shall have the same meaning as assigned to it in section 4 of the Indian\nPartnership Act, 1932 (9 of 1932), and shall include a limited liability partnership formed and registered\nunder the Limited Liability Partnership Act, 2008 (6 of 2009);\n(24) “person” shall include—\n(i) an individual;\n(ii) a Hindu undivided family;\n(iii) a company;\n(iv) a firm;\n(v) an association of persons or a body of individuals, whether incorporated or not;\n(vi) every artificial juridical person, not falling under sub-clauses (i) to (v);\n(25) “prescribed” means prescribed by rules made under this Act;\n(26) “property” means assets of any kind, whether movable or immovable, tangible or intangible,\ncorporeal or incorporeal and includes any right or interest or legal documents or instruments evidencing\ntitle to or interest in the property and where the property is capable of conversion into some other form,\nthen the property in the converted form and also includes the proceeds from the property;\n(27) “public financial institution” shall have the same meaning as assigned to it in clause (72) of\nsection 2 of the Companies Act, 2013 (18 of 2013);\n(28) “Special Court” means a Court of Session designated as Special Court under sub-section (1) of\nsection 50;\n(29) “transfer” includes sale, purchase or any other form of transfer of right, title, possession or lien;\n(30) “trustee” means the trustee as defined in the section 3 of the Indian Trusts Act,\n1882 (2 of 1882);\n(31) words and expressions used herein and not defined in this Act but defined in the Indian Trusts\n9\nAct, 1882 (2 of 1882), the Indian Succession Act, 1925 (39 of 1925), the Indian Partnership Act,\n1932 (9 of 1932), the Income-tax Act, 1961 (43 of 1961), the Depositories Act, 1996 (22 of 1996), the\nPrevention of Money-Laundering Act, 2002 (15 of 2003), the Limited Liability Partnership Act,\n2008 (6 of 2009) and the Companies Act, 2013 (18 of 2013), shall have the same meanings respectively\nassigned to them in those Acts.]\n1[CHAPTER II\nPROHIBITION OF BENAMI TRANSACTIONS]",
+      "text": "1. Short title, extent and commencement..—2[(1) This Act may be called the Prohibition of Benami\nProperty Transactions Act, 1988.]\n(2) It extends to the whole of India 3***.\n(3) The provisions of sections 3, 5 and 8 shall come into force at once, and the remaining provisions of\nthis Act shall be deemed to have come into force on the 19th day of May, 1988.\n4[2. Definitions.—In this Act, unless the context otherwise requires,—\n(1) “Adjudicating Authority” means the Adjudicating Authority 5[referred to in] section 7;\n(2) “Administrator” means an Income-tax Officer as defined in clause (25) of section 2 of the\nIncome-tax Act, 1961 (43 of 1961);\n(3) “Appellate Tribunal” means the Appellate Tribunal established under section 30;\n(4) “Approving Authority” means an Additional Commissioner or a Joint Commissioner as\ndefined in clauses (1C) and (28C) respectively of section 2 of the Income-tax Act, 1961 (43 of 1961);\n(5) “attachment” means the prohibition of transfer, conversion, disposition or movement of\nproperty, by an order issued under this Act;\n(6) “authority” means an authority referred to in sub-section (1) of section 18;\n(7) “banking company” means a company to which the provisions of the Banking Regulation Act,\n1949 (10 of 1949), applies and includes any bank or banking institution referred to in section 51 of that\nAct;\n(8) “benami property” means any property which is the subject matter of a benami transaction and\nalso includes the proceeds from such property;\n(9) “benami transaction” means,—\n(A) a transaction or an arrangement—\n(a) where a property is transferred to, or is held by, a person, and the consideration for\nsuch property has been provided, or paid by, another person; and\n(b) the property is held for the immediate or future benefit, direct or indirect, of the person\nwho has provided the consideration,\nexcept when the property is held by—\n(i) a Karta, or a member of a Hindu undivided family, as the case may be, and the property is\nheld for his benefit or benefit of other members in the family and the consideration for such\nproperty has been provided or paid out of the known sources of the Hindu undivided family;\n7\n(ii) a person standing in a fiduciary capacity for the benefit of another person towards whom\nhe stands in such capacity and includes a trustee, executor, partner, director of a company, a\ndepository or a participant as an agent of a depository under the Depositories Act,\n1996 (22 of 1996) and any other person as may be notified by the Central Government for this\npurpose;\n(iii) any person being an individual in the name of his spouse or in the name of any child of\nsuch individual and the consideration for such property has been provided or paid out of the known\nsources of the individual;\n(iv) any person in the name of his brother or sister or lineal ascendant or descendant, where the\nnames of brother or sister or lineal ascendant or descendant and the individual appear as\njoint-owners in any document, and the consideration for such property has been provided or paid\nout of the known sources of the individual; or\n(B) a transaction or an arrangement in respect of a property carried out or made in a\nfictitious name; or\n(C) a transaction or an arrangement in respect of a property where the owner of the\nproperty is not aware of, or, denies knowledge of, such ownership;\n(D) a transaction or an arrangement in respect of a property where the person providing the\nconsideration is not traceable or is fictitious;\nExplanation.—For the removal of doubts, it is hereby declared that benami transaction shall\nnot include any transaction involving the allowing of possession of any property to be taken or\nretained in part performance of a contract referred to in section 53A of the Transfer of Property\nAct, 1882 (4 of 1882), if, under any law for the time being in force,—\n(i) consideration for such property has been provided by the person to whom possession of\nproperty has been allowed but the person who has granted possession thereof continues to hold\nownership of such property;\n(ii) stamp duty on such transaction or arrangement has been paid; and\n(iii) the contract has been registered.\n(10) “benamidar” means a person or a fictitious person, as the case may be, in whose name the\nbenami property is transferred or held and includes a person who lends his name;\n(11) “Bench” means a Bench of the Adjudicating Authority or the Appellate Tribunal, as the case\nmay be;\n(12) “beneficial owner” means a person, whether his identity is known or not, for whose benefit the\nbenami property is held by a benamidar;\n(13) “Board” means the Central Board of Direct Taxes constituted under the Central Boards of\nRevenue Act, 1963 (54 of 1963);\n(14) “director” shall have the same meaning as assigned to it in clause (34) of section 2 of the\nCompanies Act, 2013 (18 of 2013);\n(15) “executor” shall have the same meaning as assigned to it in clause (c) of section 2 of the Indian\nSuccession Act, 1925 (39 of 1925);\n(16) “fair market value”, in relation to a property, means—\n(i) the price that the property would ordinarily fetch on sale in the open market on the date of\nthe transaction; and\n(ii) where the price referred to in sub-clause (i) is not ascertainable, such price as may be\ndetermined in accordance with such manner as may be prescribed;\n(17) “firm” shall have the same meaning as assigned to it in section 4 of the Indian Partnership Act,\n1932 (9 of 1932) and shall include a limited liability partnership as defined in the Limited Liability\nPartnership Act, 2008 (6 of 2009);\n8\n(18) “High Court” means—\n(i) the High Court within the jurisdiction of which the aggrieved party ordinarily resides or\ncarries on business or personally works for gain; 1***\n(ii) where the Government is the aggrieved party, the High Court within the jurisdiction of\nwhich the respondent, or in a case where there are more than one respondent, any of the\nrespondents, ordinarily resides or carries on business or personally works for gain; 2[and]\n2[(iii) the High Court within the jurisdiction of which the office of the Initiating Officer is\nlocated,—\n(a) where the aggrieved party does not ordinarily reside or carry on business or personally\nwork for gain in the jurisdiction of any High Court;\n(b) where the Government is the aggrieved party and any of the respondents do not\nordinarily reside or carry on business or personally work for gain in the jurisdiction of any\nHigh Court;]\n(19) “Initiating Officer” means an Assistant Commissioner or a Deputy Commissioner as defined\nin clauses (9A) and (19A) respectively of section 2 of the Income-tax Act, 1961 (43 of 1961);\n(20) “Member” means the Chairperson or the Member of the Adjudicating Authority or the\nAppellate Tribunal, as the case may be;\n(21) “notification” means a notification published in the Official Gazette and the expression\n“notified” shall be construed accordingly;\n(22) “partner” shall have the same meaning as assigned to it in section 4 of the Indian Partnership\nAct, 1932 (9 of 1932), and shall include,—\n(a) any person who, being a minor, has been admitted to the benefits of partnership; and\n(b) a partner of a limited liability partnership formed and registered under the Limited Liability\nPartnership Act, 2008 (6 of 2009);\n(23) “partnership” shall have the same meaning as assigned to it in section 4 of the Indian\nPartnership Act, 1932 (9 of 1932), and shall include a limited liability partnership formed and registered\nunder the Limited Liability Partnership Act, 2008 (6 of 2009);\n(24) “person” shall include—\n(i) an individual;\n(ii) a Hindu undivided family;\n(iii) a company;\n(iv) a firm;\n(v) an association of persons or a body of individuals, whether incorporated or not;\n(vi) every artificial juridical person, not falling under sub-clauses (i) to (v);\n(25) “prescribed” means prescribed by rules made under this Act;\n(26) “property” means assets of any kind, whether movable or immovable, tangible or intangible,\ncorporeal or incorporeal and includes any right or interest or legal documents or instruments evidencing\ntitle to or interest in the property and where the property is capable of conversion into some other form,\nthen the property in the converted form and also includes the proceeds from the property;\n(27) “public financial institution” shall have the same meaning as assigned to it in clause (72) of\nsection 2 of the Companies Act, 2013 (18 of 2013);\n(28) “Special Court” means a Court of Session designated as Special Court under sub-section (1) of\nsection 50;\n(29) “transfer” includes sale, purchase or any other form of transfer of right, title, possession or lien;\n(30) “trustee” means the trustee as defined in the section 3 of the Indian Trusts Act,\n1882 (2 of 1882);\n(31) words and expressions used herein and not defined in this Act but defined in the Indian Trusts\n1. The word “and” omitted by Act 8 of 2023, s. 171 (w.e.f. 1-4-2023).\n9\nAct, 1882 (2 of 1882), the Indian Succession Act, 1925 (39 of 1925), the Indian Partnership Act,\n1932 (9 of 1932), the Income-tax Act, 1961 (43 of 1961), the Depositories Act, 1996 (22 of 1996), the\nPrevention of Money-Laundering Act, 2002 (15 of 2003), the Limited Liability Partnership Act,\n2008 (6 of 2009) and the Companies Act, 2013 (18 of 2013), shall have the same meanings respectively\nassigned to them in those Acts.]\n1[CHAPTER II\nPROHIBITION OF BENAMI TRANSACTIONS]",
       "provisos_count": 0,
       "explanations_count": 1,
       "source_page": "Page 6",
-      "amendment_information": "[Footnote 63, p.5]: Notice, etc., not to be invalid on certain grounds. | [Footnote 64, p.5]: Protection of action taken in good faith. | [Footnote 65, p.5]: Transfer of pending cases. | [Footnote 66, p.5]: Proceedings, etc., against legal representative. | [Footnote 67, p.5]: Act to have overriding effect. | [Footnote 68, p.5]: Power to make rules. | [Footnote 69, p.5]: Laying of rules and notifications before Parliament. | [Footnote 70, p.5]: Power to remove difficulties. | [Footnote 71, p.5]: Transitional provision. | [Footnote 72, p.5]: Repeal and saving. | [Footnote 1, p.6]: Ins. by Act 43 of 2016, s. 2 (w.e.f. 1-11-2016). | [Footnote 2, p.6]: Subs. by s. 3, ibid., for sub-section (1) (w.e.f. 1-11-2016). | [Footnote 3, p.6]: The words “except the State of Jammu and Kashmir” omitted by Act 34 of 2019, s. 95 and Sch. V (w.e.f. 31-10- 2019). | [Footnote 4, p.6]: Subs. by Act 43 of 2016, s. 4, for s. 2 (w.e.f. 1-11-2016). | [Footnote 5, p.6]: Subs. by Act 13 of 2021, s. 154, for “appointed under” (w.e.f. 1-7-2021). | [Footnote 1, p.8]: The word “and” omitted by Act 8 of 2023, s. 171 (w.e.f. 1-4-2023). | [Footnote 2, p.8]: Ins. by s. 171, ibid. (w.e.f. 1-4-2023).",
+      "amendment_information": "[Footnote 1, p.6]: Ins. by Act 43 of 2016, s. 2 (w.e.f. 1-11-2016). | [Footnote 2, p.6]: Subs. by s. 3, ibid., for sub-section (1) (w.e.f. 1-11-2016). | [Footnote 3, p.6]: The words “except the State of Jammu and Kashmir” omitted by Act 34 of 2019, s. 95 and Sch. V (w.e.f. 31-10- 2019). | [Footnote 4, p.6]: Subs. by Act 43 of 2016, s. 4, for s. 2 (w.e.f. 1-11-2016). | [Footnote 5, p.6]: Subs. by Act 13 of 2021, s. 154, for “appointed under” (w.e.f. 1-7-2021). | [Footnote 2, p.8]: Ins. by s. 171, ibid. (w.e.f. 1-4-2023).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -51,7 +51,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 9",
-      "amendment_information": "[Footnote 1, p.8]: The word “and” omitted by Act 8 of 2023, s. 171 (w.e.f. 1-4-2023). | [Footnote 2, p.8]: Ins. by s. 171, ibid. (w.e.f. 1-4-2023). | [Footnote 8, p.9]: [Composition of Authority.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 3, p.9]: Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 4, p.9]: Ins. by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 5, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 6, p.9]: Omitted by s. 7, ibid. (w.e.f. 1-11-2016). | [Footnote 7, p.9]: Subs. by s. 8, ibid., for s. 5 and 6 (w.e.f. 1-11-2016). | [Footnote 8, p.9]: Ins. by s. 9, ibid. (w.e.f. 1-11-2016). | [Footnote 9, p.9]: Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021). | [Footnote 9, p.10]: [Qualifications for appointment of Chairperson and Members.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 10, p.10]: [Constitution of Benches of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 11, p.10]: [Power of Adjudicating Authority to regulate its own procedure.] Omitted by ibid, s. 156 (w.e.f. 01- 07-2021). | [Footnote 12, p.10]: [Term of office of Chairperson and Members of Adjudicating Authority]. Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 13, p.10]: [Terms and conditions of services of Chairperson and Members of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 14, p.10]: [Removal of Chairperson and Members of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 15, p.10]: [Member to act as Chairperson in certain circumstances.] Omitted by ibid, s. 156 (w.e.f. 01-07- 2021). | [Footnote 16, p.10]: [Vacancies, etc., not to invalidate proceedings of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
+      "amendment_information": "[Footnote 2, p.8]: Ins. by s. 171, ibid. (w.e.f. 1-4-2023). | [Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). 3. Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 4, p.9]: Ins. by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 5, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 6, p.9]: Omitted by s. 7, ibid. (w.e.f. 1-11-2016). | [Footnote 7, p.9]: Subs. by s. 8, ibid., for s. 5 and 6 (w.e.f. 1-11-2016). | [Footnote 8, p.9]: Ins. by s. 9, ibid. (w.e.f. 1-11-2016). | [Footnote 9, p.9]: Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -68,7 +68,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 9",
-      "amendment_information": "[Footnote 1, p.8]: The word “and” omitted by Act 8 of 2023, s. 171 (w.e.f. 1-4-2023). | [Footnote 2, p.8]: Ins. by s. 171, ibid. (w.e.f. 1-4-2023). | [Footnote 8, p.9]: [Composition of Authority.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 3, p.9]: Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 4, p.9]: Ins. by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 5, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 6, p.9]: Omitted by s. 7, ibid. (w.e.f. 1-11-2016). | [Footnote 7, p.9]: Subs. by s. 8, ibid., for s. 5 and 6 (w.e.f. 1-11-2016). | [Footnote 8, p.9]: Ins. by s. 9, ibid. (w.e.f. 1-11-2016). | [Footnote 9, p.9]: Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021). | [Footnote 9, p.10]: [Qualifications for appointment of Chairperson and Members.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 10, p.10]: [Constitution of Benches of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 11, p.10]: [Power of Adjudicating Authority to regulate its own procedure.] Omitted by ibid, s. 156 (w.e.f. 01- 07-2021). | [Footnote 12, p.10]: [Term of office of Chairperson and Members of Adjudicating Authority]. Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 13, p.10]: [Terms and conditions of services of Chairperson and Members of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 14, p.10]: [Removal of Chairperson and Members of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 15, p.10]: [Member to act as Chairperson in certain circumstances.] Omitted by ibid, s. 156 (w.e.f. 01-07- 2021). | [Footnote 16, p.10]: [Vacancies, etc., not to invalidate proceedings of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
+      "amendment_information": "[Footnote 2, p.8]: Ins. by s. 171, ibid. (w.e.f. 1-4-2023). | [Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). 3. Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 4, p.9]: Ins. by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 5, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 6, p.9]: Omitted by s. 7, ibid. (w.e.f. 1-11-2016). | [Footnote 7, p.9]: Subs. by s. 8, ibid., for s. 5 and 6 (w.e.f. 1-11-2016). | [Footnote 8, p.9]: Ins. by s. 9, ibid. (w.e.f. 1-11-2016). | [Footnote 9, p.9]: Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -81,28 +81,28 @@
       "section": "6",
       "section_title": "Prohibition on re-transfer of property by benamidar.",
       "chunk_type": "section",
-      "text": "6. Prohibition on re-transfer of property by benamidar..—(1) No person, being a benamidar shall\nre-transfer the benami property held by him to the beneficial owner or any other person acting on his\nbehalf.\n(2) Where any property is re-transferred in contravention of the provisions of sub-section (1), the\ntransaction of such property shall be deemed to be null and void.\n(3) The provisions of sub-sections (1) and (2) shall not apply to a transfer made in accordance with\nthe provisions of section 190 of the Finance Act, 2016 (28 of 2016).]\n8[CHAPTER III\nAUTHORITIES\n9[7. Adjudicating Authority.—The competent authority authorised under sub-section (1) of section 5\nof the Smugglers and Foreign Exchange Manipulators (Forfeiture of Property) Act, 1976 (13 of 1976) shall\nbe the Adjudicating Authority to exercise jurisdiction, powers and authority conferred by or under this\nAct.]\n10",
+      "text": "6. Prohibition on re-transfer of property by benamidar..—(1) No person, being a benamidar shall\nre-transfer the benami property held by him to the beneficial owner or any other person acting on his\nbehalf.\n(2) Where any property is re-transferred in contravention of the provisions of sub-section (1), the\ntransaction of such property shall be deemed to be null and void.\n(3) The provisions of sub-sections (1) and (2) shall not apply to a transfer made in accordance with\nthe provisions of section 190 of the Finance Act, 2016 (28 of 2016).]\n8[CHAPTER III\nAUTHORITIES\n9[7. Adjudicating Authority.—The competent authority authorised under sub-section (1) of section 5\nof the Smugglers and Foreign Exchange Manipulators (Forfeiture of Property) Act, 1976 (13 of 1976) shall\nbe the Adjudicating Authority to exercise jurisdiction, powers and authority conferred by or under this\nAct.]\n8. [Composition of Authority.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021).\n10\n9. [Qualifications for appointment of Chairperson and Members.] Omitted by Act 13 of 2021, s. 156\n(w.e.f. 01-07-2021).\n10. [Constitution of Benches of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).\n11. [Power of Adjudicating Authority to regulate its own procedure.] Omitted by ibid, s. 156 (w.e.f. 01-\n07-2021).\n12. [Term of office of Chairperson and Members of Adjudicating Authority]. Omitted by ibid, s. 156\n(w.e.f. 01-07-2021).\n13. [Terms and conditions of services of Chairperson and Members of Adjudicating Authority.]\nOmitted by ibid, s. 156 (w.e.f. 01-07-2021).\n14. [Removal of Chairperson and Members of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f.\n01-07-2021).\n15. [Member to act as Chairperson in certain circumstances.] Omitted by ibid, s. 156 (w.e.f. 01-07-\n2021).\n16. [Vacancies, etc., not to invalidate proceedings of Adjudicating Authority.] Omitted by ibid, s. 156\n(w.e.f. 01-07-2021).\n17. [Officers and employees of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 9",
-      "amendment_information": "[Footnote 1, p.8]: The word “and” omitted by Act 8 of 2023, s. 171 (w.e.f. 1-4-2023). | [Footnote 2, p.8]: Ins. by s. 171, ibid. (w.e.f. 1-4-2023). | [Footnote 8, p.9]: [Composition of Authority.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 3, p.9]: Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 5, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 6, p.9]: Omitted by s. 7, ibid. (w.e.f. 1-11-2016). | [Footnote 7, p.9]: Subs. by s. 8, ibid., for s. 5 and 6 (w.e.f. 1-11-2016). | [Footnote 8, p.9]: Ins. by s. 9, ibid. (w.e.f. 1-11-2016). | [Footnote 9, p.9]: Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021). | [Footnote 9, p.10]: [Qualifications for appointment of Chairperson and Members.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 10, p.10]: [Constitution of Benches of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 13, p.10]: [Terms and conditions of services of Chairperson and Members of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 16, p.10]: [Vacancies, etc., not to invalidate proceedings of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
+      "amendment_information": "[Footnote 2, p.8]: Ins. by s. 171, ibid. (w.e.f. 1-4-2023). | [Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). 3. Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 4, p.9]: Ins. by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 5, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 6, p.9]: Omitted by s. 7, ibid. (w.e.f. 1-11-2016). | [Footnote 7, p.9]: Subs. by s. 8, ibid., for s. 5 and 6 (w.e.f. 1-11-2016). | [Footnote 8, p.9]: Ins. by s. 9, ibid. (w.e.f. 1-11-2016). | [Footnote 9, p.9]: Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
-      "chunk_id": "sec_the_prohibition_of_benami_property_transactions_act_1988_17",
+      "chunk_id": "sec_the_prohibition_of_benami_property_transactions_act_1988_18",
       "act_id": "act_the_prohibition_of_benami_property_transactions_act_1988",
       "act_name": "The Prohibition of Benami Property Transactions Act, 1988",
       "act_number": "45 of 1988",
       "act_year": 1988,
-      "chapter": "III - AUTHORITIES",
-      "section": "17",
-      "section_title": "[Officers and employees of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). 18. Authorities and jurisdiction.",
+      "chapter": "II - PROHIBITION OF BENAMI TRANSACTIONS]",
+      "section": "18",
+      "section_title": "Authorities and jurisdiction.",
       "chunk_type": "section",
-      "text": "17. [Officers and employees of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021). 18. Authorities and jurisdiction..—(1) The following shall be the authorities for the purposes of this\nAct, namely:—\n(a) the Initiating Officer;\n(b) the Approving Authority;\n(c) the Administrator; and\n(d) the Adjudicating Authority.\n(2) The authorities shall exercise all or any of the powers and perform all or any of the functions\nconferred on, or, assigned, as the case may be, to it under this Act or in accordance with such rules as may\nbe prescribed.",
+      "text": "18. Authorities and jurisdiction..—(1) The following shall be the authorities for the purposes of this\nAct, namely:—\n(a) the Initiating Officer;\n(b) the Approving Authority;\n(c) the Administrator; and\n(d) the Adjudicating Authority.\n(2) The authorities shall exercise all or any of the powers and perform all or any of the functions\nconferred on, or, assigned, as the case may be, to it under this Act or in accordance with such rules as may\nbe prescribed.",
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 10",
-      "amendment_information": "[Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 1, p.12]: Ins. by Act 23 of 2019, s. 173 (w.e.f. 1-11-2016). | [Footnote 2, p.12]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024).",
+      "amendment_information": "[Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). 3. Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 1, p.12]: Ins. by Act 23 of 2019, s. 173 (w.e.f. 1-11-2016). | [Footnote 2, p.12]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -111,7 +111,7 @@
       "act_name": "The Prohibition of Benami Property Transactions Act, 1988",
       "act_number": "45 of 1988",
       "act_year": 1988,
-      "chapter": "III - AUTHORITIES",
+      "chapter": "II - PROHIBITION OF BENAMI TRANSACTIONS]",
       "section": "19",
       "section_title": "Powers of authorities.",
       "chunk_type": "section",
@@ -119,7 +119,7 @@
       "provisos_count": 0,
       "explanations_count": 1,
       "source_page": "Page 10",
-      "amendment_information": "[Footnote 8, p.9]: [Composition of Authority.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 3, p.9]: Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 4, p.9]: Ins. by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 5, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 6, p.9]: Omitted by s. 7, ibid. (w.e.f. 1-11-2016). | [Footnote 8, p.9]: Ins. by s. 9, ibid. (w.e.f. 1-11-2016). | [Footnote 9, p.9]: Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021). | [Footnote 9, p.10]: [Qualifications for appointment of Chairperson and Members.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 11, p.10]: [Power of Adjudicating Authority to regulate its own procedure.] Omitted by ibid, s. 156 (w.e.f. 01- 07-2021). | [Footnote 15, p.10]: [Member to act as Chairperson in certain circumstances.] Omitted by ibid, s. 156 (w.e.f. 01-07- 2021). | [Footnote 1, p.12]: Ins. by Act 23 of 2019, s. 173 (w.e.f. 1-11-2016). | [Footnote 2, p.12]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 3, p.12]: Subs. by s. 158, ibid., for “ninety days” (w.e.f. 1-10-2024). | [Footnote 4, p.12]: Subs. by Act 23 of 2019, s. 174, for “from the date of issue of notice under sub-section (1)” (w.e.f. 1-9-2019).",
+      "amendment_information": "[Footnote 1, p.9]: Ins. by Act 43 of 2016, s. 5 (w.e.f. 1-11-2016). | [Footnote 2, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). 3. Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 4, p.9]: Ins. by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 5, p.9]: Omitted by s. 6, ibid. (w.e.f. 1-11-2016). | [Footnote 6, p.9]: Omitted by s. 7, ibid. (w.e.f. 1-11-2016). | [Footnote 8, p.9]: Ins. by s. 9, ibid. (w.e.f. 1-11-2016). | [Footnote 9, p.9]: Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021). | [Footnote 1, p.12]: Ins. by Act 23 of 2019, s. 173 (w.e.f. 1-11-2016). | [Footnote 2, p.12]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 3, p.12]: Subs. by s. 158, ibid., for “ninety days” (w.e.f. 1-10-2024). | [Footnote 4, p.12]: Subs. by Act 23 of 2019, s. 174, for “from the date of issue of notice under sub-section (1)” (w.e.f. 1-9-2019).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -128,7 +128,7 @@
       "act_name": "The Prohibition of Benami Property Transactions Act, 1988",
       "act_number": "45 of 1988",
       "act_year": 1988,
-      "chapter": "III - AUTHORITIES",
+      "chapter": "II - PROHIBITION OF BENAMI TRANSACTIONS]",
       "section": "20",
       "section_title": "Certain officers to assist in inquiry, etc.",
       "chunk_type": "section",
@@ -136,7 +136,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 11",
-      "amendment_information": "[Footnote 9, p.10]: [Qualifications for appointment of Chairperson and Members.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021). | [Footnote 11, p.10]: [Power of Adjudicating Authority to regulate its own procedure.] Omitted by ibid, s. 156 (w.e.f. 01- 07-2021). | [Footnote 15, p.10]: [Member to act as Chairperson in certain circumstances.] Omitted by ibid, s. 156 (w.e.f. 01-07- 2021). | [Footnote 1, p.12]: Ins. by Act 23 of 2019, s. 173 (w.e.f. 1-11-2016). | [Footnote 2, p.12]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 3, p.12]: Subs. by s. 158, ibid., for “ninety days” (w.e.f. 1-10-2024). | [Footnote 4, p.12]: Subs. by Act 23 of 2019, s. 174, for “from the date of issue of notice under sub-section (1)” (w.e.f. 1-9-2019). | [Footnote 1, p.13]: Ins. by Act 23 of 2019, s. 174 (w.e.f. 1-9-2019). | [Footnote 2, p.13]: Subs. by Act 15 of 2024, s. 158, for “fifteen days from the date of the attachment” (w.e.f. 1-10-2024).",
+      "amendment_information": "[Footnote 1, p.12]: Ins. by Act 23 of 2019, s. 173 (w.e.f. 1-11-2016). | [Footnote 2, p.12]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 3, p.12]: Subs. by s. 158, ibid., for “ninety days” (w.e.f. 1-10-2024). | [Footnote 4, p.12]: Subs. by Act 23 of 2019, s. 174, for “from the date of issue of notice under sub-section (1)” (w.e.f. 1-9-2019). | [Footnote 1, p.13]: Ins. by Act 23 of 2019, s. 174 (w.e.f. 1-9-2019). | [Footnote 2, p.13]: Subs. by Act 15 of 2024, s. 158, for “fifteen days from the date of the attachment” (w.e.f. 1-10-2024).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -145,7 +145,7 @@
       "act_name": "The Prohibition of Benami Property Transactions Act, 1988",
       "act_number": "45 of 1988",
       "act_year": 1988,
-      "chapter": "III - AUTHORITIES",
+      "chapter": "II - PROHIBITION OF BENAMI TRANSACTIONS]",
       "section": "21",
       "section_title": "Power to call for information.",
       "chunk_type": "section",
@@ -162,7 +162,7 @@
       "act_name": "The Prohibition of Benami Property Transactions Act, 1988",
       "act_number": "45 of 1988",
       "act_year": 1988,
-      "chapter": "III - AUTHORITIES",
+      "chapter": "II - PROHIBITION OF BENAMI TRANSACTIONS]",
       "section": "22",
       "section_title": "Power of authority to impound documents.",
       "chunk_type": "section",
@@ -170,7 +170,7 @@
       "provisos_count": 1,
       "explanations_count": 0,
       "source_page": "Page 11",
-      "amendment_information": "[Footnote 12, p.10]: [Term of office of Chairperson and Members of Adjudicating Authority]. Omitted by ibid, s. 156 (w.e.f. 01-07-2021). | [Footnote 1, p.12]: Ins. by Act 23 of 2019, s. 173 (w.e.f. 1-11-2016). | [Footnote 2, p.12]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 3, p.12]: Subs. by s. 158, ibid., for “ninety days” (w.e.f. 1-10-2024). | [Footnote 4, p.12]: Subs. by Act 23 of 2019, s. 174, for “from the date of issue of notice under sub-section (1)” (w.e.f. 1-9-2019). | [Footnote 1, p.13]: Ins. by Act 23 of 2019, s. 174 (w.e.f. 1-9-2019). | [Footnote 2, p.13]: Subs. by Act 15 of 2024, s. 158, for “fifteen days from the date of the attachment” (w.e.f. 1-10-2024).",
+      "amendment_information": "[Footnote 1, p.12]: Ins. by Act 23 of 2019, s. 173 (w.e.f. 1-11-2016). | [Footnote 2, p.12]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 3, p.12]: Subs. by s. 158, ibid., for “ninety days” (w.e.f. 1-10-2024). | [Footnote 4, p.12]: Subs. by Act 23 of 2019, s. 174, for “from the date of issue of notice under sub-section (1)” (w.e.f. 1-9-2019). | [Footnote 1, p.13]: Ins. by Act 23 of 2019, s. 174 (w.e.f. 1-9-2019). | [Footnote 2, p.13]: Subs. by Act 15 of 2024, s. 158, for “fifteen days from the date of the attachment” (w.e.f. 1-10-2024).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -179,7 +179,7 @@
       "act_name": "The Prohibition of Benami Property Transactions Act, 1988",
       "act_number": "45 of 1988",
       "act_year": 1988,
-      "chapter": "III - AUTHORITIES",
+      "chapter": "II - PROHIBITION OF BENAMI TRANSACTIONS]",
       "section": "23",
       "section_title": "Power of authority to conduct inquiry, etc.",
       "chunk_type": "section",
@@ -765,7 +765,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 22",
-      "amendment_information": "[Footnote 1, p.21]: Ins. by Act 23 of 2019, s. 179 (w.e.f. 1-9-2019). | [Footnote 2, p.21]: Subs. by s. 180, ibid., for “Board” (w.e.f. 1-9-2019). | [Footnote 3, p.21]: Ins. by s. 180, ibid. (w.e.f. 1-9-2019). | [Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021).",
+      "amendment_information": "[Footnote 1, p.21]: Ins. by Act 23 of 2019, s. 179 (w.e.f. 1-9-2019). | [Footnote 2, p.21]: Subs. by s. 180, ibid., for “Board” (w.e.f. 1-9-2019). | [Footnote 3, p.21]: Ins. by s. 180, ibid. (w.e.f. 1-9-2019). | [Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -782,7 +782,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 22",
-      "amendment_information": "[Footnote 1, p.21]: Ins. by Act 23 of 2019, s. 179 (w.e.f. 1-9-2019). | [Footnote 2, p.21]: Subs. by s. 180, ibid., for “Board” (w.e.f. 1-9-2019). | [Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021).",
+      "amendment_information": "[Footnote 1, p.21]: Ins. by Act 23 of 2019, s. 179 (w.e.f. 1-9-2019). | [Footnote 2, p.21]: Subs. by s. 180, ibid., for “Board” (w.e.f. 1-9-2019). | [Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -799,7 +799,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 22",
-      "amendment_information": "[Footnote 1, p.21]: Ins. by Act 23 of 2019, s. 179 (w.e.f. 1-9-2019). | [Footnote 2, p.21]: Subs. by s. 180, ibid., for “Board” (w.e.f. 1-9-2019). | [Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021).",
+      "amendment_information": "[Footnote 1, p.21]: Ins. by Act 23 of 2019, s. 179 (w.e.f. 1-9-2019). | [Footnote 2, p.21]: Subs. by s. 180, ibid., for “Board” (w.e.f. 1-9-2019). | [Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -816,7 +816,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 22",
-      "amendment_information": "[Footnote 1, p.21]: Ins. by Act 23 of 2019, s. 179 (w.e.f. 1-9-2019). | [Footnote 2, p.21]: Subs. by s. 180, ibid., for “Board” (w.e.f. 1-9-2019). | [Footnote 3, p.21]: Ins. by s. 180, ibid. (w.e.f. 1-9-2019). | [Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021).",
+      "amendment_information": "[Footnote 1, p.21]: Ins. by Act 23 of 2019, s. 179 (w.e.f. 1-9-2019). | [Footnote 2, p.21]: Subs. by s. 180, ibid., for “Board” (w.e.f. 1-9-2019). | [Footnote 3, p.21]: Ins. by s. 180, ibid. (w.e.f. 1-9-2019). | [Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -833,7 +833,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 23",
-      "amendment_information": "[Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). | [Footnote 2, p.25]: S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
+      "amendment_information": "[Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). 2. S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -850,7 +850,7 @@
       "provisos_count": 0,
       "explanations_count": 1,
       "source_page": "Page 23",
-      "amendment_information": "[Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). | [Footnote 2, p.25]: S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
+      "amendment_information": "[Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). 2. S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -901,7 +901,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 23",
-      "amendment_information": "[Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). | [Footnote 2, p.25]: S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
+      "amendment_information": "[Footnote 1, p.22]: Ins. by Act 15 of 2024, s. 158 (w.e.f. 1-10-2024). | [Footnote 2, p.22]: Subs. by Act 43 of 2016, s. 10, for s. 7 and 8 (w.e.f. 1-11-2016). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). 2. S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -918,7 +918,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 24",
-      "amendment_information": "[Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). | [Footnote 2, p.25]: S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016). | [Footnote 2, p.26]: The Ordinance provided that no suit, claim or action to enforce any right in respect of any property held benami shall lie and no defence based on any right in respect of any property held benami shall be allowed in any suit, claim or action. It, however, made two exceptions regarding property held by a coparcener in a Gindu undivided family for the benefit of the coparceners and property held by a trustee or other person standing in a fiduciary capacity for the benefit of another person. It also repealed section 82 of the Indian Trusts Act, 1882, section 56 of the Code of Civil Procedure and section 281A of the Income-tax Act, 1961. | [Footnote 3, p.26]: The provisions of the Ordinance received a mixed response from the press and the public. There had been criticism also that the Ordinance was a half-hearted measure and had not tackled the problem effectively and completely. It was, therefore, felt that the Bill to replace the Ordinance may be brought out as a comprehensive law on benami transactions touching all aspects and accordingly the Lew Commission was requested to examine the subject in all its ramifications. The Law Commission has submitted its 130th Report titled “Benami Transactions—a Continuum” and has made certain recommendations.",
+      "amendment_information": "[Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). 2. S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -948,11 +948,11 @@
       "section": "68",
       "section_title": "Power to make rules.",
       "chunk_type": "section",
-      "text": "68. Power to make rules..—(1) The Central Government may, by notification, make rules for carrying\nout the provisions of this Act.\n(2) In particular, and without prejudice to the generality of the foregoing power, such rules may provide\nfor all or any of the following matters, namely:—\n(a) manner of ascertaining the fair market value under clause 16 of section 2;\n1* * * * *\n(d) the powers and functions of the authorities under sub-section (2) of section 18;\n(e) other powers of the authorities under clause (f) of sub-section (1) of section 19;\n(f) the form and manner of furnishing any information to the authority under sub-section (2) of\nsection 21;\n(g) the manner of provisional attachment of property under sub-section (3) of section 24;\n(h) the procedure for confiscation of benami property under the second proviso to\nsub-section (1) of section 27;\n(i) the manner and conditions to receive and manage the property under sub-section (1) of\nsection 28;\n(j) the manner and conditions of disposal of property vested in the Central Government under\nsub-section (3) of section 28;\n(k) the salaries and allowances payable to and the other terms and conditions of service of the\nChairperson and other Members of the Appellate Tribunal under sub-section (1) of section 33;\n(l) the manner of prescribing procedure for removal of Chairperson or Member under\nsub-section (4) of section 35;\n(m) the salaries and allowances payable to and the other terms and conditions of service of the\nofficers and employees of the Appellate Tribunal under sub-section (3) of section 39;\n(n) any power of the Appellate Tribunal under clause (i) of sub-section (2) of section 40;\n(o) the form in which appeal shall be filed and the fee for filing the appeal under sub-section (1)\nof section 46;\n25\n(p) any other matter which is to be, or may be, prescribed, or in respect of which provision is to\nbe made, by rules.",
+      "text": "68. Power to make rules..—(1) The Central Government may, by notification, make rules for carrying\nout the provisions of this Act.\n(2) In particular, and without prejudice to the generality of the foregoing power, such rules may provide\nfor all or any of the following matters, namely:—\n(a) manner of ascertaining the fair market value under clause 16 of section 2;\n1* * * * *\n(d) the powers and functions of the authorities under sub-section (2) of section 18;\n(e) other powers of the authorities under clause (f) of sub-section (1) of section 19;\n(f) the form and manner of furnishing any information to the authority under sub-section (2) of\nsection 21;\n(g) the manner of provisional attachment of property under sub-section (3) of section 24;\n(h) the procedure for confiscation of benami property under the second proviso to\nsub-section (1) of section 27;\n(i) the manner and conditions to receive and manage the property under sub-section (1) of\nsection 28;\n(j) the manner and conditions of disposal of property vested in the Central Government under\nsub-section (3) of section 28;\n(k) the salaries and allowances payable to and the other terms and conditions of service of the\nChairperson and other Members of the Appellate Tribunal under sub-section (1) of section 33;\n(l) the manner of prescribing procedure for removal of Chairperson or Member under\nsub-section (4) of section 35;\n(m) the salaries and allowances payable to and the other terms and conditions of service of the\nofficers and employees of the Appellate Tribunal under sub-section (3) of section 39;\n(n) any power of the Appellate Tribunal under clause (i) of sub-section (2) of section 40;\n(o) the form in which appeal shall be filed and the fee for filing the appeal under sub-section (1)\nof section 46;\n1. Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021).\n25\n(p) any other matter which is to be, or may be, prescribed, or in respect of which provision is to\nbe made, by rules.",
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 24",
-      "amendment_information": "[Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). | [Footnote 2, p.25]: S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016). | [Footnote 2, p.26]: The Ordinance provided that no suit, claim or action to enforce any right in respect of any property held benami shall lie and no defence based on any right in respect of any property held benami shall be allowed in any suit, claim or action. It, however, made two exceptions regarding property held by a coparcener in a Gindu undivided family for the benefit of the coparceners and property held by a trustee or other person standing in a fiduciary capacity for the benefit of another person. It also repealed section 82 of the Indian Trusts Act, 1882, section 56 of the Code of Civil Procedure and section 281A of the Income-tax Act, 1961. | [Footnote 3, p.26]: The provisions of the Ordinance received a mixed response from the press and the public. There had been criticism also that the Ordinance was a half-hearted measure and had not tackled the problem effectively and completely. It was, therefore, felt that the Bill to replace the Ordinance may be brought out as a comprehensive law on benami transactions touching all aspects and accordingly the Lew Commission was requested to examine the subject in all its ramifications. The Law Commission has submitted its 130th Report titled “Benami Transactions—a Continuum” and has made certain recommendations. | [Footnote 5, p.26]: The recommendations of the Law Commission have been examined. It is felt that all the recommendations of the Law Commission. except the recommendation regarding authorising voluntary organisations to file complaints before tribunals and the appointment of an authority, like the Charity Commissioner, for supervising private trusts, may be specifically provided in the Bill, and the other two recommendations would, it is felt, come into effect automatically as a result of the prohibition of benami transactions and the provision for acquisition of all properties held benami. The Bill accordingly provides for the following, among other things, namely:— (a) entering into benami transactions after the commencement of the new law will be an offence, with an exception for the transfer of properties by the husband or father for the benefit of the wife or unmarried daughters;",
+      "amendment_information": "[Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). 2. S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -986,7 +986,7 @@
       "provisos_count": 0,
       "explanations_count": 0,
       "source_page": "Page 25",
-      "amendment_information": "[Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). | [Footnote 2, p.25]: S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016). | [Footnote 2, p.26]: The Ordinance provided that no suit, claim or action to enforce any right in respect of any property held benami shall lie and no defence based on any right in respect of any property held benami shall be allowed in any suit, claim or action. It, however, made two exceptions regarding property held by a coparcener in a Gindu undivided family for the benefit of the coparceners and property held by a trustee or other person standing in a fiduciary capacity for the benefit of another person. It also repealed section 82 of the Indian Trusts Act, 1882, section 56 of the Code of Civil Procedure and section 281A of the Income-tax Act, 1961. | [Footnote 3, p.26]: The provisions of the Ordinance received a mixed response from the press and the public. There had been criticism also that the Ordinance was a half-hearted measure and had not tackled the problem effectively and completely. It was, therefore, felt that the Bill to replace the Ordinance may be brought out as a comprehensive law on benami transactions touching all aspects and accordingly the Lew Commission was requested to examine the subject in all its ramifications. The Law Commission has submitted its 130th Report titled “Benami Transactions—a Continuum” and has made certain recommendations.",
+      "amendment_information": "[Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). 2. S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     },
     {
@@ -999,426 +999,19 @@
       "section": "71",
       "section_title": "Transitional provision.",
       "chunk_type": "section",
-      "text": "71. Transitional provision..—The Central Government may, by notification, provide that until the\nAdjudicating Authorities are appointed and the Appellate Tribunal is established under this Act, the\nAdjudicating Authority appointed under sub-section (1) of section 6 of the Money-Laundering Act, 2002 (15\nof 2003) and the Appellate Tribunal established under section 25 of that Act may discharge the functions of\nthe Adjudicating Authority and Appellate Tribunal, respectively, under this Act 1[for Such period and in\nrespect of such cases or class of cases as may be specified in the Said notification].\n2[72.] Repeal and saving.—(1) The Benami Transactions (Prohibition of the Right to Recover Property)\nOrdinance, 1988 (Ord. 2 of 1988) is hereby repealed.\n(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be\ndeemed to have been done or taken under the corresponding provisions of this Act.\n26\nSTATEMENT OF OBJECTS AND REASONS\nTo implement the recommendations of the Fifty-seventh Report of the Law Commission on Benami\nTransactions, the President promulgated the Benami Transactions (Prohibition of the Right to Recover\nProperty) Ordinance, 1988, on the 19th May, 1988.",
-      "provisos_count": 0,
+      "text": "71. Transitional provision..—The Central Government may, by notification, provide that until the\nAdjudicating Authorities are appointed and the Appellate Tribunal is established under this Act, the\nAdjudicating Authority appointed under sub-section (1) of section 6 of the Money-Laundering Act, 2002 (15\nof 2003) and the Appellate Tribunal established under section 25 of that Act may discharge the functions of\nthe Adjudicating Authority and Appellate Tribunal, respectively, under this Act 1[for Such period and in\nrespect of such cases or class of cases as may be specified in the Said notification].\n2[72.] Repeal and saving.—(1) The Benami Transactions (Prohibition of the Right to Recover Property)\nOrdinance, 1988 (Ord. 2 of 1988) is hereby repealed.\n(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be\ndeemed to have been done or taken under the corresponding provisions of this Act.\n26\nSTATEMENT OF OBJECTS AND REASONS\nTo implement the recommendations of the Fifty-seventh Report of the Law Commission on Benami\nTransactions, the President promulgated the Benami Transactions (Prohibition of the Right to Recover\nProperty) Ordinance, 1988, on the 19th May, 1988.\n2. The Ordinance provided that no suit, claim or action to enforce any right in respect of any property\nheld benami shall lie and no defence based on any right in respect of any property held benami shall be\nallowed in any suit, claim or action. It, however, made two exceptions regarding property held by a\ncoparcener in a Gindu undivided family for the benefit of the coparceners and property held by a trustee\nor other person standing in a fiduciary capacity for the benefit of another person. It also repealed\nsection 82 of the Indian Trusts Act, 1882, section 56 of the Code of Civil Procedure and section 281A of\nthe Income-tax Act, 1961.\n3. The provisions of the Ordinance received a mixed response from the press and the public. There\nhad been criticism also that the Ordinance was a half-hearted measure and had not tackled the problem\neffectively and completely. It was, therefore, felt that the Bill to replace the Ordinance may be brought\nout as a comprehensive law on benami transactions touching all aspects and accordingly the Lew\nCommission was requested to examine the subject in all its ramifications. The Law Commission has\nsubmitted its 130th Report titled “Benami Transactions—a Continuum” and has made certain\nrecommendations.\n4. The Law Commission has, inter alia, recommended the inclusion of the following provisions in the\nBill to replace the Ordinance, namely:—\n(i) benami transactions should cover all kinds of property:\n(ii) entering into a benami transaction after the commencement of the new law should be declared\nas an offence. However, an exception should be made for transactions entered into by the husband or\nfather for the transfer of properties in the name of the wife or unmarried daughter for their benefit.\nBy this the doctrine of advancement as obtaining in the English law will be incorporated into the\nIndian Statute Book;\n(iii) voluntary organisations should be authorised to file complaints about the entering of benami\ntransactions and the District Judges should be designated as Tribunals. Even Gram Nyayalas\nrecommended by the Law Commission may also be utilised for this purpose:\n(iv) as both the benamidar and the true owner are equal participants to a criminal transaction, by\nprohibiting the true owner's right to recover property held benami as provided in the Ordinance will\nbe providing for an undue enrichment to the benamidar. As such, the Commission has suggested that\nthe properties should be acquired from him by resorting to a procedure analogous to Chapter XXA\nof the Income-tax Act, 1961. It has been suggested that the same action has to be taken when\nbenamidar retransfers the property back to the true owner for an apparent or no consideration to\ncircumvent the provisions of the Ordinance;\n(v) in addition to section 82 of the Indian Trusts Act, 1882, as provided in the Ordinance,\nsections 31 and 94 of that Act should also be omitted:\n(vi) appointment of an authority, like, the Charity Commissioner, for supervising private trusts\nshould be provided for.\n5. The recommendations of the Law Commission have been examined. It is felt that all the\nrecommendations of the Law Commission. except the recommendation regarding authorising voluntary\norganisations to file complaints before tribunals and the appointment of an authority, like the Charity\nCommissioner, for supervising private trusts, may be specifically provided in the Bill, and the other two\nrecommendations would, it is felt, come into effect automatically as a result of the prohibition of benami\ntransactions and the provision for acquisition of all properties held benami. The Bill accordingly provides\nfor the following, among other things, namely:—\n(a) entering into benami transactions after the commencement of the new law will be an offence,\nwith an exception for the transfer of properties by the husband or father for the benefit of the wife or\nunmarried daughters;\n27\n(b) all the properties benami will be subject to acquisition by such authority, in such manner and\nafter following such procedure. as may be prescribed by rules under the proposed legislation. As a\nresult of the provisions of the Ordinance and the prohibition of entering into benami transactions, the\nbenamidar would be acquiring the rights to the property by the mere lending of his name and\nwithout investing any money for the purchase of such property. Accordingly, it is provided that no\namount shall be payable for the acquisition of any property held benami;\n(c) sections 81 and 94 of the Indian Trusts Act, 1882 shall also be repealed.\n6. The Bill seeks to achieve the above objects.\nH. R. BHARDWAJ.\nNEW DELHI:\nThe 30th August, 1988.",
+      "provisos_count": 2,
       "explanations_count": 0,
       "source_page": "Page 25",
-      "amendment_information": "[Footnote 1, p.24]: Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021). | [Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). | [Footnote 2, p.25]: S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016). | [Footnote 2, p.26]: The Ordinance provided that no suit, claim or action to enforce any right in respect of any property held benami shall lie and no defence based on any right in respect of any property held benami shall be allowed in any suit, claim or action. It, however, made two exceptions regarding property held by a coparcener in a Gindu undivided family for the benefit of the coparceners and property held by a trustee or other person standing in a fiduciary capacity for the benefit of another person. It also repealed section 82 of the Indian Trusts Act, 1882, section 56 of the Code of Civil Procedure and section 281A of the Income-tax Act, 1961. | [Footnote 3, p.26]: The provisions of the Ordinance received a mixed response from the press and the public. There had been criticism also that the Ordinance was a half-hearted measure and had not tackled the problem effectively and completely. It was, therefore, felt that the Bill to replace the Ordinance may be brought out as a comprehensive law on benami transactions touching all aspects and accordingly the Lew Commission was requested to examine the subject in all its ramifications. The Law Commission has submitted its 130th Report titled “Benami Transactions—a Continuum” and has made certain recommendations. | [Footnote 5, p.26]: The recommendations of the Law Commission have been examined. It is felt that all the recommendations of the Law Commission. except the recommendation regarding authorising voluntary organisations to file complaints before tribunals and the appointment of an authority, like the Charity Commissioner, for supervising private trusts, may be specifically provided in the Bill, and the other two recommendations would, it is felt, come into effect automatically as a result of the prohibition of benami transactions and the provision for acquisition of all properties held benami. The Bill accordingly provides for the following, among other things, namely:— (a) entering into benami transactions after the commencement of the new law will be an offence, with an exception for the transfer of properties by the husband or father for the benefit of the wife or unmarried daughters; | [Footnote 6, p.27]: The Bill seeks to achieve the above objects. H. R. BHARDWAJ. NEW DELHI: The 30th August, 1988.",
-      "effective_date": "Date of notification in Official Gazette"
-    },
-    {
-      "chunk_id": "sec_the_prohibition_of_benami_property_transactions_act_1988_4",
-      "act_id": "act_the_prohibition_of_benami_property_transactions_act_1988",
-      "act_name": "The Prohibition of Benami Property Transactions Act, 1988",
-      "act_number": "45 of 1988",
-      "act_year": 1988,
-      "chapter": "VIII - MISCELLANEOUS",
-      "section": "4",
-      "section_title": "The Law Commission has, inter alia, recommended the inclusion of the following provisions in the Bill to replace the Ordinance, namely:",
-      "chunk_type": "section",
-      "text": "4. The Law Commission has, inter alia, recommended the inclusion of the following provisions in the Bill to replace the Ordinance, namely:.—(i) benami transactions should cover all kinds of property:\n(ii) entering into a benami transaction after the commencement of the new law should be declared\nas an offence. However, an exception should be made for transactions entered into by the husband or\nfather for the transfer of properties in the name of the wife or unmarried daughter for their benefit.\nBy this the doctrine of advancement as obtaining in the English law will be incorporated into the\nIndian Statute Book;\n(iii) voluntary organisations should be authorised to file complaints about the entering of benami\ntransactions and the District Judges should be designated as Tribunals. Even Gram Nyayalas\nrecommended by the Law Commission may also be utilised for this purpose:\n(iv) as both the benamidar and the true owner are equal participants to a criminal transaction, by\nprohibiting the true owner's right to recover property held benami as provided in the Ordinance will\nbe providing for an undue enrichment to the benamidar. As such, the Commission has suggested that\nthe properties should be acquired from him by resorting to a procedure analogous to Chapter XXA\nof the Income-tax Act, 1961. It has been suggested that the same action has to be taken when\nbenamidar retransfers the property back to the true owner for an apparent or no consideration to\ncircumvent the provisions of the Ordinance;\n(v) in addition to section 82 of the Indian Trusts Act, 1882, as provided in the Ordinance,\nsections 31 and 94 of that Act should also be omitted:\n(vi) appointment of an authority, like, the Charity Commissioner, for supervising private trusts\nshould be provided for.\n27\n(b) all the properties benami will be subject to acquisition by such authority, in such manner and\nafter following such procedure. as may be prescribed by rules under the proposed legislation. As a\nresult of the provisions of the Ordinance and the prohibition of entering into benami transactions, the\nbenamidar would be acquiring the rights to the property by the mere lending of his name and\nwithout investing any money for the purchase of such property. Accordingly, it is provided that no\namount shall be payable for the acquisition of any property held benami;\n(c) sections 81 and 94 of the Indian Trusts Act, 1882 shall also be repealed.",
-      "provisos_count": 1,
-      "explanations_count": 0,
-      "source_page": "Page 26",
-      "amendment_information": "[Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). | [Footnote 2, p.25]: S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016). | [Footnote 2, p.26]: The Ordinance provided that no suit, claim or action to enforce any right in respect of any property held benami shall lie and no defence based on any right in respect of any property held benami shall be allowed in any suit, claim or action. It, however, made two exceptions regarding property held by a coparcener in a Gindu undivided family for the benefit of the coparceners and property held by a trustee or other person standing in a fiduciary capacity for the benefit of another person. It also repealed section 82 of the Indian Trusts Act, 1882, section 56 of the Code of Civil Procedure and section 281A of the Income-tax Act, 1961. | [Footnote 3, p.26]: The provisions of the Ordinance received a mixed response from the press and the public. There had been criticism also that the Ordinance was a half-hearted measure and had not tackled the problem effectively and completely. It was, therefore, felt that the Bill to replace the Ordinance may be brought out as a comprehensive law on benami transactions touching all aspects and accordingly the Lew Commission was requested to examine the subject in all its ramifications. The Law Commission has submitted its 130th Report titled “Benami Transactions—a Continuum” and has made certain recommendations. | [Footnote 6, p.27]: The Bill seeks to achieve the above objects. H. R. BHARDWAJ. NEW DELHI: The 30th August, 1988.",
+      "amendment_information": "[Footnote 1, p.25]: Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). 2. S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
       "effective_date": "Date of notification in Official Gazette"
     }
   ],
   "footnotes": [
     {
-      "num": 1,
-      "text": "The Depositories Act, 1996 (22 of 1996).",
+      "num": 0,
+      "text": "LIST OF ABBREVIATIONS USED Cl., cls. . . . . . for Clause, clauses. Ins. . . . . . ,, Inserted. Notifn. . . . . . ,, Notification. S., ss. . . . . . ,, Section, sections. Sch. . . . . . ,, Schedule. Subs. . . . . . ,, Substituted. w.e.f. . . . . . ,, with effect from.",
       "page": 2
-    },
-    {
-      "num": 2,
-      "text": "The Benami Transactions (Prohibition) Amendment Act, 2016 (43 of 2016).",
-      "page": 2
-    },
-    {
-      "num": 3,
-      "text": "The Finance (No. 2) Act, 2019 (23 of 2019).",
-      "page": 2
-    },
-    {
-      "num": 4,
-      "text": "The Jammu and Kashmir Reorganisation Act, 2019 (34 of 2019).",
-      "page": 2
-    },
-    {
-      "num": 5,
-      "text": "The Finance Act, 2021 (13 of 2021).",
-      "page": 2
-    },
-    {
-      "num": 6,
-      "text": "The Finance Act, 2023 (8 of 2023).",
-      "page": 2
-    },
-    {
-      "num": 7,
-      "text": "The Finance (No. 2) Act, 2024 (15 of 2024). _______ LIST OF ABBREVIATIONS USED Cl., cls. . . . . . for Clause, clauses. Ins. . . . . . ,, Inserted. Notifn. . . . . . ,, Notification. S., ss. . . . . . ,, Section, sections. Sch. . . . . . ,, Schedule. Subs. . . . . . ,, Substituted. w.e.f. . . . . . ,, with effect from.",
-      "page": 2
-    },
-    {
-      "num": 1,
-      "text": "Short title, extent and commencement.",
-      "page": 3
-    },
-    {
-      "num": 2,
-      "text": "Definitions.",
-      "page": 3
-    },
-    {
-      "num": 3,
-      "text": "Prohibition of benami transactions.",
-      "page": 3
-    },
-    {
-      "num": 4,
-      "text": "Prohibition of the right to recover property held benami.",
-      "page": 3
-    },
-    {
-      "num": 5,
-      "text": "Property held benami liable to confiscation.",
-      "page": 3
-    },
-    {
-      "num": 6,
-      "text": "Prohibition on re-transfer of property by benamidar.",
-      "page": 3
-    },
-    {
-      "num": 7,
-      "text": "Adjudicating Authority.",
-      "page": 3
-    },
-    {
-      "num": 8,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 9,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 10,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 11,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 12,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 13,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 14,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 15,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 16,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 17,
-      "text": "[Omitted].",
-      "page": 3
-    },
-    {
-      "num": 18,
-      "text": "Authorities and jurisdiction.",
-      "page": 3
-    },
-    {
-      "num": 19,
-      "text": "Powers of authorities.",
-      "page": 3
-    },
-    {
-      "num": 20,
-      "text": "Certain officers to assist in inquiry, etc.",
-      "page": 3
-    },
-    {
-      "num": 21,
-      "text": "Power to call for information.",
-      "page": 3
-    },
-    {
-      "num": 22,
-      "text": "Power of authority to impound documents.",
-      "page": 3
-    },
-    {
-      "num": 23,
-      "text": "Power of authority to conduct inquiry, etc.",
-      "page": 3
-    },
-    {
-      "num": 24,
-      "text": "Notice and attachment of property involved in benami transaction.",
-      "page": 3
-    },
-    {
-      "num": 25,
-      "text": "Manner of service of notice.",
-      "page": 3
-    },
-    {
-      "num": 26,
-      "text": "Adjudication of benami property.",
-      "page": 3
-    },
-    {
-      "num": 27,
-      "text": "Confiscation and vesting of benami property.",
-      "page": 3
-    },
-    {
-      "num": 28,
-      "text": "Management of properties confiscated.",
-      "page": 3
-    },
-    {
-      "num": 29,
-      "text": "Possession of the property.",
-      "page": 3
-    },
-    {
-      "num": 30,
-      "text": "Establishment of Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 31,
-      "text": "Composition, etc., of Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 32,
-      "text": "Qualifications for appointment of Chairperson and Members of Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 33,
-      "text": "Terms and conditions of services of Chairperson and Members of Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 34,
-      "text": "Term of office of Chairperson and Members.",
-      "page": 4
-    },
-    {
-      "num": 35,
-      "text": "Removal of Chairperson and Member from office in certain circumstances.",
-      "page": 4
-    },
-    {
-      "num": 36,
-      "text": "Vacancies, etc., not to invalidate proceedings of Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 37,
-      "text": "Resignation and removal.",
-      "page": 4
-    },
-    {
-      "num": 38,
-      "text": "Member to act as Chairperson in certain circumstances.",
-      "page": 4
-    },
-    {
-      "num": 39,
-      "text": "Staff of Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 40,
-      "text": "Procedure and powers of Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 41,
-      "text": "Distribution of business amongst Benches of Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 42,
-      "text": "Power of Chairperson of Appellate Tribunal to transfer cases.",
-      "page": 4
-    },
-    {
-      "num": 43,
-      "text": "Decision to be by majority.",
-      "page": 4
-    },
-    {
-      "num": 44,
-      "text": "Members, etc., to be public servants.",
-      "page": 4
-    },
-    {
-      "num": 45,
-      "text": "Bar of jurisdiction of civil courts.",
-      "page": 4
-    },
-    {
-      "num": 46,
-      "text": "Appeals to Appellate Tribunal.",
-      "page": 4
-    },
-    {
-      "num": 47,
-      "text": "Rectification of mistakes.",
-      "page": 4
-    },
-    {
-      "num": 48,
-      "text": "Right to representation.",
-      "page": 4
-    },
-    {
-      "num": 49,
-      "text": "Appeal to High Court.",
-      "page": 4
-    },
-    {
-      "num": 50,
-      "text": "Special Courts.",
-      "page": 4
-    },
-    {
-      "num": 51,
-      "text": "Application of Code of Criminal Procedure, 1973 to proceedings before Special Court.",
-      "page": 4
-    },
-    {
-      "num": 52,
-      "text": "Appeal and revision.",
-      "page": 4
-    },
-    {
-      "num": 53,
-      "text": "Penalty for benami transaction.",
-      "page": 4
-    },
-    {
-      "num": 54,
-      "text": "Penalty for false information. 54A. Penalty for failure to comply with notices or furnish information. 54B. Proof of entries in records or documents.",
-      "page": 4
-    },
-    {
-      "num": 55,
-      "text": "Previous sanction. 55A. Power to tender Immunity from prosecution",
-      "page": 4
-    },
-    {
-      "num": 56,
-      "text": "Repeal of provisions of certain Acts.",
-      "page": 4
-    },
-    {
-      "num": 57,
-      "text": "Certain transfers to be null and void.",
-      "page": 4
-    },
-    {
-      "num": 58,
-      "text": "Exemption.",
-      "page": 4
-    },
-    {
-      "num": 59,
-      "text": "Power of Central Government to issue directions, etc.",
-      "page": 4
-    },
-    {
-      "num": 60,
-      "text": "Application of other laws not barred.",
-      "page": 4
-    },
-    {
-      "num": 61,
-      "text": "Offences to be non-cognizable.",
-      "page": 4
-    },
-    {
-      "num": 62,
-      "text": "Offences by companies.",
-      "page": 4
-    },
-    {
-      "num": 63,
-      "text": "Notice, etc., not to be invalid on certain grounds.",
-      "page": 5
-    },
-    {
-      "num": 64,
-      "text": "Protection of action taken in good faith.",
-      "page": 5
-    },
-    {
-      "num": 65,
-      "text": "Transfer of pending cases.",
-      "page": 5
-    },
-    {
-      "num": 66,
-      "text": "Proceedings, etc., against legal representative.",
-      "page": 5
-    },
-    {
-      "num": 67,
-      "text": "Act to have overriding effect.",
-      "page": 5
-    },
-    {
-      "num": 68,
-      "text": "Power to make rules.",
-      "page": 5
-    },
-    {
-      "num": 69,
-      "text": "Laying of rules and notifications before Parliament.",
-      "page": 5
-    },
-    {
-      "num": 70,
-      "text": "Power to remove difficulties.",
-      "page": 5
-    },
-    {
-      "num": 71,
-      "text": "Transitional provision.",
-      "page": 5
-    },
-    {
-      "num": 72,
-      "text": "Repeal and saving.",
-      "page": 5
     },
     {
       "num": 1,
@@ -1446,19 +1039,9 @@
       "page": 6
     },
     {
-      "num": 1,
-      "text": "The word “and” omitted by Act 8 of 2023, s. 171 (w.e.f. 1-4-2023).",
-      "page": 8
-    },
-    {
       "num": 2,
       "text": "Ins. by s. 171, ibid. (w.e.f. 1-4-2023).",
       "page": 8
-    },
-    {
-      "num": 8,
-      "text": "[Composition of Authority.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021).",
-      "page": 9
     },
     {
       "num": 1,
@@ -1467,12 +1050,7 @@
     },
     {
       "num": 2,
-      "text": "Omitted by s. 6, ibid. (w.e.f. 1-11-2016).",
-      "page": 9
-    },
-    {
-      "num": 3,
-      "text": "Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016).",
+      "text": "Omitted by s. 6, ibid. (w.e.f. 1-11-2016). 3. Sub-section (3) renumbered as sub-section (2) thereof by s. 6, ibid. (w.e.f. 1-11-2016).",
       "page": 9
     },
     {
@@ -1504,46 +1082,6 @@
       "num": 9,
       "text": "Subs. by Act 13 of 2021, s. 155, for s. 7 (w.e.f. 1-7-2021).",
       "page": 9
-    },
-    {
-      "num": 9,
-      "text": "[Qualifications for appointment of Chairperson and Members.] Omitted by Act 13 of 2021, s. 156 (w.e.f. 01-07-2021).",
-      "page": 10
-    },
-    {
-      "num": 10,
-      "text": "[Constitution of Benches of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
-      "page": 10
-    },
-    {
-      "num": 11,
-      "text": "[Power of Adjudicating Authority to regulate its own procedure.] Omitted by ibid, s. 156 (w.e.f. 01- 07-2021).",
-      "page": 10
-    },
-    {
-      "num": 12,
-      "text": "[Term of office of Chairperson and Members of Adjudicating Authority]. Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
-      "page": 10
-    },
-    {
-      "num": 13,
-      "text": "[Terms and conditions of services of Chairperson and Members of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
-      "page": 10
-    },
-    {
-      "num": 14,
-      "text": "[Removal of Chairperson and Members of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
-      "page": 10
-    },
-    {
-      "num": 15,
-      "text": "[Member to act as Chairperson in certain circumstances.] Omitted by ibid, s. 156 (w.e.f. 01-07- 2021).",
-      "page": 10
-    },
-    {
-      "num": 16,
-      "text": "[Vacancies, etc., not to invalidate proceedings of Adjudicating Authority.] Omitted by ibid, s. 156 (w.e.f. 01-07-2021).",
-      "page": 10
     },
     {
       "num": 1,
@@ -1657,38 +1195,8 @@
     },
     {
       "num": 1,
-      "text": "Cl. (b) and (c) omitted by Act 13 of 2021, s. 158 (w.e.f. 1-7-2021).",
-      "page": 24
-    },
-    {
-      "num": 1,
-      "text": "Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018).",
+      "text": "Ins. by S.O. 5602(E), dated 31st October, 2018 (w.e.f. 31-10-2018). 2. S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
       "page": 25
-    },
-    {
-      "num": 2,
-      "text": "S. 9 renumbered as s. 72 thereof by Act 43 of 2016, s. 11 (w.e.f. 1-11-2016).",
-      "page": 25
-    },
-    {
-      "num": 2,
-      "text": "The Ordinance provided that no suit, claim or action to enforce any right in respect of any property held benami shall lie and no defence based on any right in respect of any property held benami shall be allowed in any suit, claim or action. It, however, made two exceptions regarding property held by a coparcener in a Gindu undivided family for the benefit of the coparceners and property held by a trustee or other person standing in a fiduciary capacity for the benefit of another person. It also repealed section 82 of the Indian Trusts Act, 1882, section 56 of the Code of Civil Procedure and section 281A of the Income-tax Act, 1961.",
-      "page": 26
-    },
-    {
-      "num": 3,
-      "text": "The provisions of the Ordinance received a mixed response from the press and the public. There had been criticism also that the Ordinance was a half-hearted measure and had not tackled the problem effectively and completely. It was, therefore, felt that the Bill to replace the Ordinance may be brought out as a comprehensive law on benami transactions touching all aspects and accordingly the Lew Commission was requested to examine the subject in all its ramifications. The Law Commission has submitted its 130th Report titled “Benami Transactions—a Continuum” and has made certain recommendations.",
-      "page": 26
-    },
-    {
-      "num": 5,
-      "text": "The recommendations of the Law Commission have been examined. It is felt that all the recommendations of the Law Commission. except the recommendation regarding authorising voluntary organisations to file complaints before tribunals and the appointment of an authority, like the Charity Commissioner, for supervising private trusts, may be specifically provided in the Bill, and the other two recommendations would, it is felt, come into effect automatically as a result of the prohibition of benami transactions and the provision for acquisition of all properties held benami. The Bill accordingly provides for the following, among other things, namely:— (a) entering into benami transactions after the commencement of the new law will be an offence, with an exception for the transfer of properties by the husband or father for the benefit of the wife or unmarried daughters;",
-      "page": 26
-    },
-    {
-      "num": 6,
-      "text": "The Bill seeks to achieve the above objects. H. R. BHARDWAJ. NEW DELHI: The 30th August, 1988.",
-      "page": 27
     }
   ]
 }

@@ -49,3 +49,8 @@ pnpm-debug.log*
 
 # TypeScript
 *.tsbuildinfo
+
+# Extracted intermediate act JSONs (consolidated into consolidated_rag_sections.json)
+backend/app/db/extracted_acts/*
+!backend/app/db/extracted_acts/consolidated_rag_sections.json
+!backend/app/db/extracted_acts/master_validation_registry.json

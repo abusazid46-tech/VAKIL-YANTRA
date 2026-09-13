@@ -5,18 +5,24 @@
   "enactment_date": "9th August, 2019",
   "as_on_date": null,
   "total_pages_scanned": 39,
-  "total_body_sections_extracted": 108,
+  "total_body_sections_extracted": 100,
   "total_schedule_items_extracted": 0,
-  "total_chunks_produced": 108,
+  "total_chunks_produced": 100,
   "amending_acts_identified": [
     "Act 33 of 2021"
   ],
-  "missing_sections": [],
-  "duplicate_sections": [
-    "1"
+  "missing_sections": [
+    21,
+    30,
+    44,
+    71,
+    90,
+    91,
+    95
   ],
+  "duplicate_sections": [],
   "repealed_sections": [],
   "empty_or_suspicious_sections": [],
   "validation_warnings": [],
-  "status": "FLAGGED_FOR_REVIEW"
+  "status": "VALIDATION_PASSED_WITH_NOTICES"
 }

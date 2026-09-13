@@ -245,6 +245,40 @@ export type LegalSearchResponse = {
   results: LegalSourceItem[];
 };
 
+export type StatutoryProvisionItem = {
+  id: string;
+  act_id: string;
+  act_title: string;
+  chapter?: string | null;
+  section_number: string;
+  section_title: string;
+  content: string;
+  chunk_type?: string;
+  source_url: string;
+  source_page?: number | string;
+  amendment_information?: any;
+  effective_date?: string | null;
+};
+
+export type ProvisionSearchResponse = {
+  query: string;
+  total_matches: number;
+  page: number;
+  page_size: number;
+  results: StatutoryProvisionItem[];
+};
+
+export type ActDirectoryItem = {
+  id: string;
+  title: string;
+  act_number?: string | null;
+  year: number;
+  total_sections: number;
+  public_url: string;
+  source_type?: string;
+  jurisdiction?: string;
+};
+
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000/api/v1";
 
 export async function apiPost<T>(path: string, body: unknown, token?: string): Promise<T> {

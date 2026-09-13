@@ -5,9 +5,9 @@
   "enactment_date": "1st October, 1891",
   "as_on_date": null,
   "total_pages_scanned": 5,
-  "total_body_sections_extracted": 0,
+  "total_body_sections_extracted": 7,
   "total_schedule_items_extracted": 0,
-  "total_chunks_produced": 0,
+  "total_chunks_produced": 7,
   "amending_acts_identified": [
     "Act 26 of 1968",
     "Act 18 of 1964",
@@ -24,5 +24,5 @@
   "repealed_sections": [],
   "empty_or_suspicious_sections": [],
   "validation_warnings": [],
-  "status": "FLAGGED_FOR_REVIEW"
+  "status": "VALIDATION_PASSED"
 }

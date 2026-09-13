@@ -7,8 +7,8 @@
     "enactment_date": "",
     "as_on_date": "8th July, 2026",
     "total_pages": 106,
-    "total_sections": 0,
-    "total_schedule_items": 0,
+    "total_sections": 38,
+    "total_schedule_items": 29,
     "amending_acts": [
       "Act 31 of 1930",
       "Act 2 of 1922",
@@ -22,271 +22,1110 @@
       "Act 12 of 1891",
       "Act 19 of 1922",
       "Act 6 of 1905",
-      "Act 5 of 1908",
       "Act 20 of 1870",
       "Act 46 of 1999",
       "Act 13 of 1889",
       "Act 7 of 1889",
+      "Act 15 of 1872",
       "Act 13 of 1875",
       "Act 10 of 1901",
       "Act 11 of 1899",
-      "Act 6 of 1980",
       "Act 38 of 1920",
       "Act 11 of 1865",
-      "Act 8 of 1859",
-      "Act 9 of 1869",
       "Act 8 of 2026",
-      "Act 7 of 1910",
-      "Act 2 of 1899",
-      "Act 28 of 1972",
-      "Act 27 of 1972",
-      "Act 1 of 1952",
-      "Act 11 of 1974",
-      "Act 7 of 1870"
+      "Act 5 of 1908",
+      "Act 7 of 1910"
     ],
     "source_pdf": "The Court-Fees Act, 1870.pdf"
   },
-  "chunks": [],
+  "chunks": [
+    {
+      "chunk_id": "sec_fees_act_1870_1",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "I - PRELIMINARY",
+      "section": "1",
+      "section_title": "Short title.",
+      "chunk_type": "section",
+      "text": "1. Short title..—This Act may be called the Court-fees Act, 1870.\nExtent of Act.—It extends to the whole of India except 2[the territories which, immediately before\nthe 1st November, 1956, were comprised in Part B States];\nCommencement of Act.—And it shall come into force on the first day of April, 1870.\n3[1A. Definition of “appropriate Government”.—In this Act “the appropriate Government”\nmeans, in relation to fees or stamps relating to documents presented or to be presented before any\nofficer serving under the Central Government, that Government, and in relation to any other fees\nor stamps, the State Government.]\n42. [“Chief Controlling Revenue-authority” defined.] Rep. by the A. O. 1937.\n7\nSTATE AMENDMENT\nOrissa\nAmendment of section 2 of Act (7 of 1870).—For section 2 of the Court Fees Act, 1870, hereinafter\ncalled the principal Act, the following section shall be substituted:—\n“2. Definition.—In this Act, unless there is anything repugnant in the subject or context,—\n(1) ‘appeal’ includes a cross objection;\n(2) ‘suit’ includes an appeal from a decree except in section 8-A.”\n[Vide Orissa Act 5 of 1939, s. 3]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 6",
+      "amendment_information": "[Footnote 1, p.6]: It has been declared inapplicable to proceedings before officers making a settlement, and in certain other cases under the Sonthal Parganas Settlement Regulation, 1872 (Reg. 3 of 1872), s. 8, as amended by the Sonthal Parganas Justice and Laws Regulation, 1899 (Reg. 3 of 1899). It has been extended to and brought into force in Dadra and Nagar Haveli by Reg. 6 of 1963, s. 2 and Sch. I (w.e.f. 1-7-1965), to Goa, Daman and Diu by Reg. 11 of 1963, s. 3 and Sch., and to the whole of Union territory of Lakshadweep by Reg. 8 of 1863, s. 3 and Sch., with modification (w.e.f. 1-10-1967). It has been amended in — Ajmer-Merwara by Act 31 of 1930; Assam by Assam Acts 4 of 1922, 3 of 1932, 18 of 1947, 8 of 1950, 27 of 1954, 22 of 1955, 3 of 1958, 19 of 1958, 12 of 1960 and 28 of 1972; Bengal by Bengal Acts 3 of 1898, 4 of 1922, 6 of 1922, 7 of 1935, 11 of 1935 and 3 of 1941; Bihar by Bihar Acts 17 of 1939 and 7 of 19 58; Bihar and Orissa by B. & O. Act 2 of 1922; Bombay by Bombay Acts 2 of 1932 and 15 of 1943; C.P. by C.P. Act 16 of 1935; C.P. and Berar by C.P. and Berar Acts 9 of 1938, 16 of 1940, 9 of 1941, 5 of 1945 and 7 of 1948 and M.P. Acts 4 and 38 of 1950, 13 and 22 of 1951 and 9 of 1953; Himachal Pradesh by H.P. Act 4 of 1952; Madras by Madras Acts 5 of 1922 and 17 of 1945; Orissa by Orissa Acts 5 of 1939, 4 of 1945, 13 of 1957, 12 of 1974 and 55 of 1975; Punjab by Act 17 of 1887 and Punjab Acts 7 of 1922, 1 of 1942, E.P. Act 26 of 1949 and Pun. Act 31 of 1953, 19 of 1957, 20 of 1960 and 9 of 1979; U.P. by U.P. Acts 12 of 1922, 3 of 1933, 2 of 1936, 19 of 1938, 9 of 1941, 14 of 1942, 8 of 1943, 5 of 1944, 14 of 1948, 28 of 1957, 10 of 1959, 34 of 1970 and 9 of 1975; Andaman and Nicobar Islands by Reg. 2 of 1957; Meghalaya by Meghalaya Acts 2 of 1973 and 5 of 1973; Madhya Pradesh by Madhya Pradesh Acts 24 of 1975 and 4 of 1976; Delhi by Central Act 28 of 1967; and Haryana by Haryana Acts 11 of 1974 and 22 of 1974. The Act has been repealed in its application to Bombay area and Coorg district of Mysore by Mysore Act 16 of 1958. It has been repealed in part in partially excluded areas in Madras and Koraput by Madras Reg. 6 of 1940 and Orissa Reg. 7 of 1943, respectively. | [Footnote 2, p.6]: Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “Part B States”. | [Footnote 3, p.6]: Ins. by the A.O. 1937. 4. The Original s. 2 relating to repeal of enactments was rep. by the Repealing Act, 1870 (14 of 1870). A section defining “Chief Controlling Revenue-authority” was added by s. 2 of the Court-fees (Amendment) Act, 1901 (10 of 1901), and was slightly amended by the Repealing and Amending Act, 1917 (24 of 1917). For the definition of the “Chief Controlling Revenue-authority” see now the General Clauses Act, 1897 (10 of 1897), s. 3 (10). The A.O. 1937 rep. s. 2 as in force elsewhere than in Bengal. In that Province the section subs. by the Court -fees (Bengal Amendment) Act, 1935 (Ben. 7 of 1935), s. 3 contains definitions of “appeal”, “Chief Controlling Revenue -authority”, “Collector” and “Suit”. | [Footnote 2, p.7]: Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “High Courts for Part A States”. 3. The number “16” rep. by Act 12 of 1891. 4. See the Presidency Small Cause Courts Act, 1882 (15 of 1882), Ch. X. | [Footnote 5, p.7]: Subs. by Act 19 of 1922, s. 2, for “judgment of two”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_3",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "II - FEES IN THE HIGH COURTS AND IN THE COURTS OF SMALL CAUSES",
+      "section": "3",
+      "section_title": "Levy of fees in High Courts on their original sides.",
+      "chunk_type": "section",
+      "text": "3. Levy of fees in High Courts on their original sides..—The fees payable for the time being to the\nclerks and officers (other than the Sheriffs and attorneys) of 1[the 2[High Courts other than those of\nKerala, Mysore and Rajasthan]],\nor chargeable in each of such Courts under No. 11 of the first, and Nos. 7, 12, 14, 3***\n20 and 21 of the second, schedule to this Act annexed;\nLevy of fees in Presidency Small Cause Courts.—and the fees for the time being chargeable in the\nCourts of Small Causes at the 4presidency-towns, and their several offices;\nshall be collected in manner hereinafter appearing.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 7",
+      "amendment_information": "[Footnote 1, p.6]: It has been declared inapplicable to proceedings before officers making a settlement, and in certain other cases under the Sonthal Parganas Settlement Regulation, 1872 (Reg. 3 of 1872), s. 8, as amended by the Sonthal Parganas Justice and Laws Regulation, 1899 (Reg. 3 of 1899). It has been extended to and brought into force in Dadra and Nagar Haveli by Reg. 6 of 1963, s. 2 and Sch. I (w.e.f. 1-7-1965), to Goa, Daman and Diu by Reg. 11 of 1963, s. 3 and Sch., and to the whole of Union territory of Lakshadweep by Reg. 8 of 1863, s. 3 and Sch., with modification (w.e.f. 1-10-1967). It has been amended in — Ajmer-Merwara by Act 31 of 1930; Assam by Assam Acts 4 of 1922, 3 of 1932, 18 of 1947, 8 of 1950, 27 of 1954, 22 of 1955, 3 of 1958, 19 of 1958, 12 of 1960 and 28 of 1972; Bengal by Bengal Acts 3 of 1898, 4 of 1922, 6 of 1922, 7 of 1935, 11 of 1935 and 3 of 1941; Bihar by Bihar Acts 17 of 1939 and 7 of 19 58; Bihar and Orissa by B. & O. Act 2 of 1922; Bombay by Bombay Acts 2 of 1932 and 15 of 1943; C.P. by C.P. Act 16 of 1935; C.P. and Berar by C.P. and Berar Acts 9 of 1938, 16 of 1940, 9 of 1941, 5 of 1945 and 7 of 1948 and M.P. Acts 4 and 38 of 1950, 13 and 22 of 1951 and 9 of 1953; Himachal Pradesh by H.P. Act 4 of 1952; Madras by Madras Acts 5 of 1922 and 17 of 1945; Orissa by Orissa Acts 5 of 1939, 4 of 1945, 13 of 1957, 12 of 1974 and 55 of 1975; Punjab by Act 17 of 1887 and Punjab Acts 7 of 1922, 1 of 1942, E.P. Act 26 of 1949 and Pun. Act 31 of 1953, 19 of 1957, 20 of 1960 and 9 of 1979; U.P. by U.P. Acts 12 of 1922, 3 of 1933, 2 of 1936, 19 of 1938, 9 of 1941, 14 of 1942, 8 of 1943, 5 of 1944, 14 of 1948, 28 of 1957, 10 of 1959, 34 of 1970 and 9 of 1975; Andaman and Nicobar Islands by Reg. 2 of 1957; Meghalaya by Meghalaya Acts 2 of 1973 and 5 of 1973; Madhya Pradesh by Madhya Pradesh Acts 24 of 1975 and 4 of 1976; Delhi by Central Act 28 of 1967; and Haryana by Haryana Acts 11 of 1974 and 22 of 1974. The Act has been repealed in its application to Bombay area and Coorg district of Mysore by Mysore Act 16 of 1958. It has been repealed in part in partially excluded areas in Madras and Koraput by Madras Reg. 6 of 1940 and Orissa Reg. 7 of 1943, respectively. | [Footnote 2, p.6]: Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “Part B States”. | [Footnote 3, p.6]: Ins. by the A.O. 1937. 4. The Original s. 2 relating to repeal of enactments was rep. by the Repealing Act, 1870 (14 of 1870). A section defining “Chief Controlling Revenue-authority” was added by s. 2 of the Court-fees (Amendment) Act, 1901 (10 of 1901), and was slightly amended by the Repealing and Amending Act, 1917 (24 of 1917). For the definition of the “Chief Controlling Revenue-authority” see now the General Clauses Act, 1897 (10 of 1897), s. 3 (10). The A.O. 1937 rep. s. 2 as in force elsewhere than in Bengal. In that Province the section subs. by the Court -fees (Bengal Amendment) Act, 1935 (Ben. 7 of 1935), s. 3 contains definitions of “appeal”, “Chief Controlling Revenue -authority”, “Collector” and “Suit”. | [Footnote 2, p.7]: Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “High Courts for Part A States”. 3. The number “16” rep. by Act 12 of 1891. 4. See the Presidency Small Cause Courts Act, 1882 (15 of 1882), Ch. X. | [Footnote 5, p.7]: Subs. by Act 19 of 1922, s. 2, for “judgment of two”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_4",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "II - FEES IN THE HIGH COURTS AND IN THE COURTS OF SMALL CAUSES",
+      "section": "4",
+      "section_title": "Fees on documents filed, etc., in High Courts, in their extraordinary jurisdiction.",
+      "chunk_type": "section",
+      "text": "4. Fees on documents filed, etc., in High Courts, in their extraordinary jurisdiction..—No\ndocument of any of the kinds specified in the first or second schedule to this Act annexed, as chargeable\nwith fees, shall be filed, exhibited or recorded in, or shall be received or furnished by, any of the said\nHigh Courts in any case coming before such Court in the exercise of its extraordinary original civil\njurisdiction;\nor in the exercise of its extraordinary original criminal jurisdiction;\nIn their appellate jurisdiction.—or in the exercise of its jurisdiction as regards appeals from the\n5[judgments (other than judgments passed in the exercise of the ordinary original civil jurisdiction of the\nCourt) of one] or more Judges of the said Court, or of a Division Court;\nor in the exercise of its jurisdiction as regards appeals from the Courts subject to its superintendence;\nAs Courts of reference and revision.—or in the exercise of its jurisdiction as a Court of reference or\nrevision;\nunless in respect of such document there be paid a fee of an amount not less than that indicated by\neither of the said schedules as the proper fee for such document.\nSTATE AMENDMENT\nUttar Pradesh\nAmendment of section 4 of Act VII of 1870.—In the marginal heading to the first clause of\nsection 4 of the Court Fees Act, 1870, as amended from time to time in its application to Uttar Pradesh for\nthe words “in the High Courts in their ordinary or extraordinary jurisdiction “ shall be substitution.\n[Vide Uttar Pradesh Act X of 1959, s. 2]\n1. Subs by the A.O.1950, for “the Courts which are High Courts for the purposes of the Government of India Act, 1935”.\n8\nAmendment of section 4 of Act VII of 1870.—In section 4 of the Court Fees Act, 1870, as amended\nfrom time to time in its application to Uttar Pradesh—\n(1) for the words “any of the said High Courts”, the words “the High Court of Judicature at\nAllahabad” shall be substituted;\n(2) between the words “in the exercise of its” and the words “extraordinary original civil\njurisdiction”, the words “ordinary or” shall be inserted;\n(3) between the words “in the exercise of its” and the words “extraordinary original criminal\njurisdiction”, the words “ordinary or” shall be inserted; and\n(4) after the sub-paragraph “or in the exercise of its jurisdiction as a Court of reference or\nrevision”, the following sub-paragraphs shall be added—\n“Or in the exercise of its jurisdiction to issue direction the exercise of nation, orders or writs\nunder the jurisdiction to issue Constitution of India;\nOr in the exercise of jurisdiction in any other in the exercise of any other jurisdiction matter.”\n[Vide Uttar Pradesh Act X of 1959, s. 3]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 7",
+      "amendment_information": "[Footnote 1, p.6]: It has been declared inapplicable to proceedings before officers making a settlement, and in certain other cases under the Sonthal Parganas Settlement Regulation, 1872 (Reg. 3 of 1872), s. 8, as amended by the Sonthal Parganas Justice and Laws Regulation, 1899 (Reg. 3 of 1899). It has been extended to and brought into force in Dadra and Nagar Haveli by Reg. 6 of 1963, s. 2 and Sch. I (w.e.f. 1-7-1965), to Goa, Daman and Diu by Reg. 11 of 1963, s. 3 and Sch., and to the whole of Union territory of Lakshadweep by Reg. 8 of 1863, s. 3 and Sch., with modification (w.e.f. 1-10-1967). It has been amended in — Ajmer-Merwara by Act 31 of 1930; Assam by Assam Acts 4 of 1922, 3 of 1932, 18 of 1947, 8 of 1950, 27 of 1954, 22 of 1955, 3 of 1958, 19 of 1958, 12 of 1960 and 28 of 1972; Bengal by Bengal Acts 3 of 1898, 4 of 1922, 6 of 1922, 7 of 1935, 11 of 1935 and 3 of 1941; Bihar by Bihar Acts 17 of 1939 and 7 of 19 58; Bihar and Orissa by B. & O. Act 2 of 1922; Bombay by Bombay Acts 2 of 1932 and 15 of 1943; C.P. by C.P. Act 16 of 1935; C.P. and Berar by C.P. and Berar Acts 9 of 1938, 16 of 1940, 9 of 1941, 5 of 1945 and 7 of 1948 and M.P. Acts 4 and 38 of 1950, 13 and 22 of 1951 and 9 of 1953; Himachal Pradesh by H.P. Act 4 of 1952; Madras by Madras Acts 5 of 1922 and 17 of 1945; Orissa by Orissa Acts 5 of 1939, 4 of 1945, 13 of 1957, 12 of 1974 and 55 of 1975; Punjab by Act 17 of 1887 and Punjab Acts 7 of 1922, 1 of 1942, E.P. Act 26 of 1949 and Pun. Act 31 of 1953, 19 of 1957, 20 of 1960 and 9 of 1979; U.P. by U.P. Acts 12 of 1922, 3 of 1933, 2 of 1936, 19 of 1938, 9 of 1941, 14 of 1942, 8 of 1943, 5 of 1944, 14 of 1948, 28 of 1957, 10 of 1959, 34 of 1970 and 9 of 1975; Andaman and Nicobar Islands by Reg. 2 of 1957; Meghalaya by Meghalaya Acts 2 of 1973 and 5 of 1973; Madhya Pradesh by Madhya Pradesh Acts 24 of 1975 and 4 of 1976; Delhi by Central Act 28 of 1967; and Haryana by Haryana Acts 11 of 1974 and 22 of 1974. The Act has been repealed in its application to Bombay area and Coorg district of Mysore by Mysore Act 16 of 1958. It has been repealed in part in partially excluded areas in Madras and Koraput by Madras Reg. 6 of 1940 and Orissa Reg. 7 of 1943, respectively. | [Footnote 2, p.6]: Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “Part B States”. | [Footnote 3, p.6]: Ins. by the A.O. 1937. 4. The Original s. 2 relating to repeal of enactments was rep. by the Repealing Act, 1870 (14 of 1870). A section defining “Chief Controlling Revenue-authority” was added by s. 2 of the Court-fees (Amendment) Act, 1901 (10 of 1901), and was slightly amended by the Repealing and Amending Act, 1917 (24 of 1917). For the definition of the “Chief Controlling Revenue-authority” see now the General Clauses Act, 1897 (10 of 1897), s. 3 (10). The A.O. 1937 rep. s. 2 as in force elsewhere than in Bengal. In that Province the section subs. by the Court -fees (Bengal Amendment) Act, 1935 (Ben. 7 of 1935), s. 3 contains definitions of “appeal”, “Chief Controlling Revenue -authority”, “Collector” and “Suit”. | [Footnote 2, p.7]: Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “High Courts for Part A States”. 3. The number “16” rep. by Act 12 of 1891. 4. See the Presidency Small Cause Courts Act, 1882 (15 of 1882), Ch. X. | [Footnote 5, p.7]: Subs. by Act 19 of 1922, s. 2, for “judgment of two”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_5",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "II - FEES IN THE HIGH COURTS AND IN THE COURTS OF SMALL CAUSES",
+      "section": "5",
+      "section_title": "Procedure in case of difference as to necessity or amount of fee.",
+      "chunk_type": "section",
+      "text": "5. Procedure in case of difference as to necessity or amount of fee..—When any difference arises\nbetween the officer whose duty it is to see that any fee is paid under this Chapter and any suitor or\nattorney, as to the necessity of paying a fee or the amount thereof, the question shall, when the difference\narises in any of the said High Courts, be referred to the taxing-officer, whose decision thereon shall be\nfinal, except when the question is, in his opinion, one of general importance, in which case he shall refer\nit to the final decision of the Chief Justice of such High Court, or of such Judge of the High Court as the\nChief Justice shall appoint either generally or specially in this behalf.\nWhen any such difference arises in any of the said Courts of Small Causes, the question shall be\nreferred to the Clerk of the Court, whose decision thereon shall be final, except when the question is, in\nhis opinion, one of general importance, in which case he shall refer it to the final decision of the first\nJudge of such Court.\nThe Chief Justice shall declare who shall be taxing-officer within the meaning of the first paragraph\nof this section.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 8",
+      "amendment_information": "None reported in enactment text",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_6",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "6",
+      "section_title": "Fees on documents filed, etc., in Mufassal Courts or in public offices.",
+      "chunk_type": "section",
+      "text": "6. Fees on documents filed, etc., in Mufassal Courts or in public offices..—Except in the\nCourts hereinbefore mentioned, no document of any of the kinds specified as chargeable in the first\nor second schedule to this Act annexed shall be filed, exhibited or recorded in any Court of Justice,\nor shall be received or furnished by any public officer, unless in respect of such document there be\npaid a fee of an amount not less than that indicated by either of the said schedules as the proper fee\nfor such document.\nSTATE AMENDMENT\nOrissa\nAmendment of section 6 of Act (7 of 1870).--Section 6 of the principal Act shall be re-numbered as\nsub-section (1) of section 6 and , after the said sub-section, the following sub-section shall be inserted:—\n“(2) Notwithstanding anything contained in sub-section (1), the Provincial Government may, by\nnotification, direct that a copy of a document, specified as chargeable in Schedules I and II to this\nAct annexed, shall be furnished by a public officer without payment of the fee indicated by either of\nthe said Schedules as the proper fee for such copy and the copy so furnished shall be chargeable\nwith the requisite fee only when it is filed, exhibited or recorded in any Court of justice or received\nby a public officer as mentioned in sub-section (1).”\n[Vide Orissa Act 5 of 1939, s. 4]\n9\nSTATE AMENDMENT\nUttar Pradesh\nAmendment of section 6 of Act (7 of 1870).—In section 6 of the Court Fees Act, 1870 as\namended in its application to Uttar Pradesh, hereinafter, in this Chapter referred to as the principal\nAct,—\n(a) in sub-section (1), in the first proviso, for the words “the United” Provinces Tenancy Act,\n1939, or the United Provinces Land Revenue Act, 1901”, the words “any law relation to land\ntenures or land revenue shall be substituted;\n(b) in sub-section (6), for the words “Chief Inspector of Stamps” the words “Commission of\nStamps” shall be substituted.\n[Vide Uttar Pradesh Act 6 of 1980, s. 2]\nAmendment of section 6-A.—In section 6-A of the principal Act, in sub-section (3), for the\nwords “Chief Inspector of Stamps”, the words “Commissioners of Stamps” shall be substituted.\n[Vide Uttar Pradesh Act 6 of 1980, s. 3]\nAmendment of section 6-B.—In section 6-B of the principal Act, in sub-section (1), for the\nwords “Chief Inspector of Stamps”, the words “Commissioner of Stamps” shall be substituted.\n[Vide Uttar Pradesh Act 6 of 1980, s. 4]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 8",
+      "amendment_information": "[Footnote 2, p.7]: Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “High Courts for Part A States”. 3. The number “16” rep. by Act 12 of 1891. 4. See the Presidency Small Cause Courts Act, 1882 (15 of 1882), Ch. X. | [Footnote 5, p.7]: Subs. by Act 19 of 1922, s. 2, for “judgment of two”. | [Footnote 1, p.10]: The words “and the provisions of the Code of Civil Procedure, section thirty-one, shall apply as if, for the word ‘claim’, the words ‘relief sought’, were substituted” omitted by Act 12 of 1891, s. 3 and the First Schedule. 2. See para.8 of the A.O. 1937. In view of this provision the expression “Governor of Bombay in Council” has been left unmodified.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_7",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "7",
+      "section_title": "Computation of fees payable in certain suits.",
+      "chunk_type": "section",
+      "text": "7. Computation of fees payable in certain suits..—The amount of fee payable under this Act in the\nsuits next hereinafter mentioned shall be computed as follows:—\nfor money.—(i) In suits for money (including suits for damages or compensation, or arrears of\nmaintenance, of annuities, or of other sums payable periodically)—according to the amount claimed:\nfor maintenance and annuities.—(ii) In suits for maintenance and annuities or other sums\npayable periodically—according to the value of the subject-matter of the suit, and such value shall be\ndeemed to be ten times the amount claimed to be payable for one year:\nfor other movable property having a market-value.—(iii) In suits for movable property other\nthan money, where the subject-matter has a market-value—according to such value at the date of\npresenting the plaint:\n(iv) In suits—\nfor movable property of no market-value.—(a) for movable property where the subject-\nmatter has no market-value, as, for instance, in the case of documents relating to title,\nto enforce a right to share in joint family property.—(b) to enforce the right to share in\nany property on the ground that it is joint family property,\nfor a declaratory decree and consequential relief.—(c) to obtain a declaratory decree or\norder, where consequential relief is prayed,\nfor an injunction.—(d) to obtain an injunction,\nfor easements.—(e) for a right to some benefit (not herein otherwise provided for) to arise\nout of land, and\nfor accounts.—(f) for accounts—\naccording to the amount at which the relief sought is valued in the plaint or memorandum\nof appeal:\n10\nIn all such suits the plaintiff shall state the amount at which he values the relief\nsought 1***:\nfor possession of land, houses and gardens.—(v) In suits for the possession of land, houses and\ngardens—according to the value of the subject-matter; and such value shall be deemed to be—\nwhere the subject-matter is land, and—\n(a) where the land forms an entire estate, or a definite share of an estate, paying annual\nrevenue to Government,\nor forms part of such an estate and is recorded in the Collector’s register as separately\nassessed with such revenue,\nand such revenue is permanently settled—\nten times the revenue so payable:\n(b) where the land forms an entire estate, or a definite share of an estate, paying annual\nrevenue to Government, or forms part of such estate and is recorded as aforesaid;\nand such revenue is settled, but not permanently—\nfive times the revenue so payable:\n(c) where the land pays no such revenue, or has been partially exempted from such payment, or is\ncharged with any fixed payment in lieu of such revenue,\nand nett profits have arisen from the land during the year next before the date of presenting the plaint—\nfifteen times such nett profits:\nbut where no such nett profits have arisen therefrom— the amount at which the Court shall\nestimate the land with reference to the value of similar land in the neighbourhood:\n(d) where the land forms part of an estate paying revenue to Government, but is not a definite\nshare of such estate and is not separately assessed as above-mentioned—the market-value of the land:\nProviso as to Bombay Presidency.—Provided that, in the 2territories subject to the Governor of\nBombay in Council, the value of the land shall be deemed to be—\n(1) where the land is held on settlement for a period not exceeding thirty years and pays the\nfull assessment to Government—a sum equal to five times the survey-assessment;\n(2) where the land is held on a permanent settlement, or on a settlement for any period\nexceeding thirty years, and pays the full assessment to Government—a sum equal to ten times the\nsurvey-assessment; and\n(3) where the whole or any part of the annual survey-assessment is remitted—a sum\ncomputed under paragraph (1) or paragraph (2) of this proviso, as the case may be, in\naddition to ten times the assessment, or the portion of assessment, so remitted.\nExplanation.—The word “estate”, as used in this paragraph, means any land subject to the\npayment of revenue, for which the proprietor or a farmer or raiyat shall have executed a separate\nengagement to Government, or which, in the absence of such engagement, shall have been separately\nassessed with revenue:\n11\nfor houses and gardens.—(e) Where the subject-matter is a house or garden-according to the\nmarket-value of the house or garden:\nto enforce a right of pre-emption.—(vi) In suits to enforce a right of pre-emption—according to the\nvalue (computed in accordance with paragraph (v) of this section) of the land, house or garden in respect\nof which the right is claimed:\nfor interest of assignee of land-revenue.—(vii) In suits for the interest of an assignee of land\nrevenue—fifteen times his nett profits as such for the year next before the date of presenting the plaint:\nto set aside an attachment.—(viii) In suits to set aside an attachment of land or of an interest in land\nor revenue—according to the amount for which the land or interest was attached:\nProvided that, where such amount exceeds the value of the land or interest, the amount of fee shall be\ncomputed as if the suit were for the possession of such land or interest.\nto redeem.—(ix) In suits against a mortgagee for the recovery of the property mortgaged,\nto foreclose.—and in suits by a mortgagee to foreclose the mortgage, or, where the mortgage is made\nby conditional sale, to have the sale declared absolute—\naccording to the principal money expressed to be secured by the instrument of mortgage :\nfor specific performance.—(x) In suits for specific performance—\n(a) of a contract of sale—according to the amount of the consideration :\n(b) of a contract of mortgage—according to the amount agreed to be secured :\n(c) of a contract of lease—according to the aggregate amount of the fine or premium (if any) and\nof the rent agreed to be paid during the first year of the term :\n(d) of an award—according to the amount or value of the property in dispute :\nbetween landlord and tenant.— (xi) In the following suits between landlord and tenant:—\n(a) for the delivery by a tenant of the counterpart of a lease,\n(b) to enhance the rent of a tenant having a right of occupancy,\n(c) for the delivery by a landlord of a lease,\n1[(cc) for the recovery of immovable property from a tenant, including a tenant holding over after\nthe determination of a tenancy,]\n(d) to contest a notice of ejectment,\n(e) to recover the occupancy of 2[immovable property] from which a tenant has been illegally\nejected by the landlord, and\n(f) for abatement of rent—\naccording to the amount of the rent of the 2[immovable property] to which the suit refers,\npayable for the year next before the date of presenting the plaint.\nSTATE AMENDMENT\nOrissa\nAmendment of section 7 of Act (7 of 1870).—In section 7 of the principal Act, for the words “in the\nsuits next hereinafter mentioned” the words “in the suits next hereinafter mentioned except suits for relief\nunder section 14 of the Religious Endowments Act, 1863, or under section 91 or section 92 of the Code of\nCivil Procedure, 1908”, shall be substituted.\n[Vide Orissa Act 5 of 1939, s. 5]\n12\nAmendment of section 7 of Act (7 of 1870).—In section 7ii of the principal Act, after the words\n“shall be deemed to be the words” “in suits for maintenance five times and in other suits” shall be\ninserted.\n[Vide Orissa Act 5 of 1939, s. 6]\nAmendment of section iv of Act (7 of 1870).—Clause (b) of section 7iv of the principal Act shall be\nomitted.\n[Vide Orissa Act 5 of 1939, s. 7]\nInsertion new paragraph in section 7 of Act (7 of 1870).—In section 7 of the principal Act after\nparagraph iv the following paragraph shall be inserted:—\n“iv-A. in a suit for cancellation of a decree for money or other property having a money –value ,\nor other document securing money or other property having such value,\nAccording to the value of the subject-matter of the suit, and such value shall be deemed to be—\nif the whole decree or other document is sought to be cancelled, the amount or the value of the\nproperty for which the decree was passed or the other document executed,\nif a part of the decree or other document is sought to be cancelled, such part of the amount or\nvalue of the property.\nExplanation.—In any case where a suit for the cancellation of a whole decree for money or other\nproperty having a money value, or other document securing money or other property having such\nvalue has to be instituted, but the substantial relief claimed is only in respect of a part of the amount\nor the decree was passed or the other document as executed, the value of the subject matter of the suit\nshall be deemed to be such part of the amount or value of the property in respect of which the relief is\nsought.”\n[Vide Orissa Act 5 of 1939, s. 8]\nAmendment paragraph v of section 7 of Act (7 of 1870).—In paragraph v of section 7 of the\nprincipal Act,\n(1) in clause (a), for the word “ten” the word “ten” shall be substituted;\n(2) in clause (b), for the word “five” the word “ten” shall be substituted;\n(3) the following proviso shall be inserted after the existing proviso:—\n“Provided further that in suits for possession of land if rules are framed under section 3 of the\nSuits Valuation Act, 1887 (7 of 1887), for determining the value for the purposes of jurisdiction, the\nvalue so determined shall be deemed to be the value of the hand for the purposes of this paragraph ;\nand\n(4) the existing Explanation shall be re-numbered as Explanation I, and, after the\nExplanation so re-numbered, the following Explanation shall be added, namely:—\n“Explanation II.—In this paragraph, ‘building’ includes a house, out-house, stable, privy, urinal,\nshed, hut, wall, and any other such structure, whether of masonry, bricks, wood, mud, metal or any\nother material whatsoever.”\n[Vide Orissa Act 5 of 1939, s. 9]\nInsertion of new paragraph vi-A in section 7 of Act (7 of 1870).—In section 7 of the principal Act\nafter paragraph vi the following paragraph shall be inserted:—\n“vi-A. In suits for partition and separate possession of a share of joint family property or of joint\nproperty, or to enforce a right to a share in any property on the ground that it is joint family property\nor joint property—\nif the plaintiff alleges that he has been excluded from possession of the property of which he\nclaims to be a coparcener or co-owner-according to the market-value of the share in respect of which\nthe suit is instituted.\n13\nExplanation.—The word “possession” for the purposes of this paragraph includes constructive\npossession.”\n[Vide Orissa Act 5 of 1939, s. 10]\nHaryana\nAmendment of section 7 of Act 7 of 1870.— In section 7 of the Court Fees Act, 1870 (hereinafter\nreferred to as the principal Act),—\n(a) in the first proviso to clause (iv), for the words \"thirteen rupees\", the words `twenty-five\nrupees' shall be substituted ; and\n(b) for clause (v), the following clause shall be substituted, namely :—\n\"(v) in suits for the possession of land, houses and gardens, according to the value of the\nsubject matter ; and such value shall be deemed to be,—\n(a) where the subject matter is land, according to the market value thereof which shall be\ndeemed to be,—\n(i) in the case of land which is irrigated by perennial canal, two thousand rupees per\nacre ;\n(ii) in the case of land which is irrigated by non-perennial canal or by well, one\nthousand and five hundred rupees per acre ;\n(iii) in the case of land which is Barani, one thousand rupees per acre ;\n(iv) in the case of land which is Sailab or Bhud, seven hundred and fifty rupees per\nacre ; and\n(v) in the case of land which is Thur, Sem, Banjar or of like nature, five hundred\nrupees per acre ; and\n(b) where the subject matter is house or garden, according to its market value ;\".\n[Vide Haryana Act 11 of 1974, s. 2]\nHaryana\nAmendment of section 7 of Act 7 of 1870.—In section 7 of the Court Fees Act, 1870 (hereinafter\nreferred to as the principal Act), for sub-clauses (a) and (b) of clause (r), the (following sub-clauses shall\nbe substituted, namely :—\n\"(a) where the subject matter is land other than land situated within municipal limits or Abadi\nDeh whether under cultivation or not according to the market value thereof which shall be deemed to\nbe,—\n(i) in the case of land which is irrigated by perennial canal, sixty rupees per acre ;\n(ii) in the case of land which is irrigated by non-perennial canal or by well, fifty rupees per\nacre ; and\n(iii) in the case of land which is Barani, Sailab, Bhud, Thur, Sem, Banjar or of like nature,\nthirty rupees per acre ; and\n(b) where the subject matter is house, garden, or land situated within municipal limits or Abadi\nDeh whether under cultivation or not, according to its market value ; \",\n[Vide Haryana Act 22 of 1974, s. 2]",
+      "provisos_count": 3,
+      "explanations_count": 3,
+      "source_page": "Page 9",
+      "amendment_information": "[Footnote 1, p.10]: The words “and the provisions of the Code of Civil Procedure, section thirty-one, shall apply as if, for the word ‘claim’, the words ‘relief sought’, were substituted” omitted by Act 12 of 1891, s. 3 and the First Schedule. 2. See para.8 of the A.O. 1937. In view of this provision the expression “Governor of Bombay in Council” has been left unmodified. | [Footnote 1, p.11]: Ins. by Act 6 of 1905, s. 2 (1). | [Footnote 2, p.11]: Subs. by s. 2 (2), ibid., for “land”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_8",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "8",
+      "section_title": "Fee on memorandum of appeal against order relating to compensation.",
+      "chunk_type": "section",
+      "text": "8. Fee on memorandum of appeal against order relating to compensation..—The amount\nof fee payable under this Act on a memorandum of appeal against an order relating to\ncompensation under any Act for the time being in force for the 1acquisition of land for public\n1. See now the Land Acquisition Act, 1894 (1 of 1894).\n14\npurposes, shall be computed according to the difference between the amount awarded and the\namount claimed by the appellant.\nSTATE AMENDMENT\nOrissa\nInsertion of new section 8A in Act (7 of 1870).--After section 8 of the principal Act, the following\nsection shall be inserted:—\n“8A. Statement of particulars of subject-matters of suits and plaintiff’s valuation thereof.—In\nevery suit in which an ad valorem court-fee is payable under this Act on the plaint, the plaintiff shall file\nwith the plaint a statement of particulars of the subject-matter of the suit ad his own valuation thereof\nunless such particulars and the valuation are contained in the plaint. The statement shall be in such form\nand shall contain such particulars as may be prescribed by the Provincial Government by notification in\nthe Gazette. In every such suit the plaintiff shall also, if the Court so directs, file a duplicate copy of the\nplaint and of the said statement”.\n[Vide Orissa Act 5 of 1939, s. 11]\nHaryana\nAmendment of section 8 of central Act 7 of 1870.—To section 8 of the Court Fees Act, 1870,\n(hereinafter called the principal Act), the following proviso, shall be added, namely:--\n“Provided that the fixed court fee of one hundred rupees shall be payable on the memorandum of a\nappeal or cross objections before the High Court arising under the Land Acquisition Act, 1984 or any\nother law for the time being in force for acquisition of land for public purposes.”.\n[Vide Haryana Act 3 of 1990, s. 2]",
+      "provisos_count": 1,
+      "explanations_count": 0,
+      "source_page": "Page 13",
+      "amendment_information": "None reported in enactment text",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_9",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "9",
+      "section_title": "Power to ascertain nett profits or market-value.",
+      "chunk_type": "section",
+      "text": "9. Power to ascertain nett profits or market-value..—If the Court sees reason to think that the\nannual nett profits or the market-value of any such land, house or garden as is mentioned in section 7,\nparagraphs (v) and (vi), have or has been wrongly estimated, the Court may, for the purpose of computing\nthe fee payable in any suit therein mentioned, issue a commission to any proper person directing him to\nmake such local or other investigation as may be necessary, and to report thereon to the Court.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 14",
+      "amendment_information": "None reported in enactment text",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_10",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "10",
+      "section_title": "Procedure where nett profits or market-value wrongly estimated.",
+      "chunk_type": "section",
+      "text": "10. Procedure where nett profits or market-value wrongly estimated..—(i) If in the result\nof any such investigation the Court finds that the nett profits or market-value have or has been\nwrongly estimated, the Court, if the estimation has been excessive, may in its discretion ref und\nthe excess paid as such fee: but, if the estimation has been insufficient, the Court shall require\nthe plaintiff to pay so much additional fee as would have been payable had the said market -value\nor nett profits been rightly estimated.\n(ii) In such case the suit shall be stayed until the additional fee is paid. If the additional fee is not paid\nwithin such time as the Court shall fix, the suit shall be dismissed.\n1* * * * *\n11. Procedure in suits for mesne profits or account when amount decreed exceeds amount\nclaimed.—In suits for mesne profits or for immovable property and mesne profits, or for an account, if\nthe profits or amount decreed are or is in excess of the profits claimed or the amount at which the plaintiff\nvalued the relief sought, the decree shall not be executed until the difference between the fee actually paid\nand the fee which would have been payable had the suit comprised the whole of the profits or amount so\ndecreed shall have been paid to the proper officer.\nWhere the amount of mesne profits is left to be ascertained in the course of the execution of the\ndecree, if the profits so ascertained exceed the profits claimed, the further execution of the decree shall be\nstayed until the difference between the fee actually paid and the fee which would have been payable had\n1. Cl. (iii) rep. by Act 12 of 1891, s. 3 and Sch. I.\n15\nthe suit comprised the whole of the profits so ascertained is paid. If the additional fee is not paid within\nsuch time as the Court shall fix, the suit shall be dismissed.\nSTATE AMENDMENT\nOrissa\nAmendment of section 11 of Act (7 of 1870).—For the second paragraph of section 11 of the\nprincipal Act the following paragraphs shall be substituted:—\n“Where a decree directs an enquiry as to mesne-profits which have accrued on the property\nduring a period prior to the institution of the suit, if the profits ascertained on such inquiry exceed the\nprofits claimed, no final decree shall be passed till the difference between the fee actually paid and\nthe fee which would have been payable had the suit comprised the whole of the profits so ascertained\nis paid. If the additional fee is not paid within such time as the Court shall fix, the claim for the excess\nshall be dismissed, unless the Court, for sufficient cause, extends the time for payment.\nWhere a decree directs an inquiry as to mesno-profits from the institution of the suit and a final\ndecree is passed in accordance with the result of such inquiry, the decree shall not be executed until\nsuch fee is paid would have been payable on the amount claimed in execution if a separate suit had\nbeen instituted therefor.”\n[Vide Orissa Act 5 of 1939, s. 12]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 14",
+      "amendment_information": "None reported in enactment text",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_12",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "12",
+      "section_title": "Decision of questions as to valuation.",
+      "chunk_type": "section",
+      "text": "12. Decision of questions as to valuation..—(i) Every question relating to valuation for the purpose\nof determining the amount of any fee chargeable under this Chapter on a plaint or memorandum of\nappeal, shall be decided by the Court in which such plaint or memorandum, as the case may be, is filed,\nand such decision shall be final as between the parties to the suit.\n(ii) But whenever any such suit comes before a Court of appeal, reference or revision, if such Court\nconsiders that the said question has been wrongly decided to the detriment of the revenue, it shall require\nthe party by whom such fee has been paid to pay so much additional fee as would have been payable had\nthe question been rightly decided, and the provisions of section 10, paragraph (ii), shall apply.\nSTATE AMENDMENT\nOrissa\nAmendment of section 12 of Act (7 of 1870).--(1) In section 12 of the principal Act, for paragraph\nii, the following paragraph shall be substituted:—\n“ii. But whenever any such suit comes before a Court of appeal, reference or revision, if such\nCourt considers that the said question has been wrongly decided, it shall—\n(a) in any case in which the decision is to the detriment of revenue, require the party by\nwhom such fee has been paid, to pay so much additional fee as would have been payable had the\nquestion been rightly decided and thereafter—\n(i) if the party required to pay is the appellant or petitioner, the appeal or petition shall be\nstayed until the additional fee is paid. If the additional fee is not paid within such time as the\nCourt shall fix, the appeal or petition shall be dismissed;\n(ii) if the party required to pay it’s the respondent or the opposite party, the Court shall\nfix a date before which such party shall pay the amount of court fee due from him and, if\nsuch party fails to pay the fee required before the date fixed by the Court, the Court shall\nrecover the amount of such fee from him as if it were an arrear of land revenue. Where the\nCourt considers that the amount of such fee should be paid to the respondent or the opposite\nparty by the appellant or the petitioner, as the case may be , the Court may provide for such\npayment in the order as to costs in the said appeal or petition; and\n(b) in any case in which the decision is that any excess fee has been levied, direct the refund of\nso much excess fee to the party who paid it as would not have been payable had the question been\nrightly decided.\n16\nExplanation.—For the purposes of this section a question relating to the classification of any suit\nin regard to section 7 shall not be deemed to be a question relating to valuation.”\n[Vide Orissa Act 5 of 1939, s. 13]",
+      "provisos_count": 0,
+      "explanations_count": 1,
+      "source_page": "Page 15",
+      "amendment_information": "[Footnote 3, p.17]: Subs. by Act 20 of 1870, s. 1, for “plaint or memorandum of appeal”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_13",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "13",
+      "section_title": "Refund of fee paid on memorandum of appeal.",
+      "chunk_type": "section",
+      "text": "13. Refund of fee paid on memorandum of appeal..—If an appeal or plaint, which has been rejected\nby the lower Court on any of the grounds mentioned in the 1Code of Civil Procedure, is ordered to be\nreceived, or if a suit is remanded in appeal, on any of the grounds mentioned in 2section 351 of the same\nCode, for a second decision by the lower Court, the Appellate Court shall grant to the appellant a\ncertificate, authorizing him to receive back from the Collector the full amount of fee paid on the\nmemorandum of appeal:\nProvided that if, in the case of a remand in appeal, the order of remand shall not cover the whole of\nthe subject-matter of the suit, the certificate so granted shall not authorize the appellant to receive back\nmore than so much fee as would have been originally payable on the part or parts of such subject-matter\nin respect whereof the suit has been remanded.\nSTATE AMENDMENT\nOrissa\nAmendment of section 13.—In the Court-fees Act, 1870 (7 of 1870),—\n(a) For the marginal heading to section 13, the following marginal heading shall be substituted,\nnamely:—\n“Refund of fee paid on memorandum of appeal and in cases where compromise or settlement has\nbeen arrived at by a Lok Adalat.”;\n(b) Section 13 shall be renumbered as sub-section (1) thereof and —\n(i) In sub-section (1) as so renumbered, for the words and figures “ the Code of Civil Procedure”\nand “section 351 of the same Code”, the words and figures “ the Code Civil Procedure, 1908” and\n“rule 23 of Order XLI of the First Schedule to the said Code” shall respectively be substituted; and\n(ii) After sub-section (1) as so renumbered, the following new sub-section shall be inserted,\nnamely:—\n“(2) Where a compromise or settlement has been arrived at, by a Lok Adalat in a case\nreferred to it under sub-section (1) of section 20 of the Legal Services Authorities Act, 1987 (39\nof 1987), the Court by which the case was so referred to the Lok Adalat shall grant a certificate\nto the party or every party to the case who paid any court-fee in that case, authorizing him to\nreceive back from the Collector the full amount of the fee so paid.”.\n[Vide Orissa Act 7 of 2002, s. 2]\nTripura\nAmendment of Section 13.—In section 13 of the principal Act, the expression “the Appellate Court\nshall grant to the appellant a certificate, authorizing him to receive back from the Collector the full\namount of fee paid on the memorandum of appeal”, shall be substituted with the expression “the\nAppellate Court shall grant to the appellant a certificate, authorizing him to receive back from the\nCollector or by way of electronic transfer in such manner as may be prescribed, the full amount of fee\npaid on the memorandum of appeal”.\n[Vide Tripura Act 17 of 2020, s. 2]\n1. See now the Code of Civil Procedure, 1908 (Act 5 of 1908).\n2. This reference should now be read as applying to the corresponding provision of Act 5 of 1908, i.e., Order XLI, rule 23 of the\nFirst Schedule.\n17",
+      "provisos_count": 1,
+      "explanations_count": 0,
+      "source_page": "Page 16",
+      "amendment_information": "[Footnote 3, p.17]: Subs. by Act 20 of 1870, s. 1, for “plaint or memorandum of appeal”. | [Footnote 3, p.18]: Subs. by the A.O. 1950, for “by an officer, warrant-officer, non-commissioned officer or private of Her Majesty’s army”. 4 Cl. (ii) rep. by Act 12 of 1891, s. 3 and Sch. I. 5. Cl. (iv) rep. by Act 13 of 1889, s. 2 and Sch. I. 6. See the Madras Village Courts Act, 1889 (Mad. 1 of 1889). | [Footnote 7, p.18]: Subs. by Act 7 of 1889, s. 13, for “and certificate mentioned in the first schedule to this Act annexed, No. 12”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_14",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "14",
+      "section_title": "Refund of fee on application for review of judgment.",
+      "chunk_type": "section",
+      "text": "14. Refund of fee on application for review of judgment..—Where an 1application for a review of\njudgment is presented on or after the ninetieth day from the date of the decree, the Court, unless the delay\nwas caused by the applicant’s laches, may, in its discretion, grant him a certificate authorizing him to\nreceive back from the Collector so much of the fee paid on the application as exceeds the fee which\nwould have been payable had it been presented before 2such day.\nTripura\nAmendment of Section 14.—In Section 14 of the principal Act, the expression “grant him a certificate\nauthorizing him to receive back from the Collector so much of the fee paid on the application as exceeds the\nfee which would have been payable had it been presented before such day”, shall be substituted with the\nexpression “grant him a certificate authorizing him to receive back from the Collector or by way of\nelectronic transfer in such manner as may be prescribed, so much of the fee paid on the application as\nexceeds the fee which would have been payable had it been presented before such day.”\n[Vide Tripura Act 17 of 2020, s. 3]\n15. Refund where Court reverses or modifies its former decision on ground of\nmistake.—Where an application for a review of judgment is admitted, and where, on the\nrehearing, the Court reverses or modifies its former decision on the ground of mistake in law or\nfact, the applicant shall be entitled to a certificate from the Court authori sing him to receive back\nfrom the Collector so much of the fee paid on the 3[application] as exceeds the fee payable on\nany other application to such Court under the second schedule to this Act, No. 1, clause ( b) or\nclause (d).\nBut nothing in the former part of this section shall entitle the applicant to such certificate\nwhere the reversal or modification is due, wholly or in part, to fresh evidence which might have\nbeen produced at the original hearing.\nTripura\nAmendment of Section 15.—In section 15 of the principal Act, the expression “the applicant shall be\nentitled to a certificate from the court authorizing him to receive back from the Collector so much of the\nfee paid on the application as exceeds the fee payable on any other application to such Court under the\nsecond schedule to this Act”, shall be substituted with the expression “the applicant shall be entitled to a\ncertificate from the court authorizing him to receive back from the Collector or by way of electronic\ntransfer in such manner as may be prescribed, so much of the fee paid on the application as exceeds the\nfee payable on any other application to such court under the second schedule to this Act.”\n[Vide Tripura Act 17 of 2020, s. 4]\n4[16. Refund of fee.—Where the court refers the parties to the suit to any one of the mode of\nsettlement of dispute referred to in section 89 of the Code of Civil Procedure, 1908 (5 of 1908), the\nplaintiff shall be entitled to a certificate from the court authorizing him to receive back from the collector,\nthe full amount of the fee paid in respect of such plaint.]\nTripura\nAmendment of Section 16.—In Section 16 of the principal Act, the expression “the plaintiff shall be entitled to\na certificate from the Court authorizing him to receive back from the Collector, the full amount of the fee paid in\nrespect of such plaint”, shall be substituted with the expression “the plaintiff shall be entitled to a certificate from the\nCourt authorizing him to receive back from the Collector or by way electronic transfer in such manner as may be\nprescribed, the full amount of the fee paid in respect of such plaint.”\n[Vide Tripura Act 17 of 2020, s. 5]\n1. As to application for review of judgment, see the Code of Civil Procedure, 1908 (Act 5 of 1908), s. 114 and Order\nXLVII of the First Schedule.\n2. See Sch., I Nos. 4 and 5, infra.\n18",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 17",
+      "amendment_information": "[Footnote 3, p.17]: Subs. by Act 20 of 1870, s. 1, for “plaint or memorandum of appeal”. | [Footnote 4, p.17]: Ins. by Act 46 of 1999, s. 34 (w.e.f. 1-7-2002). | [Footnote 3, p.18]: Subs. by the A.O. 1950, for “by an officer, warrant-officer, non-commissioned officer or private of Her Majesty’s army”. 4 Cl. (ii) rep. by Act 12 of 1891, s. 3 and Sch. I. 5. Cl. (iv) rep. by Act 13 of 1889, s. 2 and Sch. I. 6. See the Madras Village Courts Act, 1889 (Mad. 1 of 1889). | [Footnote 7, p.18]: Subs. by Act 7 of 1889, s. 13, for “and certificate mentioned in the first schedule to this Act annexed, No. 12”. | [Footnote 6, p.19]: Subs. by Act 15 of 1872, s. 2, for clause (xxiv) which read as follows:— “Petitions under the 14th and 15th of Victoria, Ch. 40 (an Act for marriages in India), s. 5, or under Act No. 5 of 1852, s. 9”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_17",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "17",
+      "section_title": "Multifarious suits.",
+      "chunk_type": "section",
+      "text": "17. Multifarious suits..—Where a suit embraces two or more distinct subjects, the plaint or\nmemorandum of appeal shall be chargeable with the aggregate amount of the fees to which the\nplaints or memoranda of appeal in suits embracing separately each of such subjects would be\nliable under this Act.\nNothing in the former part of this section shall be deemed to affect the power conferred by the 1Code\nof Civil Procedure, section 9.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 18",
+      "amendment_information": "[Footnote 1, p.20]: Ins. by Act 13 of 1875, s. 6.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_18",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "18",
+      "section_title": "Written examinations of complainants.",
+      "chunk_type": "section",
+      "text": "18. Written examinations of complainants..—When the first or only examination of a person\nwho complains of the offence of wrongful confinement, or of wrongful restraint, or of any offence other\nthan an offence for which police-officers may arrest without a warrant, and who has not already presented\na petition on which a fee has been levied under this Act, is reduced to writing under the provisions of the\n2Code of Criminal Procedure, the complainant shall pay a fee of eight annas, unless the Court thinks fit to\nremit such payment.\nSTATE AMENDMENT\nOrissa\nAmendment of section 18 of Act (7 of 1870).—In section 18 of the principal Act, for the words\n“eight annas” the words “one rupee” shall be substituted.\n[Vide Orissa Act 5 of 1939, s. 14]\nInsertion of a new section 18-A Act (7 of 1l870). —After section 18 of the Court Fees Act, 1870, as\nin force in the State of Orissa the following new section shall be inserted, namely:—\n“18-A. Exemption to women.—(1) Notwithstanding anything contained in this Act no plaint in\nrespect of a suit filed by a women, whose annual income does not exceed three thousand rupees, for\nmaintenance or for enhancement of maintenance or for recovery of share in the estate of her deceased\nhusband or parent in the family property and no petitions filed by any such women for divorce on\nground of cruelty or other misconduct on the part of her husband shall be chargeable with court fees.\n(2) The Court in which such plaint or petition is filed shall have power to make such inquiry as it\ndeems fit for assessing the income of the plaintiff or the petitioner, as the case may be.”.\n[Vide Orissa Act 55 of 1975, s. 2]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 18",
+      "amendment_information": "[Footnote 3, p.17]: Subs. by Act 20 of 1870, s. 1, for “plaint or memorandum of appeal”. | [Footnote 4, p.17]: Ins. by Act 46 of 1999, s. 34 (w.e.f. 1-7-2002). | [Footnote 3, p.18]: Subs. by the A.O. 1950, for “by an officer, warrant-officer, non-commissioned officer or private of Her Majesty’s army”. 4 Cl. (ii) rep. by Act 12 of 1891, s. 3 and Sch. I. 5. Cl. (iv) rep. by Act 13 of 1889, s. 2 and Sch. I. 6. See the Madras Village Courts Act, 1889 (Mad. 1 of 1889). | [Footnote 7, p.18]: Subs. by Act 7 of 1889, s. 13, for “and certificate mentioned in the first schedule to this Act annexed, No. 12”. | [Footnote 1, p.20]: Ins. by Act 13 of 1875, s. 6. | [Footnote 2, p.20]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 3. The word “such” rep. by Act 12 of 1891.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19",
+      "section_title": "Exemption of certain documents.",
+      "chunk_type": "section",
+      "text": "19. Exemption of certain documents..—Nothing contained in this Act shall render the following\ndocuments chargeable with any fee:—\n(i) Power-of-attorney to institute or defend a suit when executed 3[by a member of any of the\nArmed Forces of the Union] not in civil employment.\n4* * * * *\n(iii) Written statements called for by the Court after the first hearing of a suit.\n5* * * * *\n(v) Plaints in suits tried by 6village Munsifs in the Presidency of Fort St. George.\n(vi) Plaints and processes in suits before District Panchayats in the same residency.\n(vii) Plaints in suits before Collectors under Madras Regulation 12 of 1816.\n(viii) Probate of a will, letters of administration, 7[and, save as regards debts and securities a\ncertificate under Bombay Regulation 8 of 1827], where the amount or value of the property in respect\nof which the probate or letters or certificate shall be granted does not exceed one thousand rupees.\n(ix) Application or petition to a Collector or other officer making a settlement of land-revenue, or\nto a Board of Revenue, or a Commissioner of Revenue, relating to matters connected with the\n1. See now the Code of Civil Procedure, 1908 (Act 5 of 1908).",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 18",
+      "amendment_information": "[Footnote 3, p.17]: Subs. by Act 20 of 1870, s. 1, for “plaint or memorandum of appeal”. | [Footnote 4, p.17]: Ins. by Act 46 of 1999, s. 34 (w.e.f. 1-7-2002). | [Footnote 3, p.18]: Subs. by the A.O. 1950, for “by an officer, warrant-officer, non-commissioned officer or private of Her Majesty’s army”. 4 Cl. (ii) rep. by Act 12 of 1891, s. 3 and Sch. I. 5. Cl. (iv) rep. by Act 13 of 1889, s. 2 and Sch. I. 6. See the Madras Village Courts Act, 1889 (Mad. 1 of 1889). | [Footnote 7, p.18]: Subs. by Act 7 of 1889, s. 13, for “and certificate mentioned in the first schedule to this Act annexed, No. 12”. | [Footnote 6, p.19]: Subs. by Act 15 of 1872, s. 2, for clause (xxiv) which read as follows:— “Petitions under the 14th and 15th of Victoria, Ch. 40 (an Act for marriages in India), s. 5, or under Act No. 5 of 1852, s. 9”. | [Footnote 1, p.20]: Ins. by Act 13 of 1875, s. 6. | [Footnote 2, p.20]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 3. The word “such” rep. by Act 12 of 1891.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_2",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "2",
+      "section_title": "This reference should now be read as referring to the Code of Criminal Procedure, 1898 (Act 5 of 1898)",
+      "chunk_type": "section",
+      "text": "2. This reference should now be read as referring to the Code of Criminal Procedure, 1898 (Act 5 of 1898).—see s. 3 of that Act.\n19\nassessment of land or the ascertainment of rights thereto or interests therein, if presented previous to\nthe final confirmation of such settlement.\n(x) Application relating to a supply for irrigation of water belonging to Government.\n(xi) Application for leave to extend cultivation, or to relinquish land, when presented to an officer\nof land-revenue by a person holding, under direct engagement with Government, land of which the\nrevenue is settled, but not permanently.\n(xii) Application for service of notice of relinquishment of land or of enhancement of rent.\n(xiii) Written authority to an agent to distrain.\n(xiv) First application (other than a petition containing a criminal charge or information)\nfor the summons of a witness or other person to attend either to give evidence or to produce a\ndocument or in respect of the production or filing of an exhibit not being an affidavit made for\nthe immediate purpose of being produced in Court.\n(xv) Bail-bonds in criminal cases, recognizances to prosecute or give evidence, and recognizances\nfor personal appearance or otherwise.\n(xvi) Petition, application, charge or information respecting any offence when presented,\nmade or laid to or before a police-officer, or to or before the 1Heads of Villages or the 2Village\nPolice in the territories respectively subject to the Governors in Council of Madras and\nBombay.\n(xvii) Petition by a prisoner, or other person in duress or under restraint of any Court or its\nofficers.\n(xviii) Complaint of a public servant [as defined in the Indian Penal Code (45 of 1860)], a\nmunicipal officer, or an officer or servant of a Railway Company.\n(xix) Application for permission to cut timber in Government forests, or otherwise relating to\nsuch forests.\n(xx) Application for the payment of money due by Government to the applicant.\n(xxi) Petition of appeal against the chaukidari assessment under 3 Act No. 20 of 1856, or against\nany municipal tax.\n(xxii) Applications for compensation under any law for the time being in force relating to the\n4acquisition of property for public purposes.\n(xxiii) Petitions presented to the Special Commissioner appointed under 5Bengal Act No. 2 of\n1869 (to ascertain, regulate and record certain tenures in Chota Nagpur).\n6[(xxiv) (Petitions under the Indian Christian Marriage Act, 1872 (15 of 1872), sections 45 and\n48.]\nSTATE AMENDMENT\nOrissa\nIn section 19 of the Court-Fees Act, 1870 (7 of 1870) (hereinafter referred to as the principal Act) in\nclause (viii) for the words” one thousand rupees” the words “two thousand rupees” shall be substituted.\n[Vide Orissa Act 11 of 1967, s. 3]\n1. See Madras Regulations 11 of 1816 and 4 of 1821, s. 6.\n2. See Bombay Village Police Act, 1867 (Bom. 8 of 1867), ss. 14, 15 and 16.\n3. The Bengal Chaukidari Act, 1856.\n4. See now the Land Acquisition Act, 1894 (1 of 1894).\n5. The Chota Nagpur Tenures Act, 1869.\n20\n1[CHAPTER IIIA\nPROBATES, LETTERS OF ADMINISTRATION AND CERTIFICATES OF ADMINISTRATION",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 18",
+      "amendment_information": "[Footnote 3, p.17]: Subs. by Act 20 of 1870, s. 1, for “plaint or memorandum of appeal”. | [Footnote 4, p.17]: Ins. by Act 46 of 1999, s. 34 (w.e.f. 1-7-2002). | [Footnote 3, p.18]: Subs. by the A.O. 1950, for “by an officer, warrant-officer, non-commissioned officer or private of Her Majesty’s army”. 4 Cl. (ii) rep. by Act 12 of 1891, s. 3 and Sch. I. 5. Cl. (iv) rep. by Act 13 of 1889, s. 2 and Sch. I. 6. See the Madras Village Courts Act, 1889 (Mad. 1 of 1889). | [Footnote 7, p.18]: Subs. by Act 7 of 1889, s. 13, for “and certificate mentioned in the first schedule to this Act annexed, No. 12”. | [Footnote 6, p.19]: Subs. by Act 15 of 1872, s. 2, for clause (xxiv) which read as follows:— “Petitions under the 14th and 15th of Victoria, Ch. 40 (an Act for marriages in India), s. 5, or under Act No. 5 of 1852, s. 9”. | [Footnote 1, p.20]: Ins. by Act 13 of 1875, s. 6. | [Footnote 2, p.20]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 3. The word “such” rep. by Act 12 of 1891.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19a",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19A",
+      "section_title": "Relief where too high a court-fee has been paid.",
+      "chunk_type": "section",
+      "text": "19A. Relief where too high a court-fee has been paid..—Where any person on applying for\nthe probate of a will or letters of administration has estimated the property of the deceased to be of\ngreater value than the same has afterwards proved to be, and has consequently paid too high a\ncourt-fee thereon, if, within six months after the true value of the property has been ascertained,\nsuch person produces the probate or letters to the Chief Controlling Revenue -authority 2[for the\nlocal area] in which the probate or letters has or have been granted,\nand delivers to such Authority a particular inventory and valuation of the property of the deceased,\nverified by affidavit or affirmation,\nand if such Authority is satisfied that a greater fee was paid on the probate or letters than the law\nrequired,\nthe said Authority may—\n(a) cancel the stamp on the probate or letters if such stamp has not been already cancelled;\n(b) substitute another stamp for denoting the court-fee which should have been paid thereon; and\n(c) make an allowance for the difference between them as in the case of spoiled stamps, or repay\nthe same in money, at his discretion.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 20",
+      "amendment_information": "[Footnote 2, p.20]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 3. The word “such” rep. by Act 12 of 1891. | [Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19b",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19B",
+      "section_title": "Relief where debts due from a deceased person have been paid out of his estate .",
+      "chunk_type": "section",
+      "text": "19B. Relief where debts due from a deceased person have been paid out of his estate ..—Whenever it is proved to the satisfaction of such Authority that an executor or administrator has\npaid debts due from the deceased to such an amount as, being deducted out of the amount or value\nof the estate, reduces the same to a sum which, if it had been the whole gross amount or value of the\nestate, would have occasioned a less court-fee to be paid on the probate or letters of administration\ngranted in respect of such estate than has been actually paid thereon under this Act,\nsuch Authority may return the difference, provided the same be claimed within three years after the\ndate of such probate or letters.\nBut when by reason of any legal proceeding, the debts due from the deceased have not been\nascertained and paid, or his effects have not been recovered and made available, and in consequence\nthereof the executor or administrator is prevented from claiming the return of such difference within\nthe said term of three years, the said Authority may allow such further time for making the claim as\nmay appear to be reasonable under the circumstances.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 20",
+      "amendment_information": "None reported in enactment text",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19c",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19C",
+      "section_title": "Relief in case of several grants.",
+      "chunk_type": "section",
+      "text": "19C. Relief in case of several grants..—Whenever 3 *** a grant of probate or letters of\nadministration has been or is made in respect of the whole of the property belonging to an estate,\nand the full fee chargeable under this Act has been or is paid thereon, no fee shall be chargeable\nunder the same Act when a like grant is made in respect of the whole or any part of the same\nproperty belonging to the same estate.\nWhenever such a grant has been or is made in respect of any property forming part of an\nestate, the amount of fees then actually paid under this Act shall be deducted when a like grant is\nmade in respect of property belonging to the same estate, identical with or including the property\nto which the former grant relates.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 20",
+      "amendment_information": "[Footnote 6, p.19]: Subs. by Act 15 of 1872, s. 2, for clause (xxiv) which read as follows:— “Petitions under the 14th and 15th of Victoria, Ch. 40 (an Act for marriages in India), s. 5, or under Act No. 5 of 1852, s. 9”. | [Footnote 1, p.20]: Ins. by Act 13 of 1875, s. 6. | [Footnote 2, p.20]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 3. The word “such” rep. by Act 12 of 1891. | [Footnote 1, p.21]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 2. As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra. | [Footnote 3, p.21]: The words and figures “after the first day of April, 1875, or “rep. by Act 12 of 1891”. | [Footnote 4, p.21]: Ins. by Act 11 of 1899, s. 2. | [Footnote 5, p.21]: Subs. by Act 10 of 1901, s. 3(2), for “of the Province”. | [Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2. | [Footnote 3, p.22]: The words “in any part of British India” rep by the A.O. 1 948.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19d",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19D",
+      "section_title": "Probates declared valid as to trust-property though not covered by court-fee.",
+      "chunk_type": "section",
+      "text": "19D. Probates declared valid as to trust-property though not covered by court-fee..—The\nprobate of the will or the letters of administration of the effects of any person deceased heretofore or\nhereafter granted shall be deemed valid and available by his executors or administrators for\nrecovering, transferring or assigning any movable or immovable property whereof or whereto the\ndeceased was possessed or entitled, either wholly or partially as a trustee, notwithstanding the amount\n21\nor value of such property is not included in the amount or value of the estate in respect of which a\ncourt-fee was paid on such probate or letters of administration.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 20",
+      "amendment_information": "[Footnote 1, p.20]: Ins. by Act 13 of 1875, s. 6. | [Footnote 2, p.20]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 3. The word “such” rep. by Act 12 of 1891. | [Footnote 1, p.21]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 2. As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra. | [Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19e",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19E",
+      "section_title": "Provision for case where too low a court-fee has been paid on probates, etc.",
+      "chunk_type": "section",
+      "text": "19E. Provision for case where too low a court-fee has been paid on probates, etc..—Where\nany person on applying for probate or letters of administration has estimated the estate of the\ndeceased to be of less value than the same has afterwards proved to be, and has in consequence\npaid too low a court-fee thereon, the Chief Controlling Revenue-authority 1[for the local area] in\nwhich the probate or letters has or have been granted may, on the value of the estate of the\ndeceased being verified by affidavit or affirmation, cause the probate or letters of administration to\nbe duly stamped on payment of the full court-fee which ought to have been originally paid thereon\nin respect of such value and of the further penalty, if the probate or letters is or are produced\nwithin one year from the date of grant, of five times, or, if it or they is or are produced after one\nyear from such date, of twenty times, such proper court-fee, without any deduction of the court-fee\noriginally paid on such probate or letters:\nProvided that, if the application be made within six months after the ascertainment of the true\nvalue of the estate and the discovery that too low a court -fee was at first paid on the probate or\nletters, and if the said Authority is satisfied that such fee was paid in consequence of a mistake or\nof its not being known at the time that some particular part of the estate belonged to the deceased, and\nwithout any intention of fraud or to delay the payment of the proper court-fee, the said Authority may\nremit the said penalty, and cause the probate or letters to be duly stamped on payment only of the sum\nwanting to make up the fee which should have been at first paid thereon.",
+      "provisos_count": 1,
+      "explanations_count": 0,
+      "source_page": "Page 21",
+      "amendment_information": "[Footnote 1, p.20]: Ins. by Act 13 of 1875, s. 6. | [Footnote 1, p.21]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 2. As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra. | [Footnote 1, p.23]: The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19f",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19F",
+      "section_title": "Administrator to give proper security before letters stamped under section 19E.",
+      "chunk_type": "section",
+      "text": "19F. Administrator to give proper security before letters stamped under section 19E..—In case\nof letters of administration on which too low a court-fee has been paid at first, the said Authority shall not\ncause the same to be duly stamped in manner aforesaid until the administrator has given such security to\nthe Court by which the letters of administration have been granted as ought by law to have been given on\nthe granting thereof in case the full value of the estate of the deceased had been then ascertained.\n2[19G. Executors, etc., not paying full court-fee on probates, etc., within six months\nafter discovery of under-payment.—Where too low a court-fee has been paid on any probate or\nletters of administration in consequence of any mistake, or of its not being known at the time that some\nparticular part of the estate belonged to the deceased, if any executor or administrator acting under such\nprobate or letters does not, within six months 3*** after the discovery of the mistake or of any effects not\nknown at the time to have belonged to the deceased, apply to the said Authority and pay what is wanting\nto make up the court-fee which ought to have been paid at first on such probate or letters, he shall forfeit\nthe sum of one thousand rupees and also a further sum at the rate of ten rupees per cent. on the amount of\nthe sum wanting to make up the proper court-fee.]\n4 [19H. Notice of applications for probate or letters of administration to be given to\nRevenue-authorities, and procedure thereon.—(1) Where an application for probate or letters of\nadministration is made to any Court other than a High Court, the Court shall cause notice of the\napplication to be given to the Collector.\n(2) Where such an application as aforesaid is made to a High Court, the High Court shall cause\nnotice of the application to be given to the Chief Controlling Revenue-authority 5[for the local area in\nwhich the High Court is situated].\n(3) The Collector within the local limits of whose revenue-jurisdiction the property of the deceased\nor any part thereof is, may at any time inspect or cause to be inspected, and take or cause to be taken\ncopies of, the record of any case in which application for probate or letters of administration has been\nmade; and if, on such inspection or otherwise, he is of opinion that the petitioner has under-estimated the\nvalue of the property of the deceased, the Collector may, if he thinks fit, require the attendance of the\n22\npetitioner (either in person or by agent) and take evidence and inquire into the matter in such manner as\nhe may think fit, and, if he is still of opinion that the value of the property has been under-estimated, may\nrequire the petitioner to amend the valuation.\n(4) If the petitioner does not amend the valuation to the satisfaction of the Collector, the Collector\nmay move the Court before which the application for probate or letters of administration was made, to\nhold an inquiry into the true value of the property:\nProvided that no such motion shall be made after the expiration of six months from the date of the\nexhibition of the inventory required by section 277 of the 1Indian Succession Act, 1865 (10 of 1865), or\nas the case may be, by section 98 of the 1Probate and Administration Act, 1881 (5 of 1881).\n(5) The Court, when so moved as aforesaid, shall hold, or cause to be held, an inquiry accordingly,\nand shall record a finding as to the true value, as near as may be, at which the property of the deceased\nshould have been estimated. The Collector shall be deemed to be a party to the inquiry.\n(6) For the purposes of any such inquiry, the Court or person authori sed by the Court to\nhold the inquiry may examine the petitioner for probate or letters of administration on oath\n(whether in person or by commission), and may take such further evidence as may be produced\nto prove the true value of the property. The person authorised as aforesaid to hold the inquiry shall return\nto the Court the evidence taken by him and report the result of the inquiry, and such report and the\nevidence so taken shall be evidence in the proceeding, and the Court may record a finding in accordance\nwith the report, unless it is satisfied that it is erroneous.\n(7) The finding of the Court recorded under sub-section (5) shall be final, but shall not bar the\nentertainment and disposal by the Chief Controlling Revenue-authority of any application under\nsection 19E.\n(8) The State Government may make rules for the guidance of Collectors in the exercise of the\npowers conferred by sub-section (3).]\n2[19I. Payment of court-fees in respect of probates and letters of administration.—(1) No order\nentitling the petitioner to the grant of probate or letters of administration shall be made upon an\napplication for such grant until the petitioner has filed in the Court a valuation of the property in the form\nset forth in the third schedule, and the Court is satisfied that the fee mentioned in No. 11 of the first\nschedule has been paid on such valuation.\n(2) The grant of probate or letters of administration shall not be delayed by reason of any motion\nmade by the Collector under section 19H, sub-section (4).",
+      "provisos_count": 1,
+      "explanations_count": 0,
+      "source_page": "Page 21",
+      "amendment_information": "[Footnote 1, p.20]: Ins. by Act 13 of 1875, s. 6. | [Footnote 2, p.20]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 3. The word “such” rep. by Act 12 of 1891. | [Footnote 1, p.21]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 2. As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra. | [Footnote 3, p.21]: The words and figures “after the first day of April, 1875, or “rep. by Act 12 of 1891”. | [Footnote 4, p.21]: Ins. by Act 11 of 1899, s. 2. | [Footnote 5, p.21]: Subs. by Act 10 of 1901, s. 3(2), for “of the Province”. | [Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2. | [Footnote 3, p.22]: The words “in any part of British India” rep by the A.O. 1 948. | [Footnote 1, p.23]: The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I. | [Footnote 2, p.23]: The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19j",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19J",
+      "section_title": "Recovery of penalties, etc.",
+      "chunk_type": "section",
+      "text": "19J. Recovery of penalties, etc..—(1) Any excess fee found to be payable on any inquiry held under\nsection 19H, sub-section (6), and any penalty or forfeiture under section 19G, may, on the certificate of\nthe Chief Controlling Revenue-authority, be recovered from the executor or administrator as if it were an\narrear of land-revenue by any Collector 3***.\n(2) The Chief Controlling Revenue-authority may remit the whole or any part of any such penalty or\nforfeiture as aforesaid, or any part of any penalty under section 19E or of any court-fee under section 19E\nin excess of the full court-fee which ought to have been paid.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 22",
+      "amendment_information": "[Footnote 1, p.21]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 2. As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra. | [Footnote 3, p.21]: The words and figures “after the first day of April, 1875, or “rep. by Act 12 of 1891”. | [Footnote 4, p.21]: Ins. by Act 11 of 1899, s. 2. | [Footnote 5, p.21]: Subs. by Act 10 of 1901, s. 3(2), for “of the Province”. | [Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2. | [Footnote 3, p.22]: The words “in any part of British India” rep by the A.O. 1 948. | [Footnote 1, p.23]: The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I. | [Footnote 2, p.23]: The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act. | [Footnote 1, p.24]: Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_19k",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "III - FEES IN OTHER COURTS AND IN PUBLIC OFFICES",
+      "section": "19K",
+      "section_title": "Sections 6 and 28 not to apply to probates or letters of administration.",
+      "chunk_type": "section",
+      "text": "19K. Sections 6 and 28 not to apply to probates or letters of administration..—Nothing in section\n6 or section 28 shall apply to probates or letters of administration.]]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 22",
+      "amendment_information": "[Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2. | [Footnote 2, p.23]: The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_20",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "IV - PROCESS-FEES",
+      "section": "20",
+      "section_title": "Rules as to cost of processes.",
+      "chunk_type": "section",
+      "text": "20. Rules as to cost of processes..—The High Court shall, as soon as may be, make rules as to the\nfollowing matters:—\n(i) The fees chargeable for serving and executing processes issued by such court in its appellate\njurisdiction, and by the other Civil and Revenue Courts established within the local limits of such\njurisdiction;\n1. See now the Indian Succession Act, 1925 (39 of 1925).\n23\n(ii) the fees chargeable for serving and executing processes issued by the Criminal Courts\nestablished within such limits in the case of offences other than offences for which police-officers\nmay arrest without a warrant; and\n(iii) the remuneration of the peons and all other persons employed by leave of a Court in the\nservice or execution of processes.\nThe High Court may from time to time alter and add to the rules so made.\nConfirmation and publication of rules.—All such rules, alterations and additions shall,\nafter being confirmed by the State Government 1***, be published in the Official Gazette, and\nshall thereupon have the force of law.\nUntil such rules shall be so made and published, the fees now leviable for serving and executing\nprocesses shall continue to be levied, and shall be deemed to be fees leviable under this Act.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 22",
+      "amendment_information": "[Footnote 1, p.21]: Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 2. As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra. | [Footnote 3, p.21]: The words and figures “after the first day of April, 1875, or “rep. by Act 12 of 1891”. | [Footnote 4, p.21]: Ins. by Act 11 of 1899, s. 2. | [Footnote 5, p.21]: Subs. by Act 10 of 1901, s. 3(2), for “of the Province”. | [Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2. | [Footnote 3, p.22]: The words “in any part of British India” rep by the A.O. 1 948. | [Footnote 1, p.23]: The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I. | [Footnote 2, p.23]: The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act. | [Footnote 1, p.24]: Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_21",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "IV - PROCESS-FEES",
+      "section": "21",
+      "section_title": "Tables of process fees.",
+      "chunk_type": "section",
+      "text": "21. Tables of process fees..—A table in the English and Vernacular languages, showing\nthe fees chargeable for such service and execution, shall be exposed to view in a conspicuous\npart of each Court.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 23",
+      "amendment_information": "None reported in enactment text",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_22",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "IV - PROCESS-FEES",
+      "section": "22",
+      "section_title": "Number of peons in district and subordinate Courts.",
+      "chunk_type": "section",
+      "text": "22. Number of peons in district and subordinate Courts..—Subject to rules to be made by the High\nCourt and approved by the State Government 2***,\nevery District Judge and every Magistrate of a district shall fix, and may from time to time alter, the\nnumber of peons necessary to be employed for the service and execution of processes issued out of his\nCourt and each of the Courts subordinate thereto,\nNumber of peons in Mufassal Small Cause Courts.—and for the purposes of this section,\nevery Court of Small Causes established under Act No. 11 of 1865 (to consolidate and amend\nthe law relating to Courts of Small Causes beyond the local limits of the ordinary original civil\njurisdiction of the High Courts of Judicature)3 shall be deemed to be subordinate to the Court of\nthe District Judge.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 23",
+      "amendment_information": "[Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2. | [Footnote 3, p.22]: The words “in any part of British India” rep by the A.O. 1 948. | [Footnote 1, p.23]: The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I. | [Footnote 2, p.23]: The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act. | [Footnote 1, p.24]: Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189. | [Footnote 1, p.25]: Subs. by the A.O. 1937 for “L.G.”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_23",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "IV - PROCESS-FEES",
+      "section": "23",
+      "section_title": "Number of peons in Revenue Courts.",
+      "chunk_type": "section",
+      "text": "23. Number of peons in Revenue Courts..—Subject to rules to be framed by the Chief\nControlling Revenue-authority and approved by the State Government 2***, every officer\nperforming the functions of a Collector of a district shall fix, and may from time to time alter,\nthe number of peons necessary to be employed for the service and execution of processes issued\nout of his Court or the courts subordinate to him.\n24. [Process served under this Chapter to be held to be process within meaning of Code\nof Civil Procedure.] Rep. by the Repealing and Amending Act , 1891 (12 of 1891),\nSTATE AMENDMENT\nUttar Pradesh\nSubstitution of section 24-A.—For section 24-A for the principal Act, the following section shall be\nsubstituted, namely:—\n“24-A. Control of Court fee and Stamp Commissioner.—(1) The levy of fees under this Act shall be under\nthe general control and superintendence of the Chief Controlling Revenue Authority, who may be assisted in the\nsupervision thereof by the Commissioner of Stamps and by as many Additional many Additional Commissioners of\nthe Stamps, Deputy Commissioners of Stamps and Assistant Commissioners of Stamps as the State Government\nmay appoint in the behalf or by any other subordinate agency appointed for the purpose.\n(2) The Officers and the agency referred to in sub-section (1) shall have access to all records, and shall be\nfurnished with all such information as may be required by them for the performance of their duties under this Act.”\n[Vide Uttar Pradesh Act 6 of 1980, s. 5]\n24",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 23",
+      "amendment_information": "[Footnote 2, p.22]: Ins. by Act 11 of 1899, s 2. | [Footnote 3, p.22]: The words “in any part of British India” rep by the A.O. 1 948. | [Footnote 1, p.23]: The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I. | [Footnote 2, p.23]: The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act. | [Footnote 1, p.24]: Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189. | [Footnote 1, p.25]: Subs. by the A.O. 1937 for “L.G.”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_25",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "V - OF THE MODE OF LEVYING FEES",
+      "section": "25",
+      "section_title": "Collection of fees by stamps.",
+      "chunk_type": "section",
+      "text": "25. Collection of fees by stamps..—All fees referred to in section 3 or chargeable under this Act shall\nbe collected by stamps.\nSTATE AMENDMENT\nMeghalaya\nAmendment section 25 of Central Act 7 of 1870.—In the Court Fees act, 1870 after section 25 the\nfollowing new section shall be inserted as section 25A, namely:--\n“25A. Notwithstanding anything contained in section 25 where,\n(a) (i) the State Government, in relation to any area in the State, or\n(ii) The Deputy Commissioner, in relation to any area in the district under his charge, is\nsatisfied that on account of temporary shortage of stamps in any area, fees cannot be paid, and\npayment of fees cannot be indicated on documents by means of stamps, the State Government, or\nas the case may be, the Deputy Commissioner, may, by notification in the official Gazette, direct\nthat, in such area and for such period as may be specified in such notification, the fees may be\npaid in cash in any Treasury or Sub-Treasury and shall, on production of a challan evidencing\npayment of fees in the Government treasury, certify by endorsement on the document in respect\nof which the fees is paid, that the fees have been paid, and state in the said endorsement the\namount of the fees so paid.\n(b) An endorsement made on any document under clause (a) shall have the same effect as if\nthe fees of an amount equal to the amount stated in the endorsement had been paid in respect of,\nand such payment has been indicated on, such documents by means of stamps under section 25.\n[Vide Meghalaya Act 2 of 1972, s. 2]\nTripura\nAmendment of Section 25.— In Section 25 of the principal Act, the expression “stamps”, shall be substituted\nwith the expression “stamps or electronic transfer of payment to State Government in such manner as may be\nprescribed.”\n[Vide Tripura Act 17 of 2020, s. 6]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 24",
+      "amendment_information": "[Footnote 1, p.23]: The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I. | [Footnote 2, p.23]: The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act. | [Footnote 1, p.24]: Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189. | [Footnote 1, p.25]: Subs. by the A.O. 1937 for “L.G.”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_26",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "V - OF THE MODE OF LEVYING FEES",
+      "section": "26",
+      "section_title": "Stamps to be impressed or adhesive.",
+      "chunk_type": "section",
+      "text": "26. Stamps to be impressed or adhesive..—The stamps used to denote any fees chargeable under\nthis Act shall be impressed or adhesive, or pertly impressed and partly adhesive, as the 1[appropriate\nGovernment] may, by notification in the Official Gazette, from time to time direct2.\nSTATE AMENDMENT\nJammu and Kashmir (UT).—\nSection 26 shall be numbered as sub-section (1) thereof, and after sub-section (1) so renumbered,\ninsert the following sub-section, namely:—\n(2) For the purposes of sub-section (1), and section 25, “stamp” means any mark, seal or endorsement\nby any agency or person duly authorised by the Appropriate Government, and includes an adhesive or\nimpressed stamp, for the purposes of court fee chargeable under this Act.\nExplanation:—“impressed stamp” includes impression by a franking machine or another machine, or a\nunique number generated by e-stamping or similar software, as the Appropriate Government may, by\nnotification in the official Gazette, specify”.\n[Vide the Jammu and Kashmir Reorganization (Adaptation of Central Laws) Order, 2020, notification No.\nS.O. 1123(E) dated (18-3-2020).]\n25\nUnion Territory of Ladakh\nSection 26.—Numbered as sub-section (1) thereof, and after sub-section (1) as so numbered,\ninsert-\n'(2) For the purposes of sub-section (1), and section 25, \"stamp\" means any mark, seal or\nendorsement by any agency or person duly authorised by the Appropriate Government, and includes\nan adhesive or impressed stamp, for the purposes of court fee chargeable under this Act.\nExplanation 7.—The expression \"impressed stamp\" includes impression by a franking machine\nor another machine, or a unique number generated by e-stamping or similar software, as the\nAppropriate Government may, by notification in the Official Gazette, specify.’.\nExplanation 2.—The expression \"e-stamping\" means stamping using unique number or code\nthrough an electronic machine or a software application’.\n[Vide Union Territory of Ladakh Reorganisation (Adaptation of Central Laws) Order, 2020, Notification\nNo. S.O. 3774(E), dated (23-10-2020).]\nHaryana\nAmendment of section 26 of Central Act 7 of 1870.—In section 26 of the Court Fees act, 1870, the\nfollowing explanation shall be added, namely:--\n“Explanation.—For the purposes of this section,-\n(i) “stamp” means any mark, seal or endorsement by any agency or person duly authorized by\nthe State Government and includes and adhesive or impressed stamp chargeable for the purposes\nof court fee under this Act; and\n(ii) “impressed stamp” means an impression by a franking or any other machine, or\ne-stamping.”.\n[Vide Haryana Act 29 of 2016, s. 2]",
+      "provisos_count": 0,
+      "explanations_count": 3,
+      "source_page": "Page 24",
+      "amendment_information": "[Footnote 1, p.23]: The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I. | [Footnote 2, p.23]: The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act. | [Footnote 1, p.24]: Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189. | [Footnote 1, p.25]: Subs. by the A.O. 1937 for “L.G.”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_27",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "V - OF THE MODE OF LEVYING FEES",
+      "section": "27",
+      "section_title": "Rules for supply, number, renewal and keeping accounts of stamps.",
+      "chunk_type": "section",
+      "text": "27. Rules for supply, number, renewal and keeping accounts of stamps..—The 1 [appropriate\nGovernment] may, from time to time, make rules for regulating—\n(a) the supply of stamps to be used under this Act;\n(b) the number of stamps to be used for denoting any fee chargeable under this Act;\n(c) the renewal of damaged or spoiled stamps; and\n(d) the keeping accounts of all stamps used under this Act:\nProvided that, in the case of stamps used under section 3 in a High Court, such rules shall be made\nwith the concurrence of the Chief Justice of such Court.\nAll such rules shall be published in the Official Gazette, and shall thereupon have the force\nof law.\nTripura\nAmendment of Section 27.— Clause (a) of Section 27 of the principal Act, shall be substituted with the\nfollowing-\n“(a) the manner of supply of stamps or electronic transfer of payment of court-fee and refund\nthereof;”\n[Vide Tripura Act 17 of 2020, s. 7]",
+      "provisos_count": 1,
+      "explanations_count": 0,
+      "source_page": "Page 25",
+      "amendment_information": "[Footnote 1, p.24]: Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189. | [Footnote 1, p.25]: Subs. by the A.O. 1937 for “L.G.”. | [Footnote 1, p.27]: Subs. by Act 12 of 1891, for section 34. | [Footnote 2, p.27]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 3, p.27]: Subs.by Act 8 of 2026, s. 2 and Sch., for sub-section (3) (w.e.f. 8-7-2026).",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_28",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "V - OF THE MODE OF LEVYING FEES",
+      "section": "28",
+      "section_title": "Stamping documents inadvertently received.",
+      "chunk_type": "section",
+      "text": "28. Stamping documents inadvertently received..—No document which ought to bear a stamp\nunder this Act shall be of any validity, unless and until it is properly stamped.\nBut, if any such document is through mistake or inadvertence received, filed or used in any Court or\noffice without being properly stamped, the presiding Judge or the head of the office, as the case may be,\n26\nor, in the case of a High Court, any Judge of such Court, may, if he thinks fit, order that such document be\nstamped as he may direct; and, on such document being stamped accordingly, the same and every\nproceeding relative thereto shall be as valid as if it had been properly stamped in the first instance.\nSTATE AMENDMENT\nOrissa\nInsertion a new section 28-A, Act (7 of 1870).—After section 28 of the Court Fees Act, 1870 the\nfollowing new section shall be inserted, namely:—\n“28-A. Recovery Deficient or unpaid court fees.---(1) If, on examination of the records of a Civil,\nCriminal or Revenue case which has been disposed of, a public officer finds that the fee payable\nunder the Act or the rules made thereunder on any document filed, exhibited or recorded therein has\nnot been paid or has been insufficiently paid, he shall report the fact to the presiding officer of the\nCourt or to the revenue officer concerned.\n(2) Such presiding officer or revenue officer, after satisfying himself of the correctness of such\nreport, shall record a provisional finding that the proper fee has not been paid and determine the\namount of fee payable and the person from whom the fee or the difference thereof, if any, shall be\nrecoverable.\n(3) After recording a finding under sub-section (2), the presiding officer or revenue officer shall\nissue a notice to the person referred to in that sub-section to show cause why he should not be ordered\nto pay the fee determined thereunder, and , if sufficient cause is not shown, the presiding officer or\nrevenue officer shall confirm the finding and make an order requiring such person to pay the proper\nfee before a date to be specified in that notice.\n(4) If such person fails to pay the fee in accordance with the notice issued under sub-section (3),\nit shall on the certificate of such presiding officer or revenue officer, be recoverable as an arrear of\nland revenue.”\n[Vide Orissa Act 13 of 1957, s. 2]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 25",
+      "amendment_information": "[Footnote 1, p.24]: Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189. | [Footnote 1, p.25]: Subs. by the A.O. 1937 for “L.G.”. | [Footnote 1, p.27]: Subs. by Act 12 of 1891, for section 34. | [Footnote 2, p.27]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 3, p.27]: Subs.by Act 8 of 2026, s. 2 and Sch., for sub-section (3) (w.e.f. 8-7-2026). | [Footnote 4, p.27]: Ins. by s. 2 and Sch., ibid. (w.e.f. 8-7-2026).",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_29",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "V - OF THE MODE OF LEVYING FEES",
+      "section": "29",
+      "section_title": "Amended document.",
+      "chunk_type": "section",
+      "text": "29. Amended document..—Where any such document is amended in order merely to correct a\nmistake and to make it conform to the original intention of the parties, it shall not be necessary to impose\na fresh stamp.",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 26",
+      "amendment_information": "None reported in enactment text",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_30",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "V - OF THE MODE OF LEVYING FEES",
+      "section": "30",
+      "section_title": "Cancellation of stamp.",
+      "chunk_type": "section",
+      "text": "30. Cancellation of stamp..—No document requiring a stamp under this Act shall be filed or acted\nupon in any proceeding in any Court or office until the stamp has been cancelled.\nSuch officer as the Court or the head of the office may from time to time appoint shall, on\nreceiving any such document, forthwith effect such cancellation by punching out the figure -head\nso as to leave the amount designated on the stamp untouched, and the part removed by punching\nshall be burnt or otherwise destroyed.\nTripura\nAmendment of Section 30.—In Section 30 of the principal Act, after the existing text, the following\nproviso shall be added-\n“Provided that, where court-fee is paid by electronic transfer of payment, the officer competent to\ncancel stamp shall verify the genuineness of the payment and after satisfying himself that the court-\nfee is paid, shall lock the entry in the computer and make an endorsement under his signature on the\ndocument that the court-fee is paid and the entry is locked”.\n[Vide Tripura Act 17 of 2020, s. 8]\nBihar\nInsertion of new Chapter V-A in Act VII of 1870.---After Chapter V of the Court-fees Act, 1870 (Act VII of\n1870) (hereinafter referred to the said Act) the following Chapter and Section shall be inserted, namely:-\n\"Chapter V-A.-Levy of Additional Surcharge.\n30-A. The fees leviable under the Act, shall be increased in each case by an additional surcharge\nat the rate of ten per centum of the amount of the Court Fees.\"\n[Vide Bihar Act 20 of 1977, s. 2]\n27",
+      "provisos_count": 1,
+      "explanations_count": 0,
+      "source_page": "Page 26",
+      "amendment_information": "[Footnote 1, p.25]: Subs. by the A.O. 1937 for “L.G.”. | [Footnote 1, p.27]: Subs. by Act 12 of 1891, for section 34. | [Footnote 2, p.27]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 3, p.27]: Subs.by Act 8 of 2026, s. 2 and Sch., for sub-section (3) (w.e.f. 8-7-2026). | [Footnote 1, p.28]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 2, p.28]: Subs. by Act 38 of 1920, s. 2 and Sch. I, for “British India”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_33",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "VI - MISCELLANEOUS",
+      "section": "33",
+      "section_title": "Admission in criminal cases of documents for which proper fee has not been paid.",
+      "chunk_type": "section",
+      "text": "33. Admission in criminal cases of documents for which proper fee has not been paid..—Whenever the filing or exhibition in a Criminal Court of a document in respect of which the proper fee\nhas not been paid is, in the opinion of the presiding Judge, necessary to prevent a failure of justice,\nnothing contained in section 4 or section 6 shall be deemed to prohibit such filing or exhibition.\n1[34. Sale of stamps.—(1) The 2[appropriate Government] may from time to time make rules for\nregulating the sale of stamps to be used under this Act, the persons by whom alone such sale is to be\nconducted, and the duties and remuneration of such persons.\n(2) All such rules shall be published in the Official Gazette, and shall thereupon have the\nforce of law.\n3[(3) Any person appointed to sell stamps, who,—\n(a) with fraudulent intent, disobeys any rule made under this section, or sells or offers for\nsale any stamp without being duly appointed, shall be punished with imprisonment for a term\nwhich may extend to six months, or with fine which may extend to ten thousand rupees, or with\nboth;\n(b) without any fraudulent intent, contravenes any rule made under this section, shall be\nliable to penalty not exceeding ten thousand rupees].]\n4 [34A. Adjudication of penalties.—(1) For the purpose of adjudicating penalties under\nclause (b) of sub-section (3) of section 34, the Administrator of the Union territory concerned may\nappoint an officer not below the rank of Deputy Commissioner or Deputy Collector or any officer\nequivalent in rank as an adjudicating officer for holding an inquiry and imposing penalties:\nProvided that the Administrator of the Union territory concerned may appoint as many\nadjudicating officers as may be required.\n(2) The adjudicating officer may summon and enforce the attendance of any person acquainted\nwith the facts and circumstances of the case to give evidence or to produce any document, which in\nthe opinion of the adjudicating officer may be useful for, or relevant to, the subject -matter of the\ninquiry, and if, on such inquiry, is satisfied that the person concerned has contravened any rule\nmade under sub-section (1) of section 34, he may impose penalty as deemed fit, subject to the\namount mentioned under clause (b) of sub-section (3) of the said section:\nProvided that no such penalty shall be imposed without giving the person concerned a\nreasonable opportunity of being heard.",
+      "provisos_count": 2,
+      "explanations_count": 0,
+      "source_page": "Page 27",
+      "amendment_information": "[Footnote 1, p.27]: Subs. by Act 12 of 1891, for section 34. | [Footnote 2, p.27]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 3, p.27]: Subs.by Act 8 of 2026, s. 2 and Sch., for sub-section (3) (w.e.f. 8-7-2026). | [Footnote 4, p.27]: Ins. by s. 2 and Sch., ibid. (w.e.f. 8-7-2026). | [Footnote 1, p.28]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 2, p.28]: Subs. by Act 38 of 1920, s. 2 and Sch. I, for “British India”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_34b",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "VI - MISCELLANEOUS",
+      "section": "34B",
+      "section_title": "Appeal.",
+      "chunk_type": "section",
+      "text": "34B. Appeal..—(1) Whoever aggrieved by an order of the adjudicating officer under section\n34A may, within thirty days from the date of receipt of such order, prefer an appeal to the\nCommissioner or Collector of the Division or before any officer equivalent in rank designated as\nsuch by the Administrator of the Union territory concerned as an appellate authority.\n(2) An appeal may be admitted after the expiry of the period of thirty days, if the appellant\nsatisfies the appellate authority that he had sufficient cause for not preferring the appeal within that\nperiod.\n(3) The appellate authority may, after giving the parties to the appeal an opportunity of being\nheard, pass such order as he may think fit.\n28\n(4) An appeal under sub-section (1) shall be disposed of within sixty days from the date of\nfiling.\n(5) If penalty imposed by the adjudicating officer under sub-section (1) of section 34A or by an\norder of the appellate authority under sub-section (3) of this section, as the case may be, is not\ndeposited, the amount shall be recovered as an arrear of land revenue.]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 27",
+      "amendment_information": "[Footnote 1, p.27]: Subs. by Act 12 of 1891, for section 34. | [Footnote 2, p.27]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 3, p.27]: Subs.by Act 8 of 2026, s. 2 and Sch., for sub-section (3) (w.e.f. 8-7-2026). | [Footnote 4, p.27]: Ins. by s. 2 and Sch., ibid. (w.e.f. 8-7-2026). | [Footnote 1, p.28]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 2, p.28]: Subs. by Act 38 of 1920, s. 2 and Sch. I, for “British India”.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_35",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "VI - MISCELLANEOUS",
+      "section": "35",
+      "section_title": "Power to reduce or remit fees.",
+      "chunk_type": "section",
+      "text": "35. Power to reduce or remit fees..—The 1[appropriate Government] may, from time to time\nby notification in the Official Gazette, reduce or remit, in the whole or in any part of 2 [the\nterritories under its administration], all or any of the fees mentioned in the first and second\nschedules to this Act annexed, and may in like manner cancel or vary such order.\nSTATE AMENDMENT\nOrissa\nAmendment of section 35 of Act (7 of 1870).—For section 35 of the principal Act, the following\nsection shall be substituted:—\n“35. Power to suspend, reduce or remit fees.—(1) The Provincial Government may from time\nto time subject to such conditions or restrictions as it may think fit to impose, by notification in the\nGazette suspend the payment of or reduce or remit, in the whole of Orissa or in any part thereof, all or\nany of the fees mentioned in Schedules I and II to this Act annexed and may in like manner cancel or\nvary such order.\n(3) The Provincial Government may from time to time by rules prescribe the manner in which\nany fee the payment of which is suspended under sub-section (1) may be realized and for this purpose\ndirect that such fee may be recovered as if it were an arrear of land revenue.”\n[Vide Orissa Act 5 of 1939, s. 15]\nHaryana\nSubstitution of section 35 of Central Act 7 of 1870.— For section 35 of the Court Fees Act,\n1870 (hereinafter referred to as the principal Act), the following section shall be substituted, namely:—\n\"35. Power to remit or reduce fees.—The State Government may, subject to such conditions or\nrestrictions as it may think fit to impose, by notification in the Official Gazette, reduce or remit in\nrelation to all or any class of persons, in the whole or any part of the territories under its\nadministration, all or any of the fees mentioned in the first and second schedules annexed to this Act\nand may in like manner cancel or vary such order.”\n[Vide Haryana Act 27 of 1976, s. 2]\nBihar\nSubstitution of new Section for Section 35 of Act VII of 1870. - For Section 35 of the said Act, the\nfollowing Section shall be substituted, namely:-\n\"35. Power to remit or reduce Court-fees.---The State Government may, subject to such condition\nor restriction as it may think fit to impose, by order published in the Official Gazette, reduce or\nremit in relation to all or any class of persons, in the whole or any part of the State, all or any of\nthe fees mentioned in the First and Second Schedules to this Act and may in like manner cancel or\nvary such order.\"\n[Vide Bihar Act 20 of 1977, s. 3]",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 28",
+      "amendment_information": "[Footnote 1, p.27]: Subs. by Act 12 of 1891, for section 34. | [Footnote 2, p.27]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 3, p.27]: Subs.by Act 8 of 2026, s. 2 and Sch., for sub-section (3) (w.e.f. 8-7-2026). | [Footnote 1, p.28]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 2, p.28]: Subs. by Act 38 of 1920, s. 2 and Sch. I, for “British India”. | [Footnote 2, p.30]: Ins. by Act 5 of 1908, s. 155 and Sch IV. | [Footnote 3, p.30]: The words “or memorandum of appeal” rep. by Act 20 of 1870.",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sec_fees_act_1870_36",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "VI - MISCELLANEOUS",
+      "section": "36",
+      "section_title": "Saving of fees to certain officers of High Courts.",
+      "chunk_type": "section",
+      "text": "36. Saving of fees to certain officers of High Courts..—Nothing in Chapters II and V of this Act\napplies to the commission payable to the Accountant General of the High Court at Fort William, or to the\nfees which any officer of a High Court is allowed to receive in addition to a fixed salary.\n29\nSTATE AMENDMENT\nHaryana\nInsertion of section 37 in Act 7 of 1870.— After section 36 of the principal Act, the following\nsection shall be inserted, namely :—\n“37. Fees in High Court.—Nothing contained in Schedules I and II to this act shall apply\nto the High Court of Punjab and Haryana and the provisions in that behalf applicable\nimmediately before the 1st day of November, 1966, shall continue to apply to the said High\nCourt.”.\n[Vide Haryana Act 22 of 1974, s. 3]\n30",
+      "provisos_count": 0,
+      "explanations_count": 0,
+      "source_page": "Page 28",
+      "amendment_information": "[Footnote 1, p.27]: Subs. by Act 12 of 1891, for section 34. | [Footnote 2, p.27]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 3, p.27]: Subs.by Act 8 of 2026, s. 2 and Sch., for sub-section (3) (w.e.f. 8-7-2026). | [Footnote 4, p.27]: Ins. by s. 2 and Sch., ibid. (w.e.f. 8-7-2026). | [Footnote 1, p.28]: Subs. by the A.O.1937, for “L. G.”. | [Footnote 2, p.28]: Subs. by Act 38 of 1920, s. 2 and Sch. I, for “British India”. | [Footnote 2, p.30]: Ins. by Act 5 of 1908, s. 155 and Sch IV. | [Footnote 3, p.30]: The words “or memorandum of appeal” rep. by Act 20 of 1870. | [Footnote 4, p.30]: Subs. by Act 12 of 1891, s. 3 and Sch, I for “Act No. 14 of 1859 (to provide for the limitation of suits)”. 5. As to application for review of judgment, see the Code of Civil Procedure, 1908 (Act 5 of 1908).",
+      "effective_date": "Date of notification in Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_2",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 2",
+      "section_title": "Schedule Article 2",
+      "chunk_type": "schedule_article",
+      "text": "Article 2. Plaint 3 *** in a suit for\npossession under 4 [the Specific\nRelief Act, 1877, section 9].",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_3",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 3",
+      "section_title": "Schedule Article 3",
+      "chunk_type": "schedule_article",
+      "text": "Article 3. [Repealed by the Indian\nRegistration Act, 1871 (8 of\n1871)].\n..\nA fee of one-half\nthe amount\nprescribed in the\nforegoing scale.\t..",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_4",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 4",
+      "section_title": "Schedule Article 4",
+      "chunk_type": "schedule_article",
+      "text": "Article 4. Application for review of\njudgment,5if presented on or after\nthe ninetieth day from the date of\nthe decree.\n..\nThe fee leviable\non the plaint or\nmemorandum of\nappeal.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_5",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 5",
+      "section_title": "Schedule Article 5",
+      "chunk_type": "schedule_article",
+      "text": "Article 5. Application for review of\njudgments, 5if presented before the\nninetieth day from the date of the\ndecree.\n..\nOne-half of the\nfee leviable on\nthe plaint or\nmemorandum of\nappeal.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_1",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 1",
+      "section_title": "Schedule Article 1",
+      "chunk_type": "schedule_article",
+      "text": "Article 1. To ascertain the proper fee leviable on the institution of a suit, see the table annexed to this Schedule.\n31\nNumber Proper Fee",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_14",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 14",
+      "section_title": "Schedule Article 14",
+      "chunk_type": "schedule_article",
+      "text": "Article 14. [Rep. by the A.O. 1937.]",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_5",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 5",
+      "section_title": "Schedule Article 5",
+      "chunk_type": "schedule_article",
+      "text": "Article 5. Plaint or memorandum of appeal to a suit\nto establish or disprove a right of occupancy.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_7",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 7",
+      "section_title": "Schedule Article 7",
+      "chunk_type": "schedule_article",
+      "text": "Article 7. Undertaking under section 49 of the Indian\nDivorce Act, 1869.\nOne rupee\nand ten paise.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_12",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 12",
+      "section_title": "Schedule Article 12",
+      "chunk_type": "schedule_article",
+      "text": "Article 12. Caveat... Eleven\nrupees.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_13",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 13",
+      "section_title": "Schedule Article 13",
+      "chunk_type": "schedule_article",
+      "text": "Article 13. Application under Act No. 10 of 1859,\nsection 26 or Bengal Act No. 6 of 1962, section\n9 or Bengal Act No. 8 of 1869 section 37.\nFive rupees\nand fifty\npaise.\nNumber Proper fee\n49\n(1) (2) (3)",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_14",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 14",
+      "section_title": "Schedule Article 14",
+      "chunk_type": "schedule_article",
+      "text": "Article 14. Petition in a suit under the Native Converts’\nMarriage Dissolution Act, 1866. Five rupees\nand fifty\npaise.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_19",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 19",
+      "section_title": "Schedule Article 19",
+      "chunk_type": "schedule_article",
+      "text": "Article 19. Agreement in writing stating a question for\nthe opinion of the Court under the Code of Civil\nProcedure, 1908 (Act V of 1908).\nSixteen\nrupees and\nfifty paise.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_20",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 20",
+      "section_title": "Schedule Article 20",
+      "chunk_type": "schedule_article",
+      "text": "Article 20. Every petition under the Indian Divorce Act,\n1869 (Act IV of 1869), except petitions under\nsection 44 of the same Act, and every\nmemorandum of appeal under section 55 of the\nsame Act.\nTwenty-two\nrupees.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_1922",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 1922",
+      "section_title": "Schedule Article 1922",
+      "chunk_type": "schedule_article",
+      "text": "Article 1922. Madras Act V of 1922.\nCentral Provinces Act XVI of",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_6",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 6",
+      "section_title": "Schedule Article 6",
+      "chunk_type": "schedule_article",
+      "text": "Article 6. 7.\n10.(a)\n(b)\n(c)\n11.(a)\n(b)",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_14",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 14",
+      "section_title": "Schedule Article 14",
+      "chunk_type": "schedule_article",
+      "text": "Article 14. 17.\n17.A (a)\n(b)",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_2",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 2",
+      "section_title": "Schedule Article 2",
+      "chunk_type": "schedule_article",
+      "text": "Article 2. Plaint in a suit for\npossession under the\nSpecific Relief Act, 1963,\nsection 6\n---- A fee of one-half the amount\nprescribed in the foregoing\nscale.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_3",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 3",
+      "section_title": "Schedule Article 3",
+      "chunk_type": "schedule_article",
+      "text": "Article 3. Application for review of\njudgement, if presented\non or after the ninetieth\nday from the date of the\ndecree\nThe fee leviable on the plaint\nor memorandum of appeal.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_4",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 4",
+      "section_title": "Schedule Article 4",
+      "chunk_type": "schedule_article",
+      "text": "Article 4. Application for review of\njudgement, if presented\nbefore the ninetieth day\nfrom the date\nof the decree\nOne-half of the fee leviable\non the plaint or\nmemorandum of appeal.",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_6",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 6",
+      "section_title": "Schedule Article 6",
+      "chunk_type": "schedule_article",
+      "text": "Article 6. Copy of a decree or order\nhaving the force of\na decree\nWhen such decree or order\nis made by any civil court\nother than the High Court\nor by any revenue court\nWhen such decree or order\nis made by the High Court\nFive rupees.\nTen rupees.\n87",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_2",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 2",
+      "section_title": "Schedule Article 2",
+      "chunk_type": "schedule_article",
+      "text": "Article 2. Application to any civil\ncourt that records\nmay be called for from\nanother court\nWhen the court grants the application and is of opinion\nthat the transmission of such records involves the use of\nthe post\nTwo rupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_3",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 3",
+      "section_title": "Schedule Article 3",
+      "chunk_type": "schedule_article",
+      "text": "Article 3. Application for leave to\nsue as a pauper\n.. Two rupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_4",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 4",
+      "section_title": "Schedule Article 4",
+      "chunk_type": "schedule_article",
+      "text": "Article 4. Application for leave to\nappeal as a pauper\n(a) When presented to a District Court\n(b) When Presented to a Commissioner or the High\nCourt\nTwo rupees\nFive rupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_6",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 6",
+      "section_title": "Schedule Article 6",
+      "chunk_type": "schedule_article",
+      "text": "Article 6. Undertaking under\nsection 49 of the Divorce\nAct, 1869\nTwo rupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_9",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 9",
+      "section_title": "Schedule Article 9",
+      "chunk_type": "schedule_article",
+      "text": "Article 9. Caveat -- Ten rupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_10",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 10",
+      "section_title": "Schedule Article 10",
+      "chunk_type": "schedule_article",
+      "text": "Article 10. Petition in a suit under\nthe Converts Marriage\nDis solution Act, 1866,\nthe Divorce Act,\n1869, or the Foreign\nMarriage Act, 1969\n-- Twenty-five\nrupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_13",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 13",
+      "section_title": "Schedule Article 13",
+      "chunk_type": "schedule_article",
+      "text": "Article 13. Application under\nsection 20 of the\nArbitration Act, 1940\n-- Twenty-five\nrupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_14",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 14",
+      "section_title": "Schedule Article 14",
+      "chunk_type": "schedule_article",
+      "text": "Article 14. Agreement in writing\nstating a question for the\nopinion of the court\nunder the Code of Civil\nProcedure, 1908\n-- Twenty-five\nrupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    },
+    {
+      "chunk_id": "sched_fees_act_1870_art_15",
+      "act_id": "act_fees_act_1870",
+      "act_name": "Fees Act, 1870",
+      "act_number": "7 of 1870",
+      "act_year": 1870,
+      "chapter": "The Schedule",
+      "section": "Article 15",
+      "section_title": "Schedule Article 15",
+      "chunk_type": "schedule_article",
+      "text": "Article 15. Plaint or memorandum\nof appeal in a suit by\na reversioner under the\nPunjab Customary\nLaw for declaration in\nrespect of an alienation\nof ancestral land\n-- One hundred\nrupees",
+      "source_page": "Schedule",
+      "amendment_information": "None reported",
+      "effective_date": "Official Gazette"
+    }
+  ],
   "footnotes": [
     {
-      "num": 1,
-      "text": "The Indian Christian Marriage Act, 1872 (15 of 1872).",
+      "num": 0,
+      "text": "LIST OF ABBREVIATIONS USED Cl.,cls. . . . . . for Clause, clauses. Ins. . . . . . ,, Inserted. Notifn. . . . . . ,, Notification. S., ss. . . . . . ,, Section, sections. Sch. . . . . . ,, Schedule. Subs. . . . . . ,, Substituted. w.e.f. . . . . . ,, with effect from.",
       "page": 2
-    },
-    {
-      "num": 2,
-      "text": "The Probate and Administration Act, 1875 (13 of 1875).",
-      "page": 2
-    },
-    {
-      "num": 3,
-      "text": "The Petroleum Act, 1898 (7 of 1889).",
-      "page": 2
-    },
-    {
-      "num": 4,
-      "text": "The Court-fees Amendment Act, 1899 (11 of 1899).",
-      "page": 2
-    },
-    {
-      "num": 5,
-      "text": "The Court-fees (Amendment) Act, 1901 (10 of 1901).",
-      "page": 2
-    },
-    {
-      "num": 6,
-      "text": "The Court-fees (Amendment) Act 1905 (6 of 1905).",
-      "page": 2
-    },
-    {
-      "num": 7,
-      "text": "The Second Repealing and Amending Act, 1914 (17 of 1914).",
-      "page": 2
-    },
-    {
-      "num": 8,
-      "text": "The Repealing and Amending Act, 1917 (24 of 1917).",
-      "page": 2
-    },
-    {
-      "num": 9,
-      "text": "The Repealing and Amending Act, 1918 (18 of 1919).",
-      "page": 2
-    },
-    {
-      "num": 10,
-      "text": "The Court-fees (Amendment) Act, 1922 (19 of 1922).",
-      "page": 2
-    },
-    {
-      "num": 11,
-      "text": "The Repealing and Amending Act 1923 (11 of 1923).",
-      "page": 2
-    },
-    {
-      "num": 12,
-      "text": "The Jan Vishwas (Amendment of Provisions) Act, 2026 (8 of 2026). _________ LIST OF ABBREVIATIONS USED Cl.,cls. . . . . . for Clause, clauses. Ins. . . . . . ,, Inserted. Notifn. . . . . . ,, Notification. S., ss. . . . . . ,, Section, sections. Sch. . . . . . ,, Schedule. Subs. . . . . . ,, Substituted. w.e.f. . . . . . ,, with effect from.",
-      "page": 2
-    },
-    {
-      "num": 1,
-      "text": "Short title. Extent of Act. Commencement of Act. 1A. Definition of “appropriate Government”.",
-      "page": 3
-    },
-    {
-      "num": 2,
-      "text": "[Repealed.].",
-      "page": 3
-    },
-    {
-      "num": 3,
-      "text": "Levy of fees in High Courts on their original sides. Levy of fees in Presidency Small Cause Courts.",
-      "page": 3
-    },
-    {
-      "num": 4,
-      "text": "Fees on documents filed, etc., in High Courts in their extraordinary jurisdiction. In their appellate jurisdiction. As courts of reference and revision.",
-      "page": 3
-    },
-    {
-      "num": 5,
-      "text": "Procedure in case of difference as to necessity or amount of fee.",
-      "page": 3
-    },
-    {
-      "num": 6,
-      "text": "Fees on documents filed, etc., in Mufassal Courts or in public offices.",
-      "page": 3
-    },
-    {
-      "num": 7,
-      "text": "Computation of fees payable in certain suits. (i) for money. (ii) for maintenance and annuities . (iii) for other movable property having a market-value. (iv) (a) for movable property of no market-value. (b) to enforce a right to share in joint family property. (c) for a declaratory decree and consequential relief. (d) for an injunction. (e) for easements. (f) for accounts. (v) for possession of land, houses and gardens. Proviso as to Bombay Presidency. for houses and gardens . (vi) to enforce a right of pre-emption. (vii) for interest of assignee of land-revenue.",
-      "page": 3
-    },
-    {
-      "num": 8,
-      "text": "Fee on memorandum of appeal against order relating to compensation.",
-      "page": 4
-    },
-    {
-      "num": 9,
-      "text": "Power to ascertain nett profits or market-value.",
-      "page": 4
-    },
-    {
-      "num": 10,
-      "text": "Procedure where nett profits or market-value wrongly estimated.",
-      "page": 4
-    },
-    {
-      "num": 11,
-      "text": "Procedure in suits for mesne profits or account when amount decreed exceeds amount claimed.",
-      "page": 4
-    },
-    {
-      "num": 12,
-      "text": "Decision of questions as to valuation.",
-      "page": 4
-    },
-    {
-      "num": 13,
-      "text": "Refund of fee paid on memorandum of appeal.",
-      "page": 4
-    },
-    {
-      "num": 14,
-      "text": "Refund of fee on application for review of judgment.",
-      "page": 4
-    },
-    {
-      "num": 15,
-      "text": "Refund where Court reverses or modifies its former decision on ground of mistake.",
-      "page": 4
-    },
-    {
-      "num": 16,
-      "text": "Refund of fee.",
-      "page": 4
-    },
-    {
-      "num": 17,
-      "text": "Multifarious suits.",
-      "page": 4
-    },
-    {
-      "num": 18,
-      "text": "Written examinations of complainants.",
-      "page": 4
-    },
-    {
-      "num": 19,
-      "text": "Exemption of certain documents.",
-      "page": 4
-    },
-    {
-      "num": 20,
-      "text": "Rules as to cost of processes. Confirmation and publication of rules.",
-      "page": 4
-    },
-    {
-      "num": 21,
-      "text": "Tables of process-fees.",
-      "page": 5
-    },
-    {
-      "num": 22,
-      "text": "Number of peons in District and subordinate Courts. Number of peons in Mufassal Small cause Courts.",
-      "page": 5
-    },
-    {
-      "num": 23,
-      "text": "Number of peons in Revenue Courts.",
-      "page": 5
-    },
-    {
-      "num": 24,
-      "text": "[Repealed.].",
-      "page": 5
-    },
-    {
-      "num": 25,
-      "text": "Collection of fees by stamps.",
-      "page": 5
-    },
-    {
-      "num": 26,
-      "text": "Stamps to be impressed or adhesive.",
-      "page": 5
-    },
-    {
-      "num": 27,
-      "text": "Rules for supply, number, renewal and keeping accounts of stamps.",
-      "page": 5
-    },
-    {
-      "num": 28,
-      "text": "Stamping documents inadvertently received.",
-      "page": 5
-    },
-    {
-      "num": 29,
-      "text": "Amended document.",
-      "page": 5
-    },
-    {
-      "num": 30,
-      "text": "Cancellation of stamp.",
-      "page": 5
-    },
-    {
-      "num": 31,
-      "text": "[Repealed.].",
-      "page": 5
-    },
-    {
-      "num": 32,
-      "text": "[Repealed.].",
-      "page": 5
-    },
-    {
-      "num": 33,
-      "text": "Admission in criminal cases of documents for which proper fee has not been paid.",
-      "page": 5
-    },
-    {
-      "num": 34,
-      "text": "Sale of stamps. 34A. Adjudication of penalties. 34B. Appeal.",
-      "page": 5
-    },
-    {
-      "num": 35,
-      "text": "Power to reduce or remit fees.",
-      "page": 5
-    },
-    {
-      "num": 42,
-      "text": "[“Chief Controlling Revenue-authority” defined.] Rep. by the A. O. 1937.",
-      "page": 6
     },
     {
       "num": 1,
@@ -300,32 +1139,12 @@
     },
     {
       "num": 3,
-      "text": "Ins. by the A.O. 1937.",
+      "text": "Ins. by the A.O. 1937. 4. The Original s. 2 relating to repeal of enactments was rep. by the Repealing Act, 1870 (14 of 1870). A section defining “Chief Controlling Revenue-authority” was added by s. 2 of the Court-fees (Amendment) Act, 1901 (10 of 1901), and was slightly amended by the Repealing and Amending Act, 1917 (24 of 1917). For the definition of the “Chief Controlling Revenue-authority” see now the General Clauses Act, 1897 (10 of 1897), s. 3 (10). The A.O. 1937 rep. s. 2 as in force elsewhere than in Bengal. In that Province the section subs. by the Court -fees (Bengal Amendment) Act, 1935 (Ben. 7 of 1935), s. 3 contains definitions of “appeal”, “Chief Controlling Revenue -authority”, “Collector” and “Suit”.",
       "page": 6
-    },
-    {
-      "num": 4,
-      "text": "The Original s. 2 relating to repeal of enactments was rep. by the Repealing Act, 1870 (14 of 1870). A section defining “Chief Controlling Revenue-authority” was added by s. 2 of the Court-fees (Amendment) Act, 1901 (10 of 1901), and was slightly amended by the Repealing and Amending Act, 1917 (24 of 1917). For the definition of the “Chief Controlling Revenue-authority” see now the General Clauses Act, 1897 (10 of 1897), s. 3 (10). The A.O. 1937 rep. s. 2 as in force elsewhere than in Bengal. In that Province the section subs. by the Court -fees (Bengal Amendment) Act, 1935 (Ben. 7 of 1935), s. 3 contains definitions of “appeal”, “Chief Controlling Revenue -authority”, “Collector” and “Suit”.",
-      "page": 6
-    },
-    {
-      "num": 1,
-      "text": "Subs by the A.O.1950, for “the Courts which are High Courts for the purposes of the Government of India Act, 1935”.",
-      "page": 7
     },
     {
       "num": 2,
-      "text": "Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “High Courts for Part A States”.",
-      "page": 7
-    },
-    {
-      "num": 3,
-      "text": "The number “16” rep. by Act 12 of 1891.",
-      "page": 7
-    },
-    {
-      "num": 4,
-      "text": "See the Presidency Small Cause Courts Act, 1882 (15 of 1882), Ch. X.",
+      "text": "Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “High Courts for Part A States”. 3. The number “16” rep. by Act 12 of 1891. 4. See the Presidency Small Cause Courts Act, 1882 (15 of 1882), Ch. X.",
       "page": 7
     },
     {
@@ -335,12 +1154,7 @@
     },
     {
       "num": 1,
-      "text": "The words “and the provisions of the Code of Civil Procedure, section thirty-one, shall apply as if, for the word ‘claim’, the words ‘relief sought’, were substituted” omitted by Act 12 of 1891, s. 3 and the First Schedule.",
-      "page": 10
-    },
-    {
-      "num": 2,
-      "text": "See para.8 of the A.O. 1937. In view of this provision the expression “Governor of Bombay in Council” has been left unmodified.",
+      "text": "The words “and the provisions of the Code of Civil Procedure, section thirty-one, shall apply as if, for the word ‘claim’, the words ‘relief sought’, were substituted” omitted by Act 12 of 1891, s. 3 and the First Schedule. 2. See para.8 of the A.O. 1937. In view of this provision the expression “Governor of Bombay in Council” has been left unmodified.",
       "page": 10
     },
     {
@@ -354,36 +1168,6 @@
       "page": 11
     },
     {
-      "num": 1,
-      "text": "See now the Land Acquisition Act, 1894 (1 of 1894).",
-      "page": 13
-    },
-    {
-      "num": 1,
-      "text": "Cl. (iii) rep. by Act 12 of 1891, s. 3 and Sch. I.",
-      "page": 14
-    },
-    {
-      "num": 1,
-      "text": "See now the Code of Civil Procedure, 1908 (Act 5 of 1908).",
-      "page": 16
-    },
-    {
-      "num": 2,
-      "text": "This reference should now be read as applying to the corresponding provision of Act 5 of 1908, i.e., Order XLI, rule 23 of the First Schedule.",
-      "page": 16
-    },
-    {
-      "num": 1,
-      "text": "As to application for review of judgment, see the Code of Civil Procedure, 1908 (Act 5 of 1908), s. 114 and Order XLVII of the First Schedule.",
-      "page": 17
-    },
-    {
-      "num": 2,
-      "text": "See Sch., I Nos. 4 and 5, infra.",
-      "page": 17
-    },
-    {
       "num": 3,
       "text": "Subs. by Act 20 of 1870, s. 1, for “plaint or memorandum of appeal”.",
       "page": 17
@@ -395,17 +1179,7 @@
     },
     {
       "num": 3,
-      "text": "Subs. by the A.O. 1950, for “by an officer, warrant-officer, non-commissioned officer or private of Her Majesty’s army”. 4 Cl. (ii) rep. by Act 12 of 1891, s. 3 and Sch. I.",
-      "page": 18
-    },
-    {
-      "num": 5,
-      "text": "Cl. (iv) rep. by Act 13 of 1889, s. 2 and Sch. I.",
-      "page": 18
-    },
-    {
-      "num": 6,
-      "text": "See the Madras Village Courts Act, 1889 (Mad. 1 of 1889).",
+      "text": "Subs. by the A.O. 1950, for “by an officer, warrant-officer, non-commissioned officer or private of Her Majesty’s army”. 4 Cl. (ii) rep. by Act 12 of 1891, s. 3 and Sch. I. 5. Cl. (iv) rep. by Act 13 of 1889, s. 2 and Sch. I. 6. See the Madras Village Courts Act, 1889 (Mad. 1 of 1889).",
       "page": 18
     },
     {
@@ -414,23 +1188,8 @@
       "page": 18
     },
     {
-      "num": 1,
-      "text": "See Madras Regulations 11 of 1816 and 4 of 1821, s. 6.",
-      "page": 19
-    },
-    {
-      "num": 2,
-      "text": "See Bombay Village Police Act, 1867 (Bom. 8 of 1867), ss. 14, 15 and 16.",
-      "page": 19
-    },
-    {
-      "num": 3,
-      "text": "The Bengal Chaukidari Act, 1856.",
-      "page": 19
-    },
-    {
-      "num": 4,
-      "text": "See now the Land Acquisition Act, 1894 (1 of 1894).",
+      "num": 6,
+      "text": "Subs. by Act 15 of 1872, s. 2, for clause (xxiv) which read as follows:— “Petitions under the 14th and 15th of Victoria, Ch. 40 (an Act for marriages in India), s. 5, or under Act No. 5 of 1852, s. 9”.",
       "page": 19
     },
     {
@@ -440,22 +1199,12 @@
     },
     {
       "num": 2,
-      "text": "Subs. by Act 10 of 1901, s. 3(1), for “of the Province”.",
-      "page": 20
-    },
-    {
-      "num": 3,
-      "text": "The word “such” rep. by Act 12 of 1891.",
+      "text": "Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 3. The word “such” rep. by Act 12 of 1891.",
       "page": 20
     },
     {
       "num": 1,
-      "text": "Subs. by Act 10 of 1901, s. 3(1), for “of the Province”.",
-      "page": 21
-    },
-    {
-      "num": 2,
-      "text": "As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra.",
+      "text": "Subs. by Act 10 of 1901, s. 3(1), for “of the Province”. 2. As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra.",
       "page": 21
     },
     {
@@ -474,11 +1223,6 @@
       "page": 21
     },
     {
-      "num": 1,
-      "text": "See now the Indian Succession Act, 1925 (39 of 1925).",
-      "page": 22
-    },
-    {
       "num": 2,
       "text": "Ins. by Act 11 of 1899, s 2.",
       "page": 22
@@ -489,49 +1233,24 @@
       "page": 22
     },
     {
-      "num": 24,
-      "text": "[Process served under this Chapter to be held to be process within meaning of Code of Civil Procedure.] Rep. by the Repealing and Amending Act , 1891 (12 of 1891), STATE AMENDMENT Uttar Pradesh Substitution of section 24-A.—For section 24-A for the principal Act, the following section shall be substituted, namely:— “24-A. Control of Court fee and Stamp Commissioner.—(1) The levy of fees under this Act shall be under the general control and superintendence of the Chief Controlling Revenue Authority, who may be assisted in the supervision thereof by the Commissioner of Stamps and by as many Additional many Additional Commissioners of the Stamps, Deputy Commissioners of Stamps and Assistant Commissioners of Stamps as the State Government may appoint in the behalf or by any other subordinate agency appointed for the purpose. (2) The Officers and the agency referred to in sub-section (1) shall have access to all records, and shall be furnished with all such information as may be required by them for the performance of their duties under this Act.” [Vide Uttar Pradesh Act 6 of 1980, s. 5]",
-      "page": 23
-    },
-    {
       "num": 1,
       "text": "The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I.",
       "page": 23
     },
     {
       "num": 2,
-      "text": "The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I.",
-      "page": 23
-    },
-    {
-      "num": 3,
-      "text": "The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act.",
+      "text": "The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I. 3. The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act.",
       "page": 23
     },
     {
       "num": 1,
-      "text": "Subs. by the A.O. 1937, for “L. G.”.",
-      "page": 24
-    },
-    {
-      "num": 2,
-      "text": "For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189.",
+      "text": "Subs. by the A.O. 1937, for “L. G.”. 2. For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189.",
       "page": 24
     },
     {
       "num": 1,
       "text": "Subs. by the A.O. 1937 for “L.G.”.",
       "page": 25
-    },
-    {
-      "num": 31,
-      "text": "[Repayment of fees paid on applications to Criminal Courts.] Rep. by the Code of Criminal Procedure (Amendment) Act, 1923 (18 of 1923), s. 163.",
-      "page": 27
-    },
-    {
-      "num": 32,
-      "text": "[Amendment of Act 8 of 1859 and Act 9 of 1869.] Rep. by the Repealing and Amending Act, 1891 (12 of 1891).",
-      "page": 27
     },
     {
       "num": 1,
@@ -564,36 +1283,6 @@
       "page": 28
     },
     {
-      "num": 1,
-      "text": "1 Plaint 2 [written statement pleading a set-off or counter- claim] or memorandum of appeal (not otherwise provided for in this Act) 2[or of cross-objection] presented to any Civil or Revenue Court except those mentioned in section 3. When the amount or value of the subject-matter in dispute does not exceed five rupees. Six annas. When such amount or value exceeds five rupees, for every five rupees, or part thereof, in excess of five rupees, up to one hundred rupees. Six annas. When such amount or value exceeds one hundred rupees, for every ten rupees, or part thereof, in excess of one hundred rupees, up to one thousand rupees. Twelve annas. When such amount or value exceeds one thousand rupees, for every one hundred rupees, or part thereof, in excess of one thousand rupees, up to five thousand rupees. Five rupees. When such amount or value exceeds five thousand rupees, for every two hundred and fifty rupees, or part thereof, in excess of five thousand rupees, up to ten thousand rupees. Ten rupees. When such amount or value exceeds ten thousand rupees, for every five hundred rupees, or part thereof, in excess of ten thousand rupees, up to twenty thousand rupees. Fifteen rupees. When such amount or value exceeds twenty thousand rupees, for every one thousand rupees, or part thereof, in excess of twenty thousand rupees, up to thirty thousand rupees. Twenty rupees. When such amount or value exceeds thirty thousand rupees, for every two thousand rupees, or part thereof, in excess of thirty thousand rupees, up to fifty thousand rupees. Twenty rupees. When such amount or value exceeds fifty thousand rupees, for every five thousand rupees, or part thereof, in excess of fifty thousand rupees: Twenty-five rupees. Provided that the maximum fee leviable on a plaint or memorandum of appeal shall be three thousand rupees.",
-      "page": 30
-    },
-    {
-      "num": 2,
-      "text": "Plaint 3 *** in a suit for possession under 4 [the Specific Relief Act, 1877, section 9].",
-      "page": 30
-    },
-    {
-      "num": 3,
-      "text": "[Repealed by the Indian Registration Act, 1871 (8 of 1871)]. .. A fee of one-half the amount prescribed in the foregoing scale.\t..",
-      "page": 30
-    },
-    {
-      "num": 4,
-      "text": "Application for review of judgment,5if presented on or after the ninetieth day from the date of the decree. .. The fee leviable on the plaint or memorandum of appeal.",
-      "page": 30
-    },
-    {
-      "num": 5,
-      "text": "Application for review of judgments, 5if presented before the ninetieth day from the date of the decree. .. One-half of the fee leviable on the plaint or memorandum of appeal.",
-      "page": 30
-    },
-    {
-      "num": 1,
-      "text": "To ascertain the proper fee leviable on the institution of a suit, see the table annexed to this Schedule.",
-      "page": 30
-    },
-    {
       "num": 2,
       "text": "Ins. by Act 5 of 1908, s. 155 and Sch IV.",
       "page": 30
@@ -605,52 +1294,12 @@
     },
     {
       "num": 4,
-      "text": "Subs. by Act 12 of 1891, s. 3 and Sch, I for “Act No. 14 of 1859 (to provide for the limitation of suits)”.",
+      "text": "Subs. by Act 12 of 1891, s. 3 and Sch, I for “Act No. 14 of 1859 (to provide for the limitation of suits)”. 5. As to application for review of judgment, see the Code of Civil Procedure, 1908 (Act 5 of 1908).",
       "page": 30
-    },
-    {
-      "num": 5,
-      "text": "As to application for review of judgment, see the Code of Civil Procedure, 1908 (Act 5 of 1908).",
-      "page": 30
-    },
-    {
-      "num": 6,
-      "text": "Copy or translation of a judgment or order not being, or having the force of, a decree. When such judgment or order is passed by any Civil Court other than a High Court, or by the presiding officer of any Revenue Court or office, or by any other Judicial or Executive Authority— (a) If the amount or value of the subject-matter is fifty or less than fifty rupees. Four annas. (b) If such amount or value exceeds fifty rupees. Eight annas. When such judgment or order is passed by a High Court. One rupee.",
-      "page": 31
-    },
-    {
-      "num": 7,
-      "text": "Copy of a decree or order having the force of a decree. When such decree or order is made by any Civil Court other than a High Court, or by any Revenue Court— (a) If the amount or value of the subject-matter of the suit wherein such decree or order is made is fifty or less than fifty rupees. Eight annas. (b) If such amount or value exceeds fifty rupees. One rupee. When such decree or order is made by a High Court. Four rupees.",
-      "page": 31
-    },
-    {
-      "num": 8,
-      "text": "Copy of any document liable to stamp-duty under the Indian Stamp Act, 18791, (1 of 1879), when left by any party to a suit or proceeding in place of the original withdrawn. (a) When the stamp-duty chargeable on the original does not exceed eight annas. The amount of the duty chargeable on the original. (b) In any other case. Eight annas.",
-      "page": 31
-    },
-    {
-      "num": 9,
-      "text": "Copy of any revenue or judicial proceeding or order not otherwise provided for by this Act, or copy of any account, statement, report or the like, taken out of any Civil or Criminal or Revenue Court or office, or from the office of any chief officer charged with the executive administration of a Division. For every three hundred and sixty words or fraction of three hundred and sixty words. Eight annas.",
-      "page": 31
-    },
-    {
-      "num": 10,
-      "text": "[Rep. by the Guardians and Wards Act, 1890 (8 of 1890).] .. .. 2[11. Probate of a will or letters of administration with or without will annexed. 3[When the amount or value of the property in respect of which the grant of probate or letters is made exceeds one thousand rupees, but does not exceed ten thousand rupees. Two per centum on such amount or value. When such amount or value exceeds ten thousand rupees, but does not exceed fifty thousand rupees. Two and one-half per centum on such amount or value. When such amount or value exceeds fifty thousand rupees: Three per centum on such amount or value.] Provided that when, after the grant of a certificate under the Succession Certificate Act, 1889 (7 of 1889), or under the Regulation of the Bombay Code, No. 8 of 1827, in respect of any property included in an estate, a grant of probate or letters of administration is made in respect of the same estate, the fee payable in respect of the letter grant shall be reduced by the amount of the fee paid in respect of the former grant. Number ______ Proper Fee",
-      "page": 31
-    },
-    {
-      "num": 1,
-      "text": "See now the Indian Stamp Act, 1899 (2 of 1899).",
-      "page": 31
     },
     {
       "num": 2,
-      "text": "Subs. by Act 7 of 1889, s. 13(1), for article 11.",
-      "page": 31
-    },
-    {
-      "num": 3,
-      "text": "These items were subs. by Act 7 of 1910, s. 2(i).",
+      "text": "Subs. by Act 7 of 1889, s. 13(1), for article 11. 3. These items were subs. by Act 7 of 1910, s. 2(i).",
       "page": 31
     },
     {
@@ -664,16 +1313,6 @@
       "page": 32
     },
     {
-      "num": 14,
-      "text": "[Rep. by the A.O. 1937.]",
-      "page": 33
-    },
-    {
-      "num": 15,
-      "text": "[Rep. by the Repealing and Amending Act, 1923 (11 of 1923), s. 3 and Sch. II.]",
-      "page": 33
-    },
-    {
       "num": 1,
       "text": "Ins. by the Punjab Courts Act, 1884 (18 of 1884), s. 71, as amended by the Punjab Courts Act 1899 (25 of 1899), s. 6. Article 13 was rep. in the Punjab by s. 5 of the Punjab Courts (Amendment) Act, 1912 (Punjab 1 of 1912); but it has since been revived in this form by the Court-fees (Punjab Amendment) Act, 1922 (Punjab 7 of 1922).",
       "page": 33
@@ -684,229 +1323,9 @@
       "page": 33
     },
     {
-      "num": 7,
-      "text": "Copy of a decree or order having the force of a decree When such decree or order is made by any Civil Court other than a High, Court, or by any Revenue Court— (a) If the amount or value of the subject matter of the suit wherein such decree or order is made is fifty or less than fifty rupees. Two rupees and twenty paise. (b) If such amount or value exceeds fifty rupees. Three rupees and thirty paise. (c) when such decree or order is made by High Court. Eight rupees and twenty-five paise.",
-      "page": 35
-    },
-    {
-      "num": 8,
-      "text": "Copy of any document liable to stamp-duty under the Indian Stamp Act, 1899 (Act 2 of 1899), when left by any party to a suit or proceeding in place of the original withdrawn. (a) when the stamp-duty chargeable on the original does not exceed one rupee. The amount of the duty chargeable on the original. (b) In any other case. One rupee and twenty paise.”",
-      "page": 36
-    },
-    {
-      "num": 9,
-      "text": "Copy of any revenue or judicial proceeding or order not otherwise provided for by this Act, or copy of any account, statement, report or the like, taken out of any Civil or Criminal or Revenue Court or office or from the office of any Chief Officer charged with the executive administration of Division. For every three hundred and sixty words or fraction of three hundred and sixty words. One rupee and twenty paise. [Vide Assam Act 28 of 1972, s. 2,]",
-      "page": 36
-    },
-    {
-      "num": 5,
-      "text": "Plaint or memorandum of appeal to a suit to establish or disprove a right of occupancy.",
-      "page": 47
-    },
-    {
-      "num": 6,
-      "text": "Bail-bond or other instrument obligation given in a pursuance of an order made by a Court or Magistrate under any section of the Code of Criminal Procedure, 1898 (Act V of 1898), or the Code of Civil Procedure, 1908 and not otherwise provided for by this Act.",
-      "page": 47
-    },
-    {
-      "num": 7,
-      "text": "Undertaking under section 49 of the Indian Divorce Act, 1869. One rupee and ten paise.",
-      "page": 47
-    },
-    {
-      "num": 8,
-      "text": "...",
-      "page": 47
-    },
-    {
-      "num": 9,
-      "text": "...",
-      "page": 47
-    },
-    {
-      "num": 11,
-      "text": "Memorandum of appeal when the appeal is not from a decree or an order having the force of a decree, and is presented. (a) to any Civil Court other than a High Court, or to any Revenue Court or Executive Officer other than the High Court or Chief Controlling Revenue or Executive Authority except an authority specified in clause (b); Three rupees and thirty paise. (b) to an Excise Appellate Authority under Rule 340 of the Assam Excise Rules; Sixteen rupees and fifty paise. (c) to a High Court or Chief Commissioner or other Chief Controlling Executive or Revenue Authority except an Authority prescribed in clause (b); Eleven rupees. (d) To an Excise Appellate Authority under Rule 341 of the Assam Excise Rule : Fifty five rupees. (e) to a High Court in miscellaneous revenue matters except (f) below or to an Appellate Authority prescribed under the Motor Vehicles Act, 1939 (Act IV of 1939); and Sixteen rupees and fifty paise. (f) to a High Court in appeal and revision matters arising out of settlement of fishery— (i) When the bid money is below ten thousand rupees: Sixteen rupees and fifty paise. (ii) When the bid money is above then thousand rupees but below twenty thousand rupees: Twenty- seven rupees and fifty paise. (iii) When the bid money is above twenty thousand rupees. Thirty-tree rupees.",
-      "page": 48
-    },
-    {
-      "num": 12,
-      "text": "Caveat... Eleven rupees.",
-      "page": 48
-    },
-    {
-      "num": 13,
-      "text": "Application under Act No. 10 of 1859, section 26 or Bengal Act No. 6 of 1962, section 9 or Bengal Act No. 8 of 1869 section 37. Five rupees and fifty paise. Number Proper fee",
-      "page": 48
-    },
-    {
-      "num": 14,
-      "text": "Petition in a suit under the Native Converts’ Marriage Dissolution Act, 1866. Five rupees and fifty paise.",
-      "page": 49
-    },
-    {
-      "num": 17,
-      "text": "Plaint or memorandum of appeal in each of the following suits:-- (i) to alter or set aside a summary decision or order of any of the Civil Courts not established by Letters Patent or of any Revenue Court; Sixteen rupees and fifty paise.\t(ii) to alter or cancel any entry in a register of the names of proprietors of revenue- paying estates; (iii) to obtain a declaration decree where no consequential relief is prayed; Twenty-two rupees. (iv) to set aside an award; Sixteen rupees and fifty paise. (v) to set aside an adoption; Twenty--two rupees. (vi) every other suit where it is not possible to estimate at a money-value the subject- matter in dispute, and which is not other- wise provided for by this Act. Sixteen rupees and fifty paise.",
-      "page": 49
-    },
-    {
-      "num": 18,
-      "text": "Application under section 14 or section 20, of the Indian Arbitration Act, 1940 (Act X of 1940), for a direction for filing an award or for an order for filing an agreement. When presented to a Munsif’s Court. Sixteen rupees and fifty paise. When presented to any other Court. Fifty-five rupees.",
-      "page": 49
-    },
-    {
-      "num": 19,
-      "text": "Agreement in writing stating a question for the opinion of the Court under the Code of Civil Procedure, 1908 (Act V of 1908). Sixteen rupees and fifty paise.",
-      "page": 49
-    },
-    {
-      "num": 20,
-      "text": "Every petition under the Indian Divorce Act, 1869 (Act IV of 1869), except petitions under section 44 of the same Act, and every memorandum of appeal under section 55 of the same Act. Twenty-two rupees.",
-      "page": 49
-    },
-    {
-      "num": 21,
-      "text": "Plaint or memorandum of appeal under the Parsi Marriage and Divorce Act, 1865 (Act XV of 1865). Twenty-two rupees.] [Vide Assam Act 27 of 1972 s. 3]",
-      "page": 49
-    },
-    {
-      "num": 12,
-      "text": "Certificate under the Indian Succession Act, 1925. When the amount or value of any debt or security specified in the certificate under section 374 of the Act, exceeds one thousand rupees, on such amount or value up to ten thousand rupees, and When such amount or value exceeds ten thousand rupees, on the portion of such amount or value which is in excess of ten thousand rupees up to fifty thousand rupees, and When such amount or value exceeds fifty thousand rupees, on the portion of such amount or value which is in excess of fifty thousand rupees up to one lakh of rupees, and When such amount or value exceeds a lakh of rupees, on the portion of such amount or value which is in excess of one lakh of rupees. Two per centum, and on the amount or value of any debt or security to which the certificate is extended under section 376 of the Act, three per centum. Three per centum, and on the amount or value of any debt or security to which the certificate is extended under section 376 of the Act, four-and-a-half per centum. Four per centum, and on the mount or value of any debt or security to which the certificate is extended under section 376 of the Act, six per centum. Five per centum, and on the amount or value of any debt or security to which the certificate is extended under section 376 of the Act, seven-and-a-half per centum.” SCHEDULE (See section 2) Number and year Short title (1) (2) Bihar and Orissa Act 1 of 1952 Bihar and Orissa Court-Fees (Amendment Act, 1922). Madras Act V of 1922 Central Province Act XVI of 1935 Madras Court-Fees (Amendment) Act, 1922 Court- Fees (Central Provinces Amendment) Act, 1935.",
-      "page": 51
-    },
-    {
-      "num": 2,
-      "text": "Plaint in a suit for possession under the Specific Relief Act, 1963, section 6 ---- A fee of one-half the amount prescribed in the foregoing scale.",
-      "page": 86
-    },
-    {
-      "num": 3,
-      "text": "Application for review of judgement, if presented on or after the ninetieth day from the date of the decree The fee leviable on the plaint or memorandum of appeal.",
-      "page": 86
-    },
-    {
-      "num": 4,
-      "text": "Application for review of judgement, if presented before the ninetieth day from the date of the decree One-half of the fee leviable on the plaint or memorandum of appeal.",
-      "page": 86
-    },
-    {
-      "num": 5,
-      "text": "Copy of translation of judgement or order not being, or having the force of, a decree When such judgement or order is passed by any civil court other than the High Court, or by the presiding officer of any revenue court or office, or by any other judicial or executive authority When such judgement or order is passed by the High Court Two rupees. Five rupees.",
-      "page": 86
-    },
-    {
-      "num": 6,
-      "text": "Copy of a decree or order having the force of a decree When such decree or order is made by any civil court other than the High Court or by any revenue court When such decree or order is made by the High Court Five rupees. Ten rupees.",
-      "page": 86
-    },
-    {
-      "num": 7,
-      "text": "Copy of any document liable to stamp duty under the Indian Stamp Act, 1899, when left by any party to a suit or proceeding in place of the original withdrawn, provided such copy is not subject to any duty under the Indian Stamp Act, 1899 (a) When the stamp duty chargeable , on the original does not exceed seventy five paise (b) in any other case The amount of the duty chargeable on the original, Two rupees.",
-      "page": 87
-    },
-    {
-      "num": 8,
-      "text": "Copy of any revenue or judicial proceeding or order not otherwise provided for by this Act, or copy of any account, statement, report or the like, taken out of any civil or criminal or revenue court or office, or from the office of any chief officer charged with the executive administration of a Division For every three hundred and sixty words or One rupee fraction of three hundred and sixty words One rupee.",
-      "page": 87
-    },
-    {
-      "num": 9,
-      "text": "probate of a will or letters of administration with or without will annexed When the amount or value of the property in respect of which the grant of probate or letters is made exceeds one thousand rupees, but does not exceeds ten thousand rupees. When such amount or value exceeds ten thousand rupees, but does not exceed fifty thousand rupees When such amount or value exceeds fifty thousand rupees three per centum on such amount or value. Five per centum on such amount or value. Six per centum on such amount or value.",
-      "page": 87
-    },
-    {
-      "num": 10,
-      "text": "Certificate under part X of the Indian Succession Act, 1925. In any case Three per centum on the amount or value of any debt or security specified in the certificate under section 374 of that Act, and five per centum on the amount or value of any debt or security to which the certificate is extended under section 376 of that Act. Notes .—(1) The amount of a debt is its amount, including interest, on the day on which the inclusion of the debt in the certificate is applied for, so far as such amount can be ascertained.",
-      "page": 87
-    },
-    {
-      "num": 11,
-      "text": "Application to the High Court for the exercise of its jurisdiction under section 44 of the Punjab Courts Act, 1918, or to the court of the Financial Commissioner for the exercise of its revisional jurisdiction under section 84 of the Punjab Tenancy Act, 1887. Fifteen rupees. Table of rates of ad-valorem fees leviable on the institution of suits Value of the subject matter exceeds But does not exceed Proper fee 1 2 3 Rs Rs Rs 10 10 . 20 20 2 30 30 3 40 40 4 50 50 5 60 60 6 70 70 7 80 80 8 90 90 9 100 100 10 120 120 13 140 140 16 160 160 19",
-      "page": 88
-    },
-    {
-      "num": 2,
-      "text": "Application to any civil court that records may be called for from another court When the court grants the application and is of opinion that the transmission of such records involves the use of the post Two rupees",
-      "page": 97
-    },
-    {
-      "num": 3,
-      "text": "Application for leave to sue as a pauper .. Two rupees",
-      "page": 97
-    },
-    {
-      "num": 4,
-      "text": "Application for leave to appeal as a pauper (a) When presented to a District Court (b) When Presented to a Commissioner or the High Court Two rupees Five rupees",
-      "page": 97
-    },
-    {
-      "num": 5,
-      "text": "Bail-bond or other instrument of obligation given in pursuance of an order made by a court or Magistrate under any section of the Code of Criminal Procedure, 1898, or the Code of Civil Procedure, 1908, and not otherwise Provided for by this Act .. One rupee",
-      "page": 97
-    },
-    {
-      "num": 6,
-      "text": "Undertaking under section 49 of the Divorce Act, 1869 Two rupees",
-      "page": 97
-    },
-    {
-      "num": 7,
-      "text": "Mukhtarnanca or Wakalatnama When presented for the conduct of any one case— (a) to any civil or criminal court other than the High Court, or to any revenue court, or to any Collector or Magistrate, or other Executive Officer, except such as are mentioned in clauses (b) and (c) of this number (b) to a Revenue Commissioner or to any officer charged with executive administration of a Division, not being the Chief Revenue or Executive Authority (c) to the High Court, Chief Commissioner, Board of revenue, or other Chief controlling Revenue or Executive Authority Two rupees Two rupees Three rupees",
-      "page": 97
-    },
-    {
-      "num": 8,
-      "text": "Memorandum of appear when the appeal is not from a decree or an order having the (a) to any civil court other than the High Court, or to any revenue court or Executive Officer other than the High Court or Chief Controlling Revenue or Executive Authority Ten rupees",
-      "page": 97
-    },
-    {
-      "num": 9,
-      "text": "Caveat -- Ten rupees",
+      "num": 0,
+      "text": "-- -- -- -- Twenty-five rupees",
       "page": 98
-    },
-    {
-      "num": 10,
-      "text": "Petition in a suit under the Converts Marriage Dis solution Act, 1866, the Divorce Act, 1869, or the Foreign Marriage Act, 1969 -- Twenty-five rupees",
-      "page": 98
-    },
-    {
-      "num": 11,
-      "text": "(i) Every petition or application or memorandum of appeal under the Special Marriage Act, 1954, or the Hindu Marriage Act, 1955, or the Dissolution of Muslim Marriages Act, 1939 (ii) Application under section 24 of the Hindu Marriage Act, 1955 -- Twenty-five rupees Five rupees",
-      "page": 98
-    },
-    {
-      "num": 12,
-      "text": "Plaint or memorandum of appeal in each of the following suits:— (i) to alter or set as ide a summary decision or order of any of the civil courts not established by Letters Patent or of any revenue court; (ii) to alter or cancel any entry in a register of the names of the proprietors of revenue paying estates; (iii) to obtain a declaratory decree where no consequential relief is prayed; (iv) to set aside an award ; (v) to set aside an adoption; (vi) every other suit where it is not possible to estimate at a money - value the subject matter in dispute, and which is not otherwise provided for by this Act -- -- --- -- -- -- -- Twenty-five rupees",
-      "page": 98
-    },
-    {
-      "num": 13,
-      "text": "Application under section 20 of the Arbitration Act, 1940 -- Twenty-five rupees",
-      "page": 99
-    },
-    {
-      "num": 14,
-      "text": "Agreement in writing stating a question for the opinion of the court under the Code of Civil Procedure, 1908 -- Twenty-five rupees",
-      "page": 99
-    },
-    {
-      "num": 15,
-      "text": "Plaint or memorandum of appeal in a suit by a reversioner under the Punjab Customary Law for declaration in respect of an alienation of ancestral land -- One hundred rupees",
-      "page": 99
-    },
-    {
-      "num": 16,
-      "text": "Application or memorandum of appeal for relief under the Haryana Urban (Control of Rent and Eviction) Act, 1973— Fifteen rupees (i) other than for fixation of fair rent (a) Up to an annual rent not exceeding six hundred rupees; Fifteen rupees (ii) for fixation of fair rent (b) annual rent exceeding six hundred rupees Fifteen rupees",
-      "page": 99
-    },
-    {
-      "num": 17,
-      "text": "Claims for money (whether secured or unsecured) or a claim to set off made against such claims or counter claims under the Banking Companies Act, 1949 (a) Where the amount does not exceed Rs 2,500 ; (b) where the amount exceeds Rs 2,500 but does not exceed Rs 10,000; (c) where the amount exceeds Rs 10,000 ; Twenty-five rupees Fifty -rupees One hundred rupees",
-      "page": 99
-    },
-    {
-      "num": 18,
-      "text": "Memorandum of appeal from an order or decision passed under the Provisions of section 45-B of the Banking Companies Act, 1949 (a) Where the amount exceeds Rs 5,000 put does not exceed Rs 10,000; (b) where the amount exceeds Rs 10,000 One hundred rupees Two hundred rupees. [Vide Haryana Act 11 of 1974, s. 3] Haryana Amendment of Schedule I to Act 7 of 1870.— In Schedule I to the principal Act, — (a) against serial number 5, under columns 3 and 4, for the existing entries, the following entry shall be substituted, namely:-- \"when such judgement or order is passed by Two rupees.\"; any civil court or by the presiding officer of any revenue court or office, or by any other judicial or executive authority (b) against serial number 6, under columns 3 and 4, for the existing entries, the following entry shall be substituted, namely :— \"when such decree or order is made by any Five rupees.\";",
-      "page": 99
     }
   ]
 }
