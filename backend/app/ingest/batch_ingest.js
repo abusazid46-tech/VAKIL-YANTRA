@@ -52,33 +52,72 @@ async function runBatch() {
     acts: {}
   };
 
-  if (fs.existsSync(REGISTRY_PATH)) {
+  // Synchronize registry with all existing validation files in OUTPUT_DIR
+  const existingValFiles = fs.readdirSync(OUTPUT_DIR).filter(f => f.endsWith('_validation.json'));
+  for (const vf of existingValFiles) {
+    const slug = vf.replace('_validation.json', '');
     try {
-      registry = JSON.parse(fs.readFileSync(REGISTRY_PATH, 'utf-8'));
-    } catch (e) {
-      console.warn('Could not parse existing registry, starting fresh.');
-    }
+      const valData = JSON.parse(fs.readFileSync(path.join(OUTPUT_DIR, vf), 'utf-8'));
+      if (valData && valData.status) {
+        registry.acts[slug] = {
+          filename: valData.source_pdf || `${slug}.pdf`,
+          act_name: valData.act_name,
+          act_number: valData.act_number,
+          act_year: valData.act_year,
+          enactment_date: valData.enactment_date,
+          status: valData.status,
+          chunks: valData.total_chunks_produced || valData.total_body_sections_extracted,
+          body_sections: valData.total_body_sections_extracted,
+          schedule_items: valData.total_schedule_items_extracted || 0,
+          missing_sections: valData.missing_sections || [],
+          duplicate_sections: valData.duplicate_sections || [],
+          repealed_sections_count: (valData.repealed_sections || []).length,
+          amending_acts_count: (valData.amending_acts_identified || []).length,
+          processed_at: registry.acts[slug]?.processed_at || new Date().toISOString()
+        };
+      }
+    } catch {}
   }
 
   // Read all PDF files
   const allFiles = fs.readdirSync(SOURCE_DIR).filter(f => f.toLowerCase().endsWith('.pdf'));
   registry.total_files_in_source = allFiles.length;
 
-  let targetFiles = allFiles;
+  // Filter for pending unvalidated files
+  let pendingFiles = allFiles;
   if (filterKeyword) {
-    targetFiles = allFiles.filter(f => f.toLowerCase().includes(filterKeyword));
-    console.log(`Filter "${filterKeyword}" matched ${targetFiles.length} files.`);
+    pendingFiles = pendingFiles.filter(f => f.toLowerCase().includes(filterKeyword));
+    console.log(`Filter "${filterKeyword}" matched ${pendingFiles.length} files.`);
   }
 
+  if (!force) {
+    pendingFiles = pendingFiles.filter(filename => {
+      const actSlug = slugify(filename.replace(/\.pdf$/i, ''));
+      const validationPath = path.join(OUTPUT_DIR, `${actSlug}_validation.json`);
+      if (fs.existsSync(validationPath)) {
+        try {
+          const valData = JSON.parse(fs.readFileSync(validationPath, 'utf-8'));
+          if (valData.status.startsWith('VALIDATION_PASSED')) {
+            return false;
+          }
+        } catch {}
+      }
+      return true;
+    });
+  }
+
+  let targetFiles = pendingFiles;
   if (limit > 0) {
-    targetFiles = targetFiles.slice(0, limit);
-    console.log(`Processing limit set to: ${limit} files.`);
+    targetFiles = pendingFiles.slice(0, limit);
+    console.log(`Next batch limit set to: ${limit} pending files.`);
   }
 
   console.log(`\n======================================================`);
   console.log(`BATCH STATUTORY INGESTION & VALIDATION WORKER`);
   console.log(`Total Source PDFs: ${allFiles.length}`);
-  console.log(`Queue for this run: ${targetFiles.length}`);
+  console.log(`Previously Validated: ${allFiles.length - pendingFiles.length}`);
+  console.log(`Total Pending Remaining: ${pendingFiles.length}`);
+  console.log(`Queue for this batch: ${targetFiles.length}`);
   console.log(`======================================================\n`);
 
   let count = 0;
@@ -88,29 +127,6 @@ async function runBatch() {
     const actSlug = slugify(filename.replace(/\.pdf$/i, ''));
     const actJsonPath = path.join(OUTPUT_DIR, `${actSlug}.json`);
     const validationPath = path.join(OUTPUT_DIR, `${actSlug}_validation.json`);
-
-    // Check if already validated
-    if (!force && fs.existsSync(actJsonPath) && fs.existsSync(validationPath)) {
-      try {
-        const valData = JSON.parse(fs.readFileSync(validationPath, 'utf-8'));
-        if (valData.status.startsWith('VALIDATION_PASSED')) {
-          console.log(`[${count}/${targetFiles.length}] SKIP (Already Validated): ${filename}`);
-          registry.acts[actSlug] = {
-            filename,
-            act_name: valData.act_name,
-            act_number: valData.act_number,
-            status: valData.status,
-            chunks: valData.total_chunks_produced || valData.total_body_sections_extracted,
-            missing: valData.missing_sections.length,
-            duplicates: valData.duplicate_sections.length,
-            processed_at: registry.acts[actSlug]?.processed_at || new Date().toISOString()
-          };
-          continue;
-        }
-      } catch {
-        // reprocess if corrupt
-      }
-    }
 
     console.log(`\n[${count}/${targetFiles.length}] PROCESSING: ${filename}`);
     const startMs = Date.now();
