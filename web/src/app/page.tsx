@@ -44,7 +44,9 @@ import {
   apiPatch,
   apiPost,
   apiUpload,
+  AiResponse,
   AuthToken,
+  Citation,
   DashboardResponse,
   DocumentDownloadUrl,
   DocumentRecord,
@@ -52,6 +54,8 @@ import {
   ForgotPasswordResponse,
   InvitationRecord,
   InviteUserResponse,
+  LegalSearchResponse,
+  LegalSourceItem,
   LoginChallenge,
   MatterDetail,
   MatterRecord,
@@ -239,9 +243,9 @@ export default function Home() {
         </div>
         <div className="content">
           {active === "dashboard" ? <Dashboard authUser={authUser} onSelect={select} /> : null}
-          {active === "drafting" ? <DraftingStudio /> : null}
-          {active === "library" ? <LegalLibrary /> : null}
-          {active === "case" ? <CaseIntelligence /> : null}
+          {active === "drafting" ? <DraftingStudio authUser={authUser} /> : null}
+          {active === "library" ? <LegalLibrary authUser={authUser} onSelect={select} /> : null}
+          {active === "case" ? <CaseIntelligence authUser={authUser} /> : null}
           {active === "matters" ? <Matters authUser={authUser} /> : null}
           {active === "procedural" ? <ProceduralGuide /> : null}
           {active === "limitation" ? <LimitationCalculator /> : null}
@@ -777,184 +781,419 @@ function Dashboard({ authUser, onSelect }: { authUser: AuthUser; onSelect: (id: 
   );
 }
 
-function DraftingStudio() {
+function DraftingStudio({ authUser }: { authUser: AuthUser }) {
+  const [docType, setDocType] = useState("Bail Application");
+  const [court, setCourt] = useState("Gauhati High Court");
+  const [client, setClient] = useState("Ajit Deka");
+  const [sectionsHint, setSectionsHint] = useState("Section 480 BNSS, Section 103 BNS");
+  const [facts, setFacts] = useState(
+    "Client is in judicial custody for 14 days. Allegations under Section 103 BNS are purely circumstantial with no eyewitness. Seizure was effected without electronic recording under Section 105 BNSS. Applicant is permanent resident with elderly dependent parents and undertakes to comply with all bail conditions."
+  );
+  const [generating, setGenerating] = useState(false);
+  const [generatedDraft, setGeneratedDraft] = useState<string>("");
+  const [citations, setCitations] = useState<Citation[]>([]);
+  const [warning, setWarning] = useState<string>("");
+  const [copied, setCopied] = useState(false);
+  const [error, setError] = useState("");
+
+  // AI Assistant chat state
+  const [assistantQuery, setAssistantQuery] = useState("");
+  const [assistantBusy, setAssistantBusy] = useState(false);
+  const [assistantMessages, setAssistantMessages] = useState<Array<{ role: "user" | "assistant"; text: string; citations?: Citation[] }>>([
+    {
+      role: "assistant",
+      text: "Legal Assistant online with statutory RAG grounding. Ask statutory questions regarding provisions, provisos, or procedure under Indian Central Acts."
+    }
+  ]);
+
+  async function handleGenerateDraft() {
+    if (!authUser.accessToken) {
+      setError("Session expired. Please log in again.");
+      return;
+    }
+    setGenerating(true);
+    setError("");
+    try {
+      const payload = {
+        matter_title: `${client} v. State / Respondent`,
+        draft_type: docType,
+        fact_summary: `${facts}\nCourt: ${court}\nClient: ${client}\nStatutory hints: ${sectionsHint}`,
+        jurisdiction: court
+      };
+      const resp = await apiPost<AiResponse>("/ai/draft", payload, authUser.accessToken);
+      setGeneratedDraft(resp.output_text);
+      setCitations(resp.citations || []);
+      setWarning(resp.verification_warning || "");
+    } catch (err: any) {
+      setError(err.message || "Draft generation failed.");
+    } finally {
+      setGenerating(false);
+    }
+  }
+
+  function copyToClipboard() {
+    const textToCopy = generatedDraft || "No draft content to copy.";
+    navigator.clipboard.writeText(textToCopy);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
+
+  function downloadDraft(format: "txt" | "doc") {
+    const content = generatedDraft || "No draft content.";
+    const element = document.createElement("a");
+    const file = new Blob([content], { type: format === "doc" ? "application/msword" : "text/plain" });
+    element.href = URL.createObjectURL(file);
+    element.download = `${docType.replace(/\s+/g, "_")}_${client.replace(/\s+/g, "_")}.${format}`;
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
+  }
+
+  async function handleAskAssistant() {
+    if (!assistantQuery.trim() || !authUser.accessToken || assistantBusy) return;
+    const q = assistantQuery.trim();
+    setAssistantQuery("");
+    setAssistantBusy(true);
+    setAssistantMessages(prev => [...prev, { role: "user", text: q }]);
+    try {
+      const resp = await apiPost<AiResponse>(
+        "/ai/draft",
+        {
+          matter_title: "Statutory Legal Inquiry",
+          draft_type: "Legal Advice",
+          fact_summary: q,
+          jurisdiction: "Supreme Court & Central Acts"
+        },
+        authUser.accessToken
+      );
+      setAssistantMessages(prev => [
+        ...prev,
+        { role: "assistant", text: resp.output_text, citations: resp.citations }
+      ]);
+    } catch (err: any) {
+      setAssistantMessages(prev => [
+        ...prev,
+        { role: "assistant", text: `Error: ${err.message || "Failed to retrieve statutory answer."}` }
+      ]);
+    } finally {
+      setAssistantBusy(false);
+    }
+  }
+
   return (
     <section className="grid-2">
       <div className="card">
         <div className="card-title">AI Drafting Studio</div>
-        <div className="card-sub">Ask, find citations, proofread</div>
+        <div className="card-sub">Statutory RAG Grounding & Zero-Hallucination Drafting</div>
+        {error ? <div className="notice warn" style={{ marginBottom: 12 }}>{error}</div> : null}
         <div className="form-grid">
           <label className="field">
             <span className="label">Document type</span>
-            <select className="select">
+            <select className="select" value={docType} onChange={e => setDocType(e.target.value)}>
               <option>Bail Application</option>
               <option>Legal Notice</option>
               <option>Written Statement</option>
+              <option>Writ Petition (Art 226)</option>
+              <option>Section 138 NI Act Complaint</option>
+              <option>Condonation of Delay Application</option>
               <option>Affidavit</option>
             </select>
           </label>
           <label className="field">
-            <span className="label">Court</span>
-            <input className="input" defaultValue="Gauhati High Court" />
+            <span className="label">Court / Forum</span>
+            <input className="input" value={court} onChange={e => setCourt(e.target.value)} />
           </label>
           <label className="field">
-            <span className="label">Client</span>
-            <input className="input" defaultValue="Ajit Deka" />
+            <span className="label">Client / Applicant</span>
+            <input className="input" value={client} onChange={e => setClient(e.target.value)} />
           </label>
           <label className="field">
-            <span className="label">Sections</span>
-            <input className="input" defaultValue="BNS 103, BNSS 480" />
+            <span className="label">Sections / Statutory Hints</span>
+            <input className="input" value={sectionsHint} onChange={e => setSectionsHint(e.target.value)} placeholder="e.g. Section 480 BNSS, Section 138 NI Act" />
           </label>
           <label className="field full">
-            <span className="label">Facts and instructions</span>
-            <textarea className="textarea" defaultValue="Client is in custody. FIR copy received. Need urgent regular bail with medical and family dependency grounds." />
+            <span className="label">Facts, Grounding & Instructions</span>
+            <textarea className="textarea" rows={4} value={facts} onChange={e => setFacts(e.target.value)} />
           </label>
         </div>
-        <div className="actions">
-          <button className="btn primary">
-            <Bot /> Generate Draft
+        <div className="actions" style={{ marginTop: 14 }}>
+          <button className="btn primary" onClick={handleGenerateDraft} disabled={generating}>
+            <Bot /> {generating ? "Grounding in Central Acts..." : "Generate Grounded Draft (RAG)"}
           </button>
-          <button className="btn ghost">
-            <Mic /> Dictate
-          </button>
-          <button className="btn ghost">
-            <Users /> Share
+          <button className="btn ghost" onClick={() => downloadDraft("txt")}>
+            <Download /> Export TXT
           </button>
         </div>
       </div>
+
       <div className="card">
         <div className="card-title">Draft Preview</div>
-        <div className="card-sub">Autosaved revision 12</div>
-        <div className="editor">
-          <strong>IN THE GAUHATI HIGH COURT</strong>
-          <br />
-          <br />
-          Application under Section 480 BNSS seeking regular bail on behalf of the applicant. The matter requires independent
-          verification of FIR facts, custody duration, medical records and applicable precedents before filing.
-          <br />
-          <br />
-          <strong>AI Citation Suggestions</strong>
-          <br />
-          1. Bail principles under personal liberty jurisprudence.
-          <br />
-          2. Custody duration and investigation status.
-          <br />
-          3. Conditions sufficient to secure presence.
+        <div className="card-sub">{generatedDraft ? "Generated with statutory citations" : "Awaiting draft request"}</div>
+        <div className="editor" style={{ minHeight: 280, whiteSpace: "pre-wrap", fontFamily: "inherit" }}>
+          {generatedDraft || (
+            <div>
+              <strong>IN THE {court.toUpperCase()}</strong>
+              <br /><br />
+              <em>Click &quot;Generate Grounded Draft (RAG)&quot; to retrieve verbatim provisions from the Indian Central Acts corpus and compile a structured court draft with verified citations.</em>
+            </div>
+          )}
         </div>
-        <div className="actions">
-          <button className="btn ghost">
-            <Copy /> Copy
+        <div className="actions" style={{ marginTop: 12 }}>
+          <button className="btn ghost" onClick={copyToClipboard}>
+            {copied ? <Check /> : <Copy />} {copied ? "Copied!" : "Copy"}
           </button>
-          <button className="btn ghost">
-            <Download /> DOCX
+          <button className="btn ghost" onClick={() => downloadDraft("doc")}>
+            <Download /> DOC
           </button>
-          <button className="btn ghost">
+          <button className="btn ghost" onClick={() => window.print()}>
             <Printer /> Print
           </button>
-          <button className="btn ghost">
-            <Mail /> Email
-          </button>
         </div>
-      </div>
-      <div className="card">
-        <div className="card-title">AI Legal Assistant</div>
-        <div className="card-sub">Traceable source responses</div>
-        <div className="chat">
-          <div className="bubble user">Find citations that support regular bail when investigation evidence is mostly documentary.</div>
-          <div className="bubble">
-            Use the curated judgment index and verify each citation before filing. The answer should cite source links and refuse where
-            the corpus is insufficient.
+
+        {warning ? (
+          <div className="warning-box">
+            <AlertTriangle style={{ flex: "0 0 20px" }} />
+            <div>
+              <strong>Statutory Grounding Notice:</strong>
+              <div style={{ marginTop: 2 }}>{warning}</div>
+            </div>
           </div>
+        ) : null}
+
+        {citations.length > 0 ? (
+          <div style={{ marginTop: 18 }}>
+            <div className="card-title" style={{ fontSize: "1rem" }}>Verified Statutory Citations ({citations.length})</div>
+            <div className="card-sub">Exact provisions retrieved from Indian Central Acts</div>
+            {citations.map(cit => (
+              <div key={cit.citation_id} className="citation-box">
+                <div className="citation-header">
+                  <div>
+                    <strong>{cit.source_title}</strong>
+                    {cit.section_number ? <span className="tag" style={{ marginLeft: 8 }}>Sec. {cit.section_number}</span> : null}
+                  </div>
+                  <button className="btn ghost" style={{ minHeight: 28, padding: "4px 8px", fontSize: "0.75rem" }} onClick={() => window.open(cit.source_url, "_blank")}>
+                    <BookOpen style={{ width: 14, height: 14 }} /> India Code
+                  </button>
+                </div>
+                {cit.heading ? <div style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--green)" }}>{cit.heading}</div> : null}
+                <div style={{ fontSize: "0.84rem", color: "var(--muted)", fontStyle: "italic" }}>
+                  &ldquo;{cit.quote_excerpt.length > 280 ? `${cit.quote_excerpt.slice(0, 280)}...` : cit.quote_excerpt}&rdquo;
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : null}
+      </div>
+
+      <div className="card" style={{ gridColumn: "1 / -1" }}>
+        <div className="card-title">AI Legal Assistant</div>
+        <div className="card-sub">Interactive Statutory Query with Verifiable Retrieval</div>
+        <div className="chat" style={{ maxHeight: 320, overflowY: "auto", marginBottom: 12 }}>
+          {assistantMessages.map((msg, idx) => (
+            <div key={idx} className={`bubble ${msg.role === "user" ? "user" : ""}`}>
+              <div style={{ whiteSpace: "pre-wrap" }}>{msg.text}</div>
+              {msg.citations && msg.citations.length > 0 ? (
+                <div style={{ marginTop: 8, display: "flex", gap: 6, flexWrap: "wrap" }}>
+                  {msg.citations.map(c => (
+                    <a key={c.citation_id} href={c.source_url} target="_blank" rel="noreferrer" className="tag" style={{ textDecoration: "none" }}>
+                      {c.source_title} S.{c.section_number || ""}
+                    </a>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          ))}
+          {assistantBusy ? <div className="bubble">Searching Central Acts corpus...</div> : null}
         </div>
-        <div className="searchbar" style={{ marginTop: 14 }}>
-          <input className="input" placeholder="Ask legal question..." />
-          <button className="btn primary">
+        <div className="searchbar">
+          <input
+            className="input"
+            value={assistantQuery}
+            onChange={e => setAssistantQuery(e.target.value)}
+            onKeyDown={e => { if (e.key === "Enter") handleAskAssistant(); }}
+            placeholder="Ask a question on Indian statutes (e.g. Can anticipatory bail be granted for non-bailable offence under BNSS?)..."
+          />
+          <button className="btn primary" onClick={handleAskAssistant} disabled={assistantBusy}>
             <Send /> Send
           </button>
         </div>
       </div>
-      <div className="card">
-        <div className="card-title">Sharing Controls</div>
-        <div className="card-sub">Specific user, view or edit</div>
-        <div className="form-grid">
-          <label className="field">
-            <span className="label">User</span>
-            <select className="select">
-              <option>Priya Counsel</option>
-              <option>Junior Advocate</option>
-            </select>
-          </label>
-          <label className="field">
-            <span className="label">Permission</span>
-            <select className="select">
-              <option>View only</option>
-              <option>Edit</option>
-            </select>
-          </label>
-        </div>
-        <button className="btn primary">
-          <Lock /> Grant Access
-        </button>
-      </div>
     </section>
   );
 }
 
-function LegalLibrary() {
+function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (id: SectionId) => void }) {
   const [query, setQuery] = useState("");
-  const filtered = useMemo(
-    () => legalActs.filter((act) => `${act.name} ${act.type} ${act.year}`.toLowerCase().includes(query.toLowerCase())),
-    [query]
-  );
+  const [searchResults, setSearchResults] = useState<LegalSourceItem[]>([]);
+  const [searching, setSearching] = useState(false);
+  const [searched, setSearched] = useState(false);
+  const [error, setError] = useState("");
+
+  const curatedActs = [
+    { name: "Constitution of India", year: "1950", type: "Constitution", actNumber: "Constituent Assembly", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Constitution+of+India" },
+    { name: "Bharatiya Nagarik Suraksha Sanhita", year: "2023", type: "Procedure", actNumber: "Act 46 of 2023", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Bharatiya+Nagarik+Suraksha+Sanhita" },
+    { name: "Bharatiya Nyaya Sanhita", year: "2023", type: "Criminal", actNumber: "Act 45 of 2023", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Bharatiya+Nyaya+Sanhita" },
+    { name: "Bharatiya Sakshya Adhiniyam", year: "2023", type: "Evidence", actNumber: "Act 47 of 2023", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Bharatiya+Sakshya+Adhiniyam" },
+    { name: "Arbitration and Conciliation Act", year: "1996", type: "Commercial", actNumber: "Act 26 of 1996", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Arbitration+and+Conciliation+Act" },
+    { name: "Negotiable Instruments Act", year: "1881", type: "Commercial", actNumber: "Act 26 of 1881", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Negotiable+Instruments+Act" },
+    { name: "Limitation Act", year: "1963", type: "Civil", actNumber: "Act 36 of 1963", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Limitation+Act" },
+    { name: "Code of Civil Procedure", year: "1908", type: "Procedure", actNumber: "Act 5 of 1908", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Code+of+Civil+Procedure" },
+    { name: "Indian Contract Act", year: "1872", type: "Civil", actNumber: "Act 9 of 1872", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Indian+Contract+Act" },
+    { name: "Insolvency and Bankruptcy Code", year: "2016", type: "Commercial", actNumber: "Act 31 of 2016", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Insolvency+and+Bankruptcy+Code" },
+    { name: "Companies Act", year: "2013", type: "Corporate", actNumber: "Act 18 of 2013", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Companies+Act" },
+    { name: "Consumer Protection Act", year: "2019", type: "Consumer", actNumber: "Act 35 of 2019", url: "https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=Consumer+Protection+Act" }
+  ];
+
+  async function handleSearch(e?: React.FormEvent) {
+    if (e) e.preventDefault();
+    if (!query.trim()) {
+      setSearched(false);
+      return;
+    }
+    setSearching(true);
+    setError("");
+    try {
+      const resp = await apiGet<LegalSearchResponse>(`/legal-content/search?q=${encodeURIComponent(query)}`, authUser.accessToken);
+      setSearchResults(resp.results || []);
+      setSearched(true);
+    } catch (err: any) {
+      setError(err.message || "Search failed");
+    } finally {
+      setSearching(false);
+    }
+  }
+
   return (
     <section>
       <div className="card">
-        <div className="card-title">Legal Library</div>
-        <div className="card-sub">Curated Acts and judgments for MVP</div>
-        <div className="searchbar">
-          <input className="input" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search act, section or subject" />
-          <button className="btn primary">
-            <Search /> Search
+        <div className="card-title">Legal Library & Statutory Corpus</div>
+        <div className="card-sub">600+ Indian Central Acts & Verified Grounding Index</div>
+        <form onSubmit={handleSearch} className="searchbar">
+          <input
+            className="input"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            placeholder="Search act by title, act number, or year (e.g. BNSS, 46 of 2023, Arbitration, Aadhaar)..."
+          />
+          <button className="btn primary" type="submit" disabled={searching}>
+            <Search /> {searching ? "Searching 600 Acts..." : "Search Library"}
           </button>
-        </div>
-        <div className="grid-3">
-          {filtered.map((act) => (
-            <div className="mini-card" key={act.name}>
-              <strong>{act.name}</strong>
-              <span>
-                {act.year} · {act.type} · {act.sections}
-              </span>
-              <div className="actions" style={{ marginTop: 12 }}>
-                <button className="btn ghost">
-                  <BookOpen /> Open
-                </button>
-                <button className="btn ghost">
-                  <ChevronRight /> Cite
-                </button>
-              </div>
+        </form>
+        {error ? <div className="notice warn">{error}</div> : null}
+
+        {searched ? (
+          <div>
+            <div style={{ marginBottom: 12, fontWeight: 700, color: "var(--muted)" }}>
+              Found {searchResults.length} Act{searchResults.length === 1 ? "" : "s"} matching &ldquo;{query}&rdquo;
             </div>
-          ))}
-        </div>
+            {searchResults.length === 0 ? (
+              <div style={{ padding: 20, textAlign: "center", color: "var(--muted)" }}>
+                No Central Acts found matching this query in the catalog.
+              </div>
+            ) : (
+              <div className="grid-3">
+                {searchResults.map(act => (
+                  <div className="mini-card" key={act.id}>
+                    <div>
+                      <strong>{act.title}</strong>
+                      <div style={{ marginTop: 4, fontSize: "0.82rem", color: "var(--muted)" }}>
+                        {act.act_number ? `Act No. ${act.act_number} · ` : ""}{act.year} · {act.jurisdiction}
+                      </div>
+                    </div>
+                    <div className="actions" style={{ marginTop: 12 }}>
+                      <button className="btn ghost" onClick={() => window.open(act.public_url, "_blank")}>
+                        <BookOpen /> India Code
+                      </button>
+                      {onSelect ? (
+                        <button className="btn ghost" onClick={() => onSelect("drafting")}>
+                          <ChevronRight /> Cite in Draft
+                        </button>
+                      ) : null}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ) : (
+          <div>
+            <div style={{ marginBottom: 12, fontWeight: 700, color: "var(--muted)" }}>
+              Landmark Practice Acts (Search above to explore all 600 Central Acts)
+            </div>
+            <div className="grid-3">
+              {curatedActs.map(act => (
+                <div className="mini-card" key={act.name}>
+                  <div>
+                    <strong>{act.name}</strong>
+                    <div style={{ marginTop: 4, fontSize: "0.82rem", color: "var(--muted)" }}>
+                      {act.year} · {act.type} · {act.actNumber}
+                    </div>
+                  </div>
+                  <div className="actions" style={{ marginTop: 12 }}>
+                    <button className="btn ghost" onClick={() => window.open(act.url, "_blank")}>
+                      <BookOpen /> India Code
+                    </button>
+                    {onSelect ? (
+                      <button className="btn ghost" onClick={() => onSelect("drafting")}>
+                        <ChevronRight /> Cite
+                      </button>
+                    ) : null}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
 }
 
-function CaseIntelligence() {
+function CaseIntelligence({ authUser }: { authUser: AuthUser }) {
+  const [advocateRole, setAdvocateRole] = useState("Defence Counsel");
+  const [matterTitle, setMatterTitle] = useState("State v. Ajit Deka");
+  const [allegations, setAllegations] = useState(
+    "Allegation of non-bailable offence under Section 103 BNS. Panchnama seizure made without mandatory electronic videography mandated under Section 105 BNSS. Accused detained beyond 24 hours prior to production before magistrate."
+  );
+  const [reliefSought, setReliefSought] = useState("Regular Bail under Section 480 BNSS / Anticipatory Bail under Section 482 BNSS");
+  const [caseNotes, setCaseNotes] = useState("Applicant is sole earner with dependent family. Medical condition requires continuous clinical monitoring. Zero prior criminal record.");
+  const [analyzing, setAnalyzing] = useState(false);
+  const [analysisResult, setAnalysisResult] = useState<AiResponse | null>(null);
+  const [error, setError] = useState("");
+
+  async function handleAnalyse() {
+    if (!authUser.accessToken) {
+      setError("Session expired. Please log in.");
+      return;
+    }
+    setAnalyzing(true);
+    setError("");
+    try {
+      const payload = {
+        matter_title: matterTitle,
+        case_notes: `Advocate Role: ${advocateRole}\n${caseNotes}`,
+        allegations,
+        relief_sought: reliefSought
+      };
+      const resp = await apiPost<AiResponse>("/ai/case-analysis", payload, authUser.accessToken);
+      setAnalysisResult(resp);
+    } catch (err: any) {
+      setError(err.message || "Case analysis failed.");
+    } finally {
+      setAnalyzing(false);
+    }
+  }
+
   return (
     <section className="grid-2">
       <div className="card">
         <div className="card-title">Case Intelligence</div>
-        <div className="card-sub">Upload, OCR, page evidence, role-aware analysis</div>
-        <div className="source" style={{ minHeight: 120, alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-          <Upload />
-          <strong>Drop PDF, DOCX or scanned images</strong>
-          <span className="stat-note">Files are scanned, extracted and processed asynchronously.</span>
-        </div>
-        <div className="form-grid" style={{ marginTop: 14 }}>
+        <div className="card-sub">Role-Aware Statutory Evidence & Strategy Analysis</div>
+        {error ? <div className="notice warn" style={{ marginBottom: 12 }}>{error}</div> : null}
+        <div className="form-grid">
           <label className="field">
             <span className="label">Advocate role</span>
-            <select className="select">
+            <select className="select" value={advocateRole} onChange={e => setAdvocateRole(e.target.value)}>
               <option>Defence Counsel</option>
               <option>Petitioner Counsel</option>
               <option>Respondent Counsel</option>
@@ -962,31 +1201,86 @@ function CaseIntelligence() {
             </select>
           </label>
           <label className="field">
-            <span className="label">Matter</span>
-            <select className="select">
-              <option>State v. Ajit Deka</option>
-              <option>Create new matter</option>
-            </select>
+            <span className="label">Matter Title</span>
+            <input className="input" value={matterTitle} onChange={e => setMatterTitle(e.target.value)} />
+          </label>
+          <label className="field full">
+            <span className="label">Allegations / Charge Sheet Grounds</span>
+            <textarea className="textarea" rows={3} value={allegations} onChange={e => setAllegations(e.target.value)} />
+          </label>
+          <label className="field full">
+            <span className="label">Relief Sought</span>
+            <input className="input" value={reliefSought} onChange={e => setReliefSought(e.target.value)} />
+          </label>
+          <label className="field full">
+            <span className="label">Case Notes & Evidentiary Defenses</span>
+            <textarea className="textarea" rows={3} value={caseNotes} onChange={e => setCaseNotes(e.target.value)} />
           </label>
         </div>
-        <button className="btn primary">
-          <Bot /> Analyse Document
-        </button>
+        <div className="actions" style={{ marginTop: 14 }}>
+          <button className="btn primary" onClick={handleAnalyse} disabled={analyzing}>
+            <Bot /> {analyzing ? "Synthesizing Statutory Analysis..." : "Analyse Case with RAG Grounding"}
+          </button>
+        </div>
       </div>
+
       <div className="card">
         <div className="card-title">Analysis Report</div>
-        <div className="card-sub">Structured response with evidence anchors</div>
-        {["Action steps", "Argument preparation", "Procedural guidance"].map((title, index) => (
-          <div className="source" key={title}>
-            <div className="source-icon">{index + 1}</div>
-            <div>
-              <strong>{title}</strong>
-              <p className="stat-note">
-                Save this block to the matter file, export it, and retain source page references for independent advocate review.
-              </p>
+        <div className="card-sub">Grounding in Statutory Ingredients & Precedents</div>
+        {analysisResult ? (
+          <div>
+            <div className="editor" style={{ minHeight: 260, whiteSpace: "pre-wrap", fontFamily: "inherit" }}>
+              {analysisResult.output_text}
             </div>
+
+            {analysisResult.verification_warning ? (
+              <div className="warning-box">
+                <AlertTriangle style={{ flex: "0 0 20px" }} />
+                <div>
+                  <strong>Mandatory Verification Notice:</strong>
+                  <div style={{ marginTop: 2 }}>{analysisResult.verification_warning}</div>
+                </div>
+              </div>
+            ) : null}
+
+            {analysisResult.citations && analysisResult.citations.length > 0 ? (
+              <div style={{ marginTop: 18 }}>
+                <div className="card-title" style={{ fontSize: "1rem" }}>Verified Statutory Anchors ({analysisResult.citations.length})</div>
+                {analysisResult.citations.map(cit => (
+                  <div key={cit.citation_id} className="citation-box">
+                    <div className="citation-header">
+                      <div>
+                        <strong>{cit.source_title}</strong>
+                        {cit.section_number ? <span className="tag" style={{ marginLeft: 8 }}>Sec. {cit.section_number}</span> : null}
+                      </div>
+                      <button className="btn ghost" style={{ minHeight: 28, padding: "4px 8px", fontSize: "0.75rem" }} onClick={() => window.open(cit.source_url, "_blank")}>
+                        <BookOpen style={{ width: 14, height: 14 }} /> India Code
+                      </button>
+                    </div>
+                    {cit.heading ? <div style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--green)" }}>{cit.heading}</div> : null}
+                    <div style={{ fontSize: "0.84rem", color: "var(--muted)", fontStyle: "italic" }}>
+                      &ldquo;{cit.quote_excerpt.length > 250 ? `${cit.quote_excerpt.slice(0, 250)}...` : cit.quote_excerpt}&rdquo;
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : null}
           </div>
-        ))}
+        ) : (
+          <div>
+            {["Action steps", "Argument preparation", "Procedural guidance"].map((title, index) => (
+              <div className="source" key={title}>
+                <div className="source-icon">{index + 1}</div>
+                <div>
+                  <strong>{title}</strong>
+                  <p className="stat-note">
+                    Provide facts, allegations, and relief sought on the left, then click &ldquo;Analyse Case with RAG Grounding&rdquo; to retrieve statutory ingredients, provisos, and legal grounds.
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );

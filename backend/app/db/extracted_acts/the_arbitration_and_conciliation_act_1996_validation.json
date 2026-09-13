@@ -1,0 +1,25 @@
+{
+  "act_name": "The Arbitration and Conciliation Act, 1996",
+  "act_number": "26 of 1996",
+  "act_year": 1996,
+  "enactment_date": "",
+  "as_on_date": "14th May, 2025",
+  "total_pages_scanned": 55,
+  "total_body_sections_extracted": 56,
+  "total_schedule_items_extracted": 12,
+  "total_chunks_produced": 68,
+  "amending_acts_identified": [
+    "Act 3 of 2016",
+    "Act 33 of 2019",
+    "Act 3 of 2021"
+  ],
+  "missing_sections": [
+    17,
+    36
+  ],
+  "duplicate_sections": [],
+  "repealed_sections": [],
+  "empty_or_suspicious_sections": [],
+  "validation_warnings": [],
+  "status": "VALIDATION_PASSED_WITH_NOTICES"
+}

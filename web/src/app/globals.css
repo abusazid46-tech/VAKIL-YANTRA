@@ -1053,3 +1053,57 @@ h1,
     grid-template-columns: 1fr;
   }
 }
+
+.citation-box {
+  border: 1px solid var(--line);
+  background: #fffdf8;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color 0.15s ease;
+}
+
+.citation-box:hover {
+  border-color: var(--green);
+}
+
+.citation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.warning-box {
+  border: 1px solid rgba(200, 148, 26, 0.4);
+  background: rgba(200, 148, 26, 0.08);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-top: 14px;
+  color: #724b00;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.mini-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fffdf8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 130px;
+  transition: border-color 0.15s ease;
+}
+
+.mini-card:hover {
+  border-color: var(--green);
+}

@@ -206,6 +206,42 @@ export type InvitationRecord = {
   accepted_at?: string | null;
 };
 
+export type Citation = {
+  citation_id: string;
+  source_title: string;
+  section_number?: string | null;
+  heading?: string | null;
+  quote_excerpt: string;
+  similarity_score: number;
+  source_url: string;
+  chunk_type: string;
+};
+
+export type AiResponse = {
+  output_text: string;
+  draft_type?: string | null;
+  citations: Citation[];
+  verification_warning: string;
+  retrieved_context_count: number;
+};
+
+export type LegalSourceItem = {
+  id: string;
+  title: string;
+  act_number?: string | null;
+  enactment_date?: string | null;
+  source_type: string;
+  jurisdiction: string;
+  year: number;
+  public_url: string;
+  effective_status: string;
+};
+
+export type LegalSearchResponse = {
+  query: string;
+  results: LegalSourceItem[];
+};
+
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000/api/v1";
 
 export async function apiPost<T>(path: string, body: unknown, token?: string): Promise<T> {

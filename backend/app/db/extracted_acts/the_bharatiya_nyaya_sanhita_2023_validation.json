@@ -1,0 +1,18 @@
+{
+  "act_name": "The Bharatiya Nyaya Sanhita, 2023",
+  "act_number": "45 of 2023",
+  "act_year": 2023,
+  "enactment_date": "",
+  "as_on_date": "6th October, 2025",
+  "total_pages_scanned": 112,
+  "total_body_sections_extracted": 358,
+  "total_schedule_items_extracted": 0,
+  "total_chunks_produced": 358,
+  "amending_acts_identified": [],
+  "missing_sections": [],
+  "duplicate_sections": [],
+  "repealed_sections": [],
+  "empty_or_suspicious_sections": [],
+  "validation_warnings": [],
+  "status": "VALIDATION_PASSED"
+}

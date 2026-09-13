@@ -1,0 +1,912 @@
+{
+  "metadata": {
+    "act_id": "act_fees_act_1870",
+    "act_name": "Fees Act, 1870",
+    "act_number": "7 of 1870",
+    "act_year": 1870,
+    "enactment_date": "",
+    "as_on_date": "8th July, 2026",
+    "total_pages": 106,
+    "total_sections": 0,
+    "total_schedule_items": 0,
+    "amending_acts": [
+      "Act 31 of 1930",
+      "Act 2 of 1922",
+      "Act 16 of 1935",
+      "Act 4 of 1952",
+      "Act 17 of 1887",
+      "Act 26 of 1949",
+      "Act 31 of 1953",
+      "Act 28 of 1967",
+      "Act 16 of 1958",
+      "Act 12 of 1891",
+      "Act 19 of 1922",
+      "Act 6 of 1905",
+      "Act 5 of 1908",
+      "Act 20 of 1870",
+      "Act 46 of 1999",
+      "Act 13 of 1889",
+      "Act 7 of 1889",
+      "Act 13 of 1875",
+      "Act 10 of 1901",
+      "Act 11 of 1899",
+      "Act 6 of 1980",
+      "Act 38 of 1920",
+      "Act 11 of 1865",
+      "Act 8 of 1859",
+      "Act 9 of 1869",
+      "Act 8 of 2026",
+      "Act 7 of 1910",
+      "Act 2 of 1899",
+      "Act 28 of 1972",
+      "Act 27 of 1972",
+      "Act 1 of 1952",
+      "Act 11 of 1974",
+      "Act 7 of 1870"
+    ],
+    "source_pdf": "The Court-Fees Act, 1870.pdf"
+  },
+  "chunks": [],
+  "footnotes": [
+    {
+      "num": 1,
+      "text": "The Indian Christian Marriage Act, 1872 (15 of 1872).",
+      "page": 2
+    },
+    {
+      "num": 2,
+      "text": "The Probate and Administration Act, 1875 (13 of 1875).",
+      "page": 2
+    },
+    {
+      "num": 3,
+      "text": "The Petroleum Act, 1898 (7 of 1889).",
+      "page": 2
+    },
+    {
+      "num": 4,
+      "text": "The Court-fees Amendment Act, 1899 (11 of 1899).",
+      "page": 2
+    },
+    {
+      "num": 5,
+      "text": "The Court-fees (Amendment) Act, 1901 (10 of 1901).",
+      "page": 2
+    },
+    {
+      "num": 6,
+      "text": "The Court-fees (Amendment) Act 1905 (6 of 1905).",
+      "page": 2
+    },
+    {
+      "num": 7,
+      "text": "The Second Repealing and Amending Act, 1914 (17 of 1914).",
+      "page": 2
+    },
+    {
+      "num": 8,
+      "text": "The Repealing and Amending Act, 1917 (24 of 1917).",
+      "page": 2
+    },
+    {
+      "num": 9,
+      "text": "The Repealing and Amending Act, 1918 (18 of 1919).",
+      "page": 2
+    },
+    {
+      "num": 10,
+      "text": "The Court-fees (Amendment) Act, 1922 (19 of 1922).",
+      "page": 2
+    },
+    {
+      "num": 11,
+      "text": "The Repealing and Amending Act 1923 (11 of 1923).",
+      "page": 2
+    },
+    {
+      "num": 12,
+      "text": "The Jan Vishwas (Amendment of Provisions) Act, 2026 (8 of 2026). _________ LIST OF ABBREVIATIONS USED Cl.,cls. . . . . . for Clause, clauses. Ins. . . . . . ,, Inserted. Notifn. . . . . . ,, Notification. S., ss. . . . . . ,, Section, sections. Sch. . . . . . ,, Schedule. Subs. . . . . . ,, Substituted. w.e.f. . . . . . ,, with effect from.",
+      "page": 2
+    },
+    {
+      "num": 1,
+      "text": "Short title. Extent of Act. Commencement of Act. 1A. Definition of “appropriate Government”.",
+      "page": 3
+    },
+    {
+      "num": 2,
+      "text": "[Repealed.].",
+      "page": 3
+    },
+    {
+      "num": 3,
+      "text": "Levy of fees in High Courts on their original sides. Levy of fees in Presidency Small Cause Courts.",
+      "page": 3
+    },
+    {
+      "num": 4,
+      "text": "Fees on documents filed, etc., in High Courts in their extraordinary jurisdiction. In their appellate jurisdiction. As courts of reference and revision.",
+      "page": 3
+    },
+    {
+      "num": 5,
+      "text": "Procedure in case of difference as to necessity or amount of fee.",
+      "page": 3
+    },
+    {
+      "num": 6,
+      "text": "Fees on documents filed, etc., in Mufassal Courts or in public offices.",
+      "page": 3
+    },
+    {
+      "num": 7,
+      "text": "Computation of fees payable in certain suits. (i) for money. (ii) for maintenance and annuities . (iii) for other movable property having a market-value. (iv) (a) for movable property of no market-value. (b) to enforce a right to share in joint family property. (c) for a declaratory decree and consequential relief. (d) for an injunction. (e) for easements. (f) for accounts. (v) for possession of land, houses and gardens. Proviso as to Bombay Presidency. for houses and gardens . (vi) to enforce a right of pre-emption. (vii) for interest of assignee of land-revenue.",
+      "page": 3
+    },
+    {
+      "num": 8,
+      "text": "Fee on memorandum of appeal against order relating to compensation.",
+      "page": 4
+    },
+    {
+      "num": 9,
+      "text": "Power to ascertain nett profits or market-value.",
+      "page": 4
+    },
+    {
+      "num": 10,
+      "text": "Procedure where nett profits or market-value wrongly estimated.",
+      "page": 4
+    },
+    {
+      "num": 11,
+      "text": "Procedure in suits for mesne profits or account when amount decreed exceeds amount claimed.",
+      "page": 4
+    },
+    {
+      "num": 12,
+      "text": "Decision of questions as to valuation.",
+      "page": 4
+    },
+    {
+      "num": 13,
+      "text": "Refund of fee paid on memorandum of appeal.",
+      "page": 4
+    },
+    {
+      "num": 14,
+      "text": "Refund of fee on application for review of judgment.",
+      "page": 4
+    },
+    {
+      "num": 15,
+      "text": "Refund where Court reverses or modifies its former decision on ground of mistake.",
+      "page": 4
+    },
+    {
+      "num": 16,
+      "text": "Refund of fee.",
+      "page": 4
+    },
+    {
+      "num": 17,
+      "text": "Multifarious suits.",
+      "page": 4
+    },
+    {
+      "num": 18,
+      "text": "Written examinations of complainants.",
+      "page": 4
+    },
+    {
+      "num": 19,
+      "text": "Exemption of certain documents.",
+      "page": 4
+    },
+    {
+      "num": 20,
+      "text": "Rules as to cost of processes. Confirmation and publication of rules.",
+      "page": 4
+    },
+    {
+      "num": 21,
+      "text": "Tables of process-fees.",
+      "page": 5
+    },
+    {
+      "num": 22,
+      "text": "Number of peons in District and subordinate Courts. Number of peons in Mufassal Small cause Courts.",
+      "page": 5
+    },
+    {
+      "num": 23,
+      "text": "Number of peons in Revenue Courts.",
+      "page": 5
+    },
+    {
+      "num": 24,
+      "text": "[Repealed.].",
+      "page": 5
+    },
+    {
+      "num": 25,
+      "text": "Collection of fees by stamps.",
+      "page": 5
+    },
+    {
+      "num": 26,
+      "text": "Stamps to be impressed or adhesive.",
+      "page": 5
+    },
+    {
+      "num": 27,
+      "text": "Rules for supply, number, renewal and keeping accounts of stamps.",
+      "page": 5
+    },
+    {
+      "num": 28,
+      "text": "Stamping documents inadvertently received.",
+      "page": 5
+    },
+    {
+      "num": 29,
+      "text": "Amended document.",
+      "page": 5
+    },
+    {
+      "num": 30,
+      "text": "Cancellation of stamp.",
+      "page": 5
+    },
+    {
+      "num": 31,
+      "text": "[Repealed.].",
+      "page": 5
+    },
+    {
+      "num": 32,
+      "text": "[Repealed.].",
+      "page": 5
+    },
+    {
+      "num": 33,
+      "text": "Admission in criminal cases of documents for which proper fee has not been paid.",
+      "page": 5
+    },
+    {
+      "num": 34,
+      "text": "Sale of stamps. 34A. Adjudication of penalties. 34B. Appeal.",
+      "page": 5
+    },
+    {
+      "num": 35,
+      "text": "Power to reduce or remit fees.",
+      "page": 5
+    },
+    {
+      "num": 42,
+      "text": "[“Chief Controlling Revenue-authority” defined.] Rep. by the A. O. 1937.",
+      "page": 6
+    },
+    {
+      "num": 1,
+      "text": "It has been declared inapplicable to proceedings before officers making a settlement, and in certain other cases under the Sonthal Parganas Settlement Regulation, 1872 (Reg. 3 of 1872), s. 8, as amended by the Sonthal Parganas Justice and Laws Regulation, 1899 (Reg. 3 of 1899). It has been extended to and brought into force in Dadra and Nagar Haveli by Reg. 6 of 1963, s. 2 and Sch. I (w.e.f. 1-7-1965), to Goa, Daman and Diu by Reg. 11 of 1963, s. 3 and Sch., and to the whole of Union territory of Lakshadweep by Reg. 8 of 1863, s. 3 and Sch., with modification (w.e.f. 1-10-1967). It has been amended in — Ajmer-Merwara by Act 31 of 1930; Assam by Assam Acts 4 of 1922, 3 of 1932, 18 of 1947, 8 of 1950, 27 of 1954, 22 of 1955, 3 of 1958, 19 of 1958, 12 of 1960 and 28 of 1972; Bengal by Bengal Acts 3 of 1898, 4 of 1922, 6 of 1922, 7 of 1935, 11 of 1935 and 3 of 1941; Bihar by Bihar Acts 17 of 1939 and 7 of 19 58; Bihar and Orissa by B. & O. Act 2 of 1922; Bombay by Bombay Acts 2 of 1932 and 15 of 1943; C.P. by C.P. Act 16 of 1935; C.P. and Berar by C.P. and Berar Acts 9 of 1938, 16 of 1940, 9 of 1941, 5 of 1945 and 7 of 1948 and M.P. Acts 4 and 38 of 1950, 13 and 22 of 1951 and 9 of 1953; Himachal Pradesh by H.P. Act 4 of 1952; Madras by Madras Acts 5 of 1922 and 17 of 1945; Orissa by Orissa Acts 5 of 1939, 4 of 1945, 13 of 1957, 12 of 1974 and 55 of 1975; Punjab by Act 17 of 1887 and Punjab Acts 7 of 1922, 1 of 1942, E.P. Act 26 of 1949 and Pun. Act 31 of 1953, 19 of 1957, 20 of 1960 and 9 of 1979; U.P. by U.P. Acts 12 of 1922, 3 of 1933, 2 of 1936, 19 of 1938, 9 of 1941, 14 of 1942, 8 of 1943, 5 of 1944, 14 of 1948, 28 of 1957, 10 of 1959, 34 of 1970 and 9 of 1975; Andaman and Nicobar Islands by Reg. 2 of 1957; Meghalaya by Meghalaya Acts 2 of 1973 and 5 of 1973; Madhya Pradesh by Madhya Pradesh Acts 24 of 1975 and 4 of 1976; Delhi by Central Act 28 of 1967; and Haryana by Haryana Acts 11 of 1974 and 22 of 1974. The Act has been repealed in its application to Bombay area and Coorg district of Mysore by Mysore Act 16 of 1958. It has been repealed in part in partially excluded areas in Madras and Koraput by Madras Reg. 6 of 1940 and Orissa Reg. 7 of 1943, respectively.",
+      "page": 6
+    },
+    {
+      "num": 2,
+      "text": "Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “Part B States”.",
+      "page": 6
+    },
+    {
+      "num": 3,
+      "text": "Ins. by the A.O. 1937.",
+      "page": 6
+    },
+    {
+      "num": 4,
+      "text": "The Original s. 2 relating to repeal of enactments was rep. by the Repealing Act, 1870 (14 of 1870). A section defining “Chief Controlling Revenue-authority” was added by s. 2 of the Court-fees (Amendment) Act, 1901 (10 of 1901), and was slightly amended by the Repealing and Amending Act, 1917 (24 of 1917). For the definition of the “Chief Controlling Revenue-authority” see now the General Clauses Act, 1897 (10 of 1897), s. 3 (10). The A.O. 1937 rep. s. 2 as in force elsewhere than in Bengal. In that Province the section subs. by the Court -fees (Bengal Amendment) Act, 1935 (Ben. 7 of 1935), s. 3 contains definitions of “appeal”, “Chief Controlling Revenue -authority”, “Collector” and “Suit”.",
+      "page": 6
+    },
+    {
+      "num": 1,
+      "text": "Subs by the A.O.1950, for “the Courts which are High Courts for the purposes of the Government of India Act, 1935”.",
+      "page": 7
+    },
+    {
+      "num": 2,
+      "text": "Subs. by the Adaptation of Laws (No. 2) Order, 1956, for “High Courts for Part A States”.",
+      "page": 7
+    },
+    {
+      "num": 3,
+      "text": "The number “16” rep. by Act 12 of 1891.",
+      "page": 7
+    },
+    {
+      "num": 4,
+      "text": "See the Presidency Small Cause Courts Act, 1882 (15 of 1882), Ch. X.",
+      "page": 7
+    },
+    {
+      "num": 5,
+      "text": "Subs. by Act 19 of 1922, s. 2, for “judgment of two”.",
+      "page": 7
+    },
+    {
+      "num": 1,
+      "text": "The words “and the provisions of the Code of Civil Procedure, section thirty-one, shall apply as if, for the word ‘claim’, the words ‘relief sought’, were substituted” omitted by Act 12 of 1891, s. 3 and the First Schedule.",
+      "page": 10
+    },
+    {
+      "num": 2,
+      "text": "See para.8 of the A.O. 1937. In view of this provision the expression “Governor of Bombay in Council” has been left unmodified.",
+      "page": 10
+    },
+    {
+      "num": 1,
+      "text": "Ins. by Act 6 of 1905, s. 2 (1).",
+      "page": 11
+    },
+    {
+      "num": 2,
+      "text": "Subs. by s. 2 (2), ibid., for “land”.",
+      "page": 11
+    },
+    {
+      "num": 1,
+      "text": "See now the Land Acquisition Act, 1894 (1 of 1894).",
+      "page": 13
+    },
+    {
+      "num": 1,
+      "text": "Cl. (iii) rep. by Act 12 of 1891, s. 3 and Sch. I.",
+      "page": 14
+    },
+    {
+      "num": 1,
+      "text": "See now the Code of Civil Procedure, 1908 (Act 5 of 1908).",
+      "page": 16
+    },
+    {
+      "num": 2,
+      "text": "This reference should now be read as applying to the corresponding provision of Act 5 of 1908, i.e., Order XLI, rule 23 of the First Schedule.",
+      "page": 16
+    },
+    {
+      "num": 1,
+      "text": "As to application for review of judgment, see the Code of Civil Procedure, 1908 (Act 5 of 1908), s. 114 and Order XLVII of the First Schedule.",
+      "page": 17
+    },
+    {
+      "num": 2,
+      "text": "See Sch., I Nos. 4 and 5, infra.",
+      "page": 17
+    },
+    {
+      "num": 3,
+      "text": "Subs. by Act 20 of 1870, s. 1, for “plaint or memorandum of appeal”.",
+      "page": 17
+    },
+    {
+      "num": 4,
+      "text": "Ins. by Act 46 of 1999, s. 34 (w.e.f. 1-7-2002).",
+      "page": 17
+    },
+    {
+      "num": 3,
+      "text": "Subs. by the A.O. 1950, for “by an officer, warrant-officer, non-commissioned officer or private of Her Majesty’s army”. 4 Cl. (ii) rep. by Act 12 of 1891, s. 3 and Sch. I.",
+      "page": 18
+    },
+    {
+      "num": 5,
+      "text": "Cl. (iv) rep. by Act 13 of 1889, s. 2 and Sch. I.",
+      "page": 18
+    },
+    {
+      "num": 6,
+      "text": "See the Madras Village Courts Act, 1889 (Mad. 1 of 1889).",
+      "page": 18
+    },
+    {
+      "num": 7,
+      "text": "Subs. by Act 7 of 1889, s. 13, for “and certificate mentioned in the first schedule to this Act annexed, No. 12”.",
+      "page": 18
+    },
+    {
+      "num": 1,
+      "text": "See Madras Regulations 11 of 1816 and 4 of 1821, s. 6.",
+      "page": 19
+    },
+    {
+      "num": 2,
+      "text": "See Bombay Village Police Act, 1867 (Bom. 8 of 1867), ss. 14, 15 and 16.",
+      "page": 19
+    },
+    {
+      "num": 3,
+      "text": "The Bengal Chaukidari Act, 1856.",
+      "page": 19
+    },
+    {
+      "num": 4,
+      "text": "See now the Land Acquisition Act, 1894 (1 of 1894).",
+      "page": 19
+    },
+    {
+      "num": 1,
+      "text": "Ins. by Act 13 of 1875, s. 6.",
+      "page": 20
+    },
+    {
+      "num": 2,
+      "text": "Subs. by Act 10 of 1901, s. 3(1), for “of the Province”.",
+      "page": 20
+    },
+    {
+      "num": 3,
+      "text": "The word “such” rep. by Act 12 of 1891.",
+      "page": 20
+    },
+    {
+      "num": 1,
+      "text": "Subs. by Act 10 of 1901, s. 3(1), for “of the Province”.",
+      "page": 21
+    },
+    {
+      "num": 2,
+      "text": "As to recovery of penalties or forfeitures under s. 19G, see s. 19J, infra.",
+      "page": 21
+    },
+    {
+      "num": 3,
+      "text": "The words and figures “after the first day of April, 1875, or “rep. by Act 12 of 1891”.",
+      "page": 21
+    },
+    {
+      "num": 4,
+      "text": "Ins. by Act 11 of 1899, s. 2.",
+      "page": 21
+    },
+    {
+      "num": 5,
+      "text": "Subs. by Act 10 of 1901, s. 3(2), for “of the Province”.",
+      "page": 21
+    },
+    {
+      "num": 1,
+      "text": "See now the Indian Succession Act, 1925 (39 of 1925).",
+      "page": 22
+    },
+    {
+      "num": 2,
+      "text": "Ins. by Act 11 of 1899, s 2.",
+      "page": 22
+    },
+    {
+      "num": 3,
+      "text": "The words “in any part of British India” rep by the A.O. 1 948.",
+      "page": 22
+    },
+    {
+      "num": 24,
+      "text": "[Process served under this Chapter to be held to be process within meaning of Code of Civil Procedure.] Rep. by the Repealing and Amending Act , 1891 (12 of 1891), STATE AMENDMENT Uttar Pradesh Substitution of section 24-A.—For section 24-A for the principal Act, the following section shall be substituted, namely:— “24-A. Control of Court fee and Stamp Commissioner.—(1) The levy of fees under this Act shall be under the general control and superintendence of the Chief Controlling Revenue Authority, who may be assisted in the supervision thereof by the Commissioner of Stamps and by as many Additional many Additional Commissioners of the Stamps, Deputy Commissioners of Stamps and Assistant Commissioners of Stamps as the State Government may appoint in the behalf or by any other subordinate agency appointed for the purpose. (2) The Officers and the agency referred to in sub-section (1) shall have access to all records, and shall be furnished with all such information as may be required by them for the performance of their duties under this Act.” [Vide Uttar Pradesh Act 6 of 1980, s. 5]",
+      "page": 23
+    },
+    {
+      "num": 1,
+      "text": "The words “and sanctioned by the Governor General of India in Council” rep. by Act 38 of 1920, s. 2 and Sch. I.",
+      "page": 23
+    },
+    {
+      "num": 2,
+      "text": "The words “and the Governor General of India in Council” Rep. by Act 38 of 1920, s. 2 and Sch. I.",
+      "page": 23
+    },
+    {
+      "num": 3,
+      "text": "The reference to Act 11 of 1865 should now be read as referring to the Provincial Small Cause Courts Act, 1887 (9 of 1887); see s. 2(3) of that Act.",
+      "page": 23
+    },
+    {
+      "num": 1,
+      "text": "Subs. by the A.O. 1937, for “L. G.”.",
+      "page": 24
+    },
+    {
+      "num": 2,
+      "text": "For rules as to levy of court-fees by adhesive and impressed stamps, see Gazette of India, 1883, Pt. I, p. 189.",
+      "page": 24
+    },
+    {
+      "num": 1,
+      "text": "Subs. by the A.O. 1937 for “L.G.”.",
+      "page": 25
+    },
+    {
+      "num": 31,
+      "text": "[Repayment of fees paid on applications to Criminal Courts.] Rep. by the Code of Criminal Procedure (Amendment) Act, 1923 (18 of 1923), s. 163.",
+      "page": 27
+    },
+    {
+      "num": 32,
+      "text": "[Amendment of Act 8 of 1859 and Act 9 of 1869.] Rep. by the Repealing and Amending Act, 1891 (12 of 1891).",
+      "page": 27
+    },
+    {
+      "num": 1,
+      "text": "Subs. by Act 12 of 1891, for section 34.",
+      "page": 27
+    },
+    {
+      "num": 2,
+      "text": "Subs. by the A.O.1937, for “L. G.”.",
+      "page": 27
+    },
+    {
+      "num": 3,
+      "text": "Subs.by Act 8 of 2026, s. 2 and Sch., for sub-section (3) (w.e.f. 8-7-2026).",
+      "page": 27
+    },
+    {
+      "num": 4,
+      "text": "Ins. by s. 2 and Sch., ibid. (w.e.f. 8-7-2026).",
+      "page": 27
+    },
+    {
+      "num": 1,
+      "text": "Subs. by the A.O.1937, for “L. G.”.",
+      "page": 28
+    },
+    {
+      "num": 2,
+      "text": "Subs. by Act 38 of 1920, s. 2 and Sch. I, for “British India”.",
+      "page": 28
+    },
+    {
+      "num": 1,
+      "text": "1 Plaint 2 [written statement pleading a set-off or counter- claim] or memorandum of appeal (not otherwise provided for in this Act) 2[or of cross-objection] presented to any Civil or Revenue Court except those mentioned in section 3. When the amount or value of the subject-matter in dispute does not exceed five rupees. Six annas. When such amount or value exceeds five rupees, for every five rupees, or part thereof, in excess of five rupees, up to one hundred rupees. Six annas. When such amount or value exceeds one hundred rupees, for every ten rupees, or part thereof, in excess of one hundred rupees, up to one thousand rupees. Twelve annas. When such amount or value exceeds one thousand rupees, for every one hundred rupees, or part thereof, in excess of one thousand rupees, up to five thousand rupees. Five rupees. When such amount or value exceeds five thousand rupees, for every two hundred and fifty rupees, or part thereof, in excess of five thousand rupees, up to ten thousand rupees. Ten rupees. When such amount or value exceeds ten thousand rupees, for every five hundred rupees, or part thereof, in excess of ten thousand rupees, up to twenty thousand rupees. Fifteen rupees. When such amount or value exceeds twenty thousand rupees, for every one thousand rupees, or part thereof, in excess of twenty thousand rupees, up to thirty thousand rupees. Twenty rupees. When such amount or value exceeds thirty thousand rupees, for every two thousand rupees, or part thereof, in excess of thirty thousand rupees, up to fifty thousand rupees. Twenty rupees. When such amount or value exceeds fifty thousand rupees, for every five thousand rupees, or part thereof, in excess of fifty thousand rupees: Twenty-five rupees. Provided that the maximum fee leviable on a plaint or memorandum of appeal shall be three thousand rupees.",
+      "page": 30
+    },
+    {
+      "num": 2,
+      "text": "Plaint 3 *** in a suit for possession under 4 [the Specific Relief Act, 1877, section 9].",
+      "page": 30
+    },
+    {
+      "num": 3,
+      "text": "[Repealed by the Indian Registration Act, 1871 (8 of 1871)]. .. A fee of one-half the amount prescribed in the foregoing scale.\t..",
+      "page": 30
+    },
+    {
+      "num": 4,
+      "text": "Application for review of judgment,5if presented on or after the ninetieth day from the date of the decree. .. The fee leviable on the plaint or memorandum of appeal.",
+      "page": 30
+    },
+    {
+      "num": 5,
+      "text": "Application for review of judgments, 5if presented before the ninetieth day from the date of the decree. .. One-half of the fee leviable on the plaint or memorandum of appeal.",
+      "page": 30
+    },
+    {
+      "num": 1,
+      "text": "To ascertain the proper fee leviable on the institution of a suit, see the table annexed to this Schedule.",
+      "page": 30
+    },
+    {
+      "num": 2,
+      "text": "Ins. by Act 5 of 1908, s. 155 and Sch IV.",
+      "page": 30
+    },
+    {
+      "num": 3,
+      "text": "The words “or memorandum of appeal” rep. by Act 20 of 1870.",
+      "page": 30
+    },
+    {
+      "num": 4,
+      "text": "Subs. by Act 12 of 1891, s. 3 and Sch, I for “Act No. 14 of 1859 (to provide for the limitation of suits)”.",
+      "page": 30
+    },
+    {
+      "num": 5,
+      "text": "As to application for review of judgment, see the Code of Civil Procedure, 1908 (Act 5 of 1908).",
+      "page": 30
+    },
+    {
+      "num": 6,
+      "text": "Copy or translation of a judgment or order not being, or having the force of, a decree. When such judgment or order is passed by any Civil Court other than a High Court, or by the presiding officer of any Revenue Court or office, or by any other Judicial or Executive Authority— (a) If the amount or value of the subject-matter is fifty or less than fifty rupees. Four annas. (b) If such amount or value exceeds fifty rupees. Eight annas. When such judgment or order is passed by a High Court. One rupee.",
+      "page": 31
+    },
+    {
+      "num": 7,
+      "text": "Copy of a decree or order having the force of a decree. When such decree or order is made by any Civil Court other than a High Court, or by any Revenue Court— (a) If the amount or value of the subject-matter of the suit wherein such decree or order is made is fifty or less than fifty rupees. Eight annas. (b) If such amount or value exceeds fifty rupees. One rupee. When such decree or order is made by a High Court. Four rupees.",
+      "page": 31
+    },
+    {
+      "num": 8,
+      "text": "Copy of any document liable to stamp-duty under the Indian Stamp Act, 18791, (1 of 1879), when left by any party to a suit or proceeding in place of the original withdrawn. (a) When the stamp-duty chargeable on the original does not exceed eight annas. The amount of the duty chargeable on the original. (b) In any other case. Eight annas.",
+      "page": 31
+    },
+    {
+      "num": 9,
+      "text": "Copy of any revenue or judicial proceeding or order not otherwise provided for by this Act, or copy of any account, statement, report or the like, taken out of any Civil or Criminal or Revenue Court or office, or from the office of any chief officer charged with the executive administration of a Division. For every three hundred and sixty words or fraction of three hundred and sixty words. Eight annas.",
+      "page": 31
+    },
+    {
+      "num": 10,
+      "text": "[Rep. by the Guardians and Wards Act, 1890 (8 of 1890).] .. .. 2[11. Probate of a will or letters of administration with or without will annexed. 3[When the amount or value of the property in respect of which the grant of probate or letters is made exceeds one thousand rupees, but does not exceed ten thousand rupees. Two per centum on such amount or value. When such amount or value exceeds ten thousand rupees, but does not exceed fifty thousand rupees. Two and one-half per centum on such amount or value. When such amount or value exceeds fifty thousand rupees: Three per centum on such amount or value.] Provided that when, after the grant of a certificate under the Succession Certificate Act, 1889 (7 of 1889), or under the Regulation of the Bombay Code, No. 8 of 1827, in respect of any property included in an estate, a grant of probate or letters of administration is made in respect of the same estate, the fee payable in respect of the letter grant shall be reduced by the amount of the fee paid in respect of the former grant. Number ______ Proper Fee",
+      "page": 31
+    },
+    {
+      "num": 1,
+      "text": "See now the Indian Stamp Act, 1899 (2 of 1899).",
+      "page": 31
+    },
+    {
+      "num": 2,
+      "text": "Subs. by Act 7 of 1889, s. 13(1), for article 11.",
+      "page": 31
+    },
+    {
+      "num": 3,
+      "text": "These items were subs. by Act 7 of 1910, s. 2(i).",
+      "page": 31
+    },
+    {
+      "num": 1,
+      "text": "Subs. by Act 7 of 1889, s. 13(1), for the article 12.",
+      "page": 32
+    },
+    {
+      "num": 2,
+      "text": "Subs. by s. 13(1), ibid., for article 12A. 3 These items were subs. by Act 7 of 1910, s. 2(ii).",
+      "page": 32
+    },
+    {
+      "num": 14,
+      "text": "[Rep. by the A.O. 1937.]",
+      "page": 33
+    },
+    {
+      "num": 15,
+      "text": "[Rep. by the Repealing and Amending Act, 1923 (11 of 1923), s. 3 and Sch. II.]",
+      "page": 33
+    },
+    {
+      "num": 1,
+      "text": "Ins. by the Punjab Courts Act, 1884 (18 of 1884), s. 71, as amended by the Punjab Courts Act 1899 (25 of 1899), s. 6. Article 13 was rep. in the Punjab by s. 5 of the Punjab Courts (Amendment) Act, 1912 (Punjab 1 of 1912); but it has since been revived in this form by the Court-fees (Punjab Amendment) Act, 1922 (Punjab 7 of 1922).",
+      "page": 33
+    },
+    {
+      "num": 2,
+      "text": "Subs. by the A.O. 1948, for “High Court of Judicature at Lahore”.",
+      "page": 33
+    },
+    {
+      "num": 7,
+      "text": "Copy of a decree or order having the force of a decree When such decree or order is made by any Civil Court other than a High, Court, or by any Revenue Court— (a) If the amount or value of the subject matter of the suit wherein such decree or order is made is fifty or less than fifty rupees. Two rupees and twenty paise. (b) If such amount or value exceeds fifty rupees. Three rupees and thirty paise. (c) when such decree or order is made by High Court. Eight rupees and twenty-five paise.",
+      "page": 35
+    },
+    {
+      "num": 8,
+      "text": "Copy of any document liable to stamp-duty under the Indian Stamp Act, 1899 (Act 2 of 1899), when left by any party to a suit or proceeding in place of the original withdrawn. (a) when the stamp-duty chargeable on the original does not exceed one rupee. The amount of the duty chargeable on the original. (b) In any other case. One rupee and twenty paise.”",
+      "page": 36
+    },
+    {
+      "num": 9,
+      "text": "Copy of any revenue or judicial proceeding or order not otherwise provided for by this Act, or copy of any account, statement, report or the like, taken out of any Civil or Criminal or Revenue Court or office or from the office of any Chief Officer charged with the executive administration of Division. For every three hundred and sixty words or fraction of three hundred and sixty words. One rupee and twenty paise. [Vide Assam Act 28 of 1972, s. 2,]",
+      "page": 36
+    },
+    {
+      "num": 5,
+      "text": "Plaint or memorandum of appeal to a suit to establish or disprove a right of occupancy.",
+      "page": 47
+    },
+    {
+      "num": 6,
+      "text": "Bail-bond or other instrument obligation given in a pursuance of an order made by a Court or Magistrate under any section of the Code of Criminal Procedure, 1898 (Act V of 1898), or the Code of Civil Procedure, 1908 and not otherwise provided for by this Act.",
+      "page": 47
+    },
+    {
+      "num": 7,
+      "text": "Undertaking under section 49 of the Indian Divorce Act, 1869. One rupee and ten paise.",
+      "page": 47
+    },
+    {
+      "num": 8,
+      "text": "...",
+      "page": 47
+    },
+    {
+      "num": 9,
+      "text": "...",
+      "page": 47
+    },
+    {
+      "num": 11,
+      "text": "Memorandum of appeal when the appeal is not from a decree or an order having the force of a decree, and is presented. (a) to any Civil Court other than a High Court, or to any Revenue Court or Executive Officer other than the High Court or Chief Controlling Revenue or Executive Authority except an authority specified in clause (b); Three rupees and thirty paise. (b) to an Excise Appellate Authority under Rule 340 of the Assam Excise Rules; Sixteen rupees and fifty paise. (c) to a High Court or Chief Commissioner or other Chief Controlling Executive or Revenue Authority except an Authority prescribed in clause (b); Eleven rupees. (d) To an Excise Appellate Authority under Rule 341 of the Assam Excise Rule : Fifty five rupees. (e) to a High Court in miscellaneous revenue matters except (f) below or to an Appellate Authority prescribed under the Motor Vehicles Act, 1939 (Act IV of 1939); and Sixteen rupees and fifty paise. (f) to a High Court in appeal and revision matters arising out of settlement of fishery— (i) When the bid money is below ten thousand rupees: Sixteen rupees and fifty paise. (ii) When the bid money is above then thousand rupees but below twenty thousand rupees: Twenty- seven rupees and fifty paise. (iii) When the bid money is above twenty thousand rupees. Thirty-tree rupees.",
+      "page": 48
+    },
+    {
+      "num": 12,
+      "text": "Caveat... Eleven rupees.",
+      "page": 48
+    },
+    {
+      "num": 13,
+      "text": "Application under Act No. 10 of 1859, section 26 or Bengal Act No. 6 of 1962, section 9 or Bengal Act No. 8 of 1869 section 37. Five rupees and fifty paise. Number Proper fee",
+      "page": 48
+    },
+    {
+      "num": 14,
+      "text": "Petition in a suit under the Native Converts’ Marriage Dissolution Act, 1866. Five rupees and fifty paise.",
+      "page": 49
+    },
+    {
+      "num": 17,
+      "text": "Plaint or memorandum of appeal in each of the following suits:-- (i) to alter or set aside a summary decision or order of any of the Civil Courts not established by Letters Patent or of any Revenue Court; Sixteen rupees and fifty paise.\t(ii) to alter or cancel any entry in a register of the names of proprietors of revenue- paying estates; (iii) to obtain a declaration decree where no consequential relief is prayed; Twenty-two rupees. (iv) to set aside an award; Sixteen rupees and fifty paise. (v) to set aside an adoption; Twenty--two rupees. (vi) every other suit where it is not possible to estimate at a money-value the subject- matter in dispute, and which is not other- wise provided for by this Act. Sixteen rupees and fifty paise.",
+      "page": 49
+    },
+    {
+      "num": 18,
+      "text": "Application under section 14 or section 20, of the Indian Arbitration Act, 1940 (Act X of 1940), for a direction for filing an award or for an order for filing an agreement. When presented to a Munsif’s Court. Sixteen rupees and fifty paise. When presented to any other Court. Fifty-five rupees.",
+      "page": 49
+    },
+    {
+      "num": 19,
+      "text": "Agreement in writing stating a question for the opinion of the Court under the Code of Civil Procedure, 1908 (Act V of 1908). Sixteen rupees and fifty paise.",
+      "page": 49
+    },
+    {
+      "num": 20,
+      "text": "Every petition under the Indian Divorce Act, 1869 (Act IV of 1869), except petitions under section 44 of the same Act, and every memorandum of appeal under section 55 of the same Act. Twenty-two rupees.",
+      "page": 49
+    },
+    {
+      "num": 21,
+      "text": "Plaint or memorandum of appeal under the Parsi Marriage and Divorce Act, 1865 (Act XV of 1865). Twenty-two rupees.] [Vide Assam Act 27 of 1972 s. 3]",
+      "page": 49
+    },
+    {
+      "num": 12,
+      "text": "Certificate under the Indian Succession Act, 1925. When the amount or value of any debt or security specified in the certificate under section 374 of the Act, exceeds one thousand rupees, on such amount or value up to ten thousand rupees, and When such amount or value exceeds ten thousand rupees, on the portion of such amount or value which is in excess of ten thousand rupees up to fifty thousand rupees, and When such amount or value exceeds fifty thousand rupees, on the portion of such amount or value which is in excess of fifty thousand rupees up to one lakh of rupees, and When such amount or value exceeds a lakh of rupees, on the portion of such amount or value which is in excess of one lakh of rupees. Two per centum, and on the amount or value of any debt or security to which the certificate is extended under section 376 of the Act, three per centum. Three per centum, and on the amount or value of any debt or security to which the certificate is extended under section 376 of the Act, four-and-a-half per centum. Four per centum, and on the mount or value of any debt or security to which the certificate is extended under section 376 of the Act, six per centum. Five per centum, and on the amount or value of any debt or security to which the certificate is extended under section 376 of the Act, seven-and-a-half per centum.” SCHEDULE (See section 2) Number and year Short title (1) (2) Bihar and Orissa Act 1 of 1952 Bihar and Orissa Court-Fees (Amendment Act, 1922). Madras Act V of 1922 Central Province Act XVI of 1935 Madras Court-Fees (Amendment) Act, 1922 Court- Fees (Central Provinces Amendment) Act, 1935.",
+      "page": 51
+    },
+    {
+      "num": 2,
+      "text": "Plaint in a suit for possession under the Specific Relief Act, 1963, section 6 ---- A fee of one-half the amount prescribed in the foregoing scale.",
+      "page": 86
+    },
+    {
+      "num": 3,
+      "text": "Application for review of judgement, if presented on or after the ninetieth day from the date of the decree The fee leviable on the plaint or memorandum of appeal.",
+      "page": 86
+    },
+    {
+      "num": 4,
+      "text": "Application for review of judgement, if presented before the ninetieth day from the date of the decree One-half of the fee leviable on the plaint or memorandum of appeal.",
+      "page": 86
+    },
+    {
+      "num": 5,
+      "text": "Copy of translation of judgement or order not being, or having the force of, a decree When such judgement or order is passed by any civil court other than the High Court, or by the presiding officer of any revenue court or office, or by any other judicial or executive authority When such judgement or order is passed by the High Court Two rupees. Five rupees.",
+      "page": 86
+    },
+    {
+      "num": 6,
+      "text": "Copy of a decree or order having the force of a decree When such decree or order is made by any civil court other than the High Court or by any revenue court When such decree or order is made by the High Court Five rupees. Ten rupees.",
+      "page": 86
+    },
+    {
+      "num": 7,
+      "text": "Copy of any document liable to stamp duty under the Indian Stamp Act, 1899, when left by any party to a suit or proceeding in place of the original withdrawn, provided such copy is not subject to any duty under the Indian Stamp Act, 1899 (a) When the stamp duty chargeable , on the original does not exceed seventy five paise (b) in any other case The amount of the duty chargeable on the original, Two rupees.",
+      "page": 87
+    },
+    {
+      "num": 8,
+      "text": "Copy of any revenue or judicial proceeding or order not otherwise provided for by this Act, or copy of any account, statement, report or the like, taken out of any civil or criminal or revenue court or office, or from the office of any chief officer charged with the executive administration of a Division For every three hundred and sixty words or One rupee fraction of three hundred and sixty words One rupee.",
+      "page": 87
+    },
+    {
+      "num": 9,
+      "text": "probate of a will or letters of administration with or without will annexed When the amount or value of the property in respect of which the grant of probate or letters is made exceeds one thousand rupees, but does not exceeds ten thousand rupees. When such amount or value exceeds ten thousand rupees, but does not exceed fifty thousand rupees When such amount or value exceeds fifty thousand rupees three per centum on such amount or value. Five per centum on such amount or value. Six per centum on such amount or value.",
+      "page": 87
+    },
+    {
+      "num": 10,
+      "text": "Certificate under part X of the Indian Succession Act, 1925. In any case Three per centum on the amount or value of any debt or security specified in the certificate under section 374 of that Act, and five per centum on the amount or value of any debt or security to which the certificate is extended under section 376 of that Act. Notes .—(1) The amount of a debt is its amount, including interest, on the day on which the inclusion of the debt in the certificate is applied for, so far as such amount can be ascertained.",
+      "page": 87
+    },
+    {
+      "num": 11,
+      "text": "Application to the High Court for the exercise of its jurisdiction under section 44 of the Punjab Courts Act, 1918, or to the court of the Financial Commissioner for the exercise of its revisional jurisdiction under section 84 of the Punjab Tenancy Act, 1887. Fifteen rupees. Table of rates of ad-valorem fees leviable on the institution of suits Value of the subject matter exceeds But does not exceed Proper fee 1 2 3 Rs Rs Rs 10 10 . 20 20 2 30 30 3 40 40 4 50 50 5 60 60 6 70 70 7 80 80 8 90 90 9 100 100 10 120 120 13 140 140 16 160 160 19",
+      "page": 88
+    },
+    {
+      "num": 2,
+      "text": "Application to any civil court that records may be called for from another court When the court grants the application and is of opinion that the transmission of such records involves the use of the post Two rupees",
+      "page": 97
+    },
+    {
+      "num": 3,
+      "text": "Application for leave to sue as a pauper .. Two rupees",
+      "page": 97
+    },
+    {
+      "num": 4,
+      "text": "Application for leave to appeal as a pauper (a) When presented to a District Court (b) When Presented to a Commissioner or the High Court Two rupees Five rupees",
+      "page": 97
+    },
+    {
+      "num": 5,
+      "text": "Bail-bond or other instrument of obligation given in pursuance of an order made by a court or Magistrate under any section of the Code of Criminal Procedure, 1898, or the Code of Civil Procedure, 1908, and not otherwise Provided for by this Act .. One rupee",
+      "page": 97
+    },
+    {
+      "num": 6,
+      "text": "Undertaking under section 49 of the Divorce Act, 1869 Two rupees",
+      "page": 97
+    },
+    {
+      "num": 7,
+      "text": "Mukhtarnanca or Wakalatnama When presented for the conduct of any one case— (a) to any civil or criminal court other than the High Court, or to any revenue court, or to any Collector or Magistrate, or other Executive Officer, except such as are mentioned in clauses (b) and (c) of this number (b) to a Revenue Commissioner or to any officer charged with executive administration of a Division, not being the Chief Revenue or Executive Authority (c) to the High Court, Chief Commissioner, Board of revenue, or other Chief controlling Revenue or Executive Authority Two rupees Two rupees Three rupees",
+      "page": 97
+    },
+    {
+      "num": 8,
+      "text": "Memorandum of appear when the appeal is not from a decree or an order having the (a) to any civil court other than the High Court, or to any revenue court or Executive Officer other than the High Court or Chief Controlling Revenue or Executive Authority Ten rupees",
+      "page": 97
+    },
+    {
+      "num": 9,
+      "text": "Caveat -- Ten rupees",
+      "page": 98
+    },
+    {
+      "num": 10,
+      "text": "Petition in a suit under the Converts Marriage Dis solution Act, 1866, the Divorce Act, 1869, or the Foreign Marriage Act, 1969 -- Twenty-five rupees",
+      "page": 98
+    },
+    {
+      "num": 11,
+      "text": "(i) Every petition or application or memorandum of appeal under the Special Marriage Act, 1954, or the Hindu Marriage Act, 1955, or the Dissolution of Muslim Marriages Act, 1939 (ii) Application under section 24 of the Hindu Marriage Act, 1955 -- Twenty-five rupees Five rupees",
+      "page": 98
+    },
+    {
+      "num": 12,
+      "text": "Plaint or memorandum of appeal in each of the following suits:— (i) to alter or set as ide a summary decision or order of any of the civil courts not established by Letters Patent or of any revenue court; (ii) to alter or cancel any entry in a register of the names of the proprietors of revenue paying estates; (iii) to obtain a declaratory decree where no consequential relief is prayed; (iv) to set aside an award ; (v) to set aside an adoption; (vi) every other suit where it is not possible to estimate at a money - value the subject matter in dispute, and which is not otherwise provided for by this Act -- -- --- -- -- -- -- Twenty-five rupees",
+      "page": 98
+    },
+    {
+      "num": 13,
+      "text": "Application under section 20 of the Arbitration Act, 1940 -- Twenty-five rupees",
+      "page": 99
+    },
+    {
+      "num": 14,
+      "text": "Agreement in writing stating a question for the opinion of the court under the Code of Civil Procedure, 1908 -- Twenty-five rupees",
+      "page": 99
+    },
+    {
+      "num": 15,
+      "text": "Plaint or memorandum of appeal in a suit by a reversioner under the Punjab Customary Law for declaration in respect of an alienation of ancestral land -- One hundred rupees",
+      "page": 99
+    },
+    {
+      "num": 16,
+      "text": "Application or memorandum of appeal for relief under the Haryana Urban (Control of Rent and Eviction) Act, 1973— Fifteen rupees (i) other than for fixation of fair rent (a) Up to an annual rent not exceeding six hundred rupees; Fifteen rupees (ii) for fixation of fair rent (b) annual rent exceeding six hundred rupees Fifteen rupees",
+      "page": 99
+    },
+    {
+      "num": 17,
+      "text": "Claims for money (whether secured or unsecured) or a claim to set off made against such claims or counter claims under the Banking Companies Act, 1949 (a) Where the amount does not exceed Rs 2,500 ; (b) where the amount exceeds Rs 2,500 but does not exceed Rs 10,000; (c) where the amount exceeds Rs 10,000 ; Twenty-five rupees Fifty -rupees One hundred rupees",
+      "page": 99
+    },
+    {
+      "num": 18,
+      "text": "Memorandum of appeal from an order or decision passed under the Provisions of section 45-B of the Banking Companies Act, 1949 (a) Where the amount exceeds Rs 5,000 put does not exceed Rs 10,000; (b) where the amount exceeds Rs 10,000 One hundred rupees Two hundred rupees. [Vide Haryana Act 11 of 1974, s. 3] Haryana Amendment of Schedule I to Act 7 of 1870.— In Schedule I to the principal Act, — (a) against serial number 5, under columns 3 and 4, for the existing entries, the following entry shall be substituted, namely:-- \"when such judgement or order is passed by Two rupees.\"; any civil court or by the presiding officer of any revenue court or office, or by any other judicial or executive authority (b) against serial number 6, under columns 3 and 4, for the existing entries, the following entry shall be substituted, namely :— \"when such decree or order is made by any Five rupees.\";",
+      "page": 99
+    }
+  ]
+}

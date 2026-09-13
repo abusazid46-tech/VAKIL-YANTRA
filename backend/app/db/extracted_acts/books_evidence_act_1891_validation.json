@@ -1,0 +1,28 @@
+{
+  "act_name": "BOOKS EVIDENCE ACT, 1891",
+  "act_number": "18 of 1891",
+  "act_year": 1891,
+  "enactment_date": "1st October, 1891",
+  "as_on_date": null,
+  "total_pages_scanned": 5,
+  "total_body_sections_extracted": 0,
+  "total_schedule_items_extracted": 0,
+  "total_chunks_produced": 0,
+  "amending_acts_identified": [
+    "Act 26 of 1968",
+    "Act 18 of 1964",
+    "Act 3 of 1951",
+    "Act 10 of 1914",
+    "Act 56 of 1962",
+    "Act 1 of 1893",
+    "Act 55 of 2002",
+    "Act 1 of 1984",
+    "Act 21 of 2000"
+  ],
+  "missing_sections": [],
+  "duplicate_sections": [],
+  "repealed_sections": [],
+  "empty_or_suspicious_sections": [],
+  "validation_warnings": [],
+  "status": "FLAGGED_FOR_REVIEW"
+}

@@ -1,0 +1,20 @@
+{
+  "act_name": "THE INDIA INTERNATIONAL ARBITRATION\nCENTRE ACT, 2019",
+  "act_number": "17 of 2019",
+  "act_year": 2019,
+  "enactment_date": "26th July, 2019",
+  "as_on_date": null,
+  "total_pages_scanned": 13,
+  "total_body_sections_extracted": 35,
+  "total_schedule_items_extracted": 0,
+  "total_chunks_produced": 35,
+  "amending_acts_identified": [
+    "Act 23 of 2022"
+  ],
+  "missing_sections": [],
+  "duplicate_sections": [],
+  "repealed_sections": [],
+  "empty_or_suspicious_sections": [],
+  "validation_warnings": [],
+  "status": "VALIDATION_PASSED"
+}

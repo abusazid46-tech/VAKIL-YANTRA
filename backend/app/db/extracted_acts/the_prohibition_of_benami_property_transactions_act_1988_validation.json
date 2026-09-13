@@ -1,0 +1,42 @@
+{
+  "act_name": "The Prohibition of Benami Property Transactions Act, 1988",
+  "act_number": "45 of 1988",
+  "act_year": 1988,
+  "enactment_date": "",
+  "as_on_date": null,
+  "total_pages_scanned": 27,
+  "total_body_sections_extracted": 59,
+  "total_schedule_items_extracted": 0,
+  "total_chunks_produced": 59,
+  "amending_acts_identified": [
+    "Act 43 of 2016",
+    "Act 34 of 2019",
+    "Act 13 of 2021",
+    "Act 8 of 2023",
+    "Act 23 of 2019",
+    "Act 15 of 2024"
+  ],
+  "missing_sections": [
+    2,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    60
+  ],
+  "duplicate_sections": [
+    "4"
+  ],
+  "repealed_sections": [],
+  "empty_or_suspicious_sections": [],
+  "validation_warnings": [],
+  "status": "FLAGGED_FOR_REVIEW"
+}

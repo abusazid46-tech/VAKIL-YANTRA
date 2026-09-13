@@ -186,13 +186,35 @@ class Document(Base):
 class LegalSource(Base):
     __tablename__ = "legal_sources"
 
-    id: Mapped[str] = mapped_column(String(48), primary_key=True)
-    title: Mapped[str] = mapped_column(String(260), nullable=False)
+    id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    title: Mapped[str] = mapped_column(String(260), nullable=False, index=True)
+    act_number: Mapped[str | None] = mapped_column(String(60))
+    enactment_date: Mapped[str | None] = mapped_column(String(60))
     source_type: Mapped[str] = mapped_column(String(60), nullable=False)
     jurisdiction: Mapped[str] = mapped_column(String(80), nullable=False)
     year: Mapped[int] = mapped_column(Integer, nullable=False)
     public_url: Mapped[str] = mapped_column(String(600), nullable=False)
     effective_status: Mapped[str] = mapped_column(String(40), default="current")
+
+    sections: Mapped[list["ActSection"]] = relationship(back_populates="act", cascade="all, delete-orphan")
+
+
+class ActSection(Base):
+    __tablename__ = "act_sections"
+
+    id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    act_id: Mapped[str] = mapped_column(ForeignKey("legal_sources.id", ondelete="CASCADE"), index=True)
+    act_title: Mapped[str] = mapped_column(String(260), nullable=False, index=True)
+    chapter: Mapped[str | None] = mapped_column(String(180))
+    section_number: Mapped[str] = mapped_column(String(64), nullable=False, index=True)
+    section_title: Mapped[str] = mapped_column(String(300), nullable=False)
+    content: Mapped[str] = mapped_column(Text, nullable=False)
+    chunk_type: Mapped[str] = mapped_column(String(40), default="section")
+    source_url: Mapped[str] = mapped_column(String(600), default="https://www.indiacode.nic.in/")
+    embedding_json: Mapped[str | None] = mapped_column(Text)
+
+    act: Mapped["LegalSource"] = relationship(back_populates="sections")
+
 
 
 class AiRun(Base):

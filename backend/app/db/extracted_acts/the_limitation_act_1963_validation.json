@@ -1,0 +1,26 @@
+{
+  "act_name": "THE LIMITATION ACT, 1963",
+  "act_number": "36 of 1963",
+  "act_year": 1963,
+  "enactment_date": "5th October, 1963",
+  "as_on_date": null,
+  "total_pages_scanned": 24,
+  "total_body_sections_extracted": 32,
+  "total_schedule_items_extracted": 25,
+  "total_chunks_produced": 57,
+  "amending_acts_identified": [
+    "Act 34 of 2019",
+    "W.B. Act 18 of 1977",
+    "Act 46 of 1999",
+    "Act 10 of 1969",
+    "Act 52 of 1964",
+    "Act 104 of 1976",
+    "Act 53 of 1964"
+  ],
+  "missing_sections": [],
+  "duplicate_sections": [],
+  "repealed_sections": [],
+  "empty_or_suspicious_sections": [],
+  "validation_warnings": [],
+  "status": "VALIDATION_PASSED"
+}

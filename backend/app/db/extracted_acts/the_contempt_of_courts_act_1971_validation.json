@@ -1,0 +1,24 @@
+{
+  "act_name": "The Contempt of Courts Act, 1971",
+  "act_number": "70 of 1971",
+  "act_year": 1971,
+  "enactment_date": "24th December, 1971",
+  "as_on_date": null,
+  "total_pages_scanned": 10,
+  "total_body_sections_extracted": 23,
+  "total_schedule_items_extracted": 0,
+  "total_chunks_produced": 23,
+  "amending_acts_identified": [
+    "Act 34 of 2019",
+    "Act 6 of 2006",
+    "Act 45 of 1976"
+  ],
+  "missing_sections": [
+    13
+  ],
+  "duplicate_sections": [],
+  "repealed_sections": [],
+  "empty_or_suspicious_sections": [],
+  "validation_warnings": [],
+  "status": "VALIDATION_PASSED_WITH_NOTICES"
+}

@@ -1,0 +1,33 @@
+-- 005_statutory_rag.sql: Statutory Corpus RAG schema with pgvector & Full-Text Search
+-
+-create extension if not exists vector;
+-create extension if not exists pg_trgm;
+-
+-alter table legal_sources add column if not exists act_number varchar(60);
+-alter table legal_sources add column if not exists enactment_date varchar(60);
+-
+-create table if not exists act_sections (
+-  id varchar(64) primary key,
+-  act_id varchar(64) not null references legal_sources(id) on delete cascade,
+-  act_title varchar(260) not null,
+-  chapter varchar(180),
+-  section_number varchar(64) not null,
+-  section_title varchar(300) not null,
+-  content text not null,
+-  chunk_type varchar(40) not null default 'section',
+-  source_url varchar(600) not null default 'https://www.indiacode.nic.in/',
+-  embedding_json text,
+-  embedding vector(768),
+-  tsv tsvector generated always as (
+-    setweight(to_tsvector('english', coalesce(act_title, '')), 'A') ||
+-    setweight(to_tsvector('english', coalesce(section_title, '')), 'A') ||
+-    setweight(to_tsvector('english', coalesce(section_number, '')), 'B') ||
+-    setweight(to_tsvector('english', coalesce(content, '')), 'C')
+-  ) stored
+-);
+-
+-create index if not exists idx_act_sections_act_id on act_sections(act_id);
+-create index if not exists idx_act_sections_sec_num on act_sections(section_number);
+-create index if not exists idx_act_sections_act_sec on act_sections(act_title, section_number);
+-create index if not exists idx_act_sections_tsv on act_sections using gin(tsv);
+-
