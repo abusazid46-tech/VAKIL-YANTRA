@@ -83,7 +83,7 @@ def extract_act_hints(query: str) -> list[str]:
 
 
 class StatutoryCorpusEngine:
-    """High-performance in-memory RAG index across all 30,824 statutory sections."""
+    """High-performance in-memory RAG index across all 39,998 statutory provisions from 846 Central Acts."""
 
     _instance: StatutoryCorpusEngine | None = None
 

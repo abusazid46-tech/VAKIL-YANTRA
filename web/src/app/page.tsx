@@ -1160,6 +1160,7 @@ function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (
 
   // Directory and Act Inspection State
   const [actsDirectory, setActsDirectory] = useState<ActDirectoryItem[]>([]);
+  const [actFilter, setActFilter] = useState("");
   const [selectedAct, setSelectedAct] = useState<ActDirectoryItem | null>(null);
   const [actSections, setActSections] = useState<StatutoryProvisionItem[]>([]);
   const [actSectionFilter, setActSectionFilter] = useState("");
@@ -1377,6 +1378,15 @@ function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (
     const f = actSectionFilter.toLowerCase();
     return s.section_number.toLowerCase().includes(f) || s.section_title.toLowerCase().includes(f) || s.content.toLowerCase().includes(f);
   });
+  const filteredActsDirectory = actsDirectory.filter(act => {
+    if (!actFilter.trim()) return true;
+    const f = actFilter.toLowerCase();
+    return (
+      act.title.toLowerCase().includes(f) ||
+      String(act.year).includes(f) ||
+      (act.act_number && act.act_number.toLowerCase().includes(f))
+    );
+  });
 
   return (
     <section>
@@ -1384,7 +1394,7 @@ function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 12 }}>
           <div>
             <div className="card-title">Legal Library & Statutory Corpus</div>
-            <div className="card-sub">Real-Time Search & Structural Browser Across 30,824 Provisions & 600+ Central Acts</div>
+            <div className="card-sub">Real-Time Search & Structural Browser Across 39,998 Provisions & 846 Central Acts</div>
           </div>
           {/* Mode Switcher */}
           <div style={{ display: "flex", background: "var(--surface-hover)", borderRadius: 8, padding: 3 }}>
@@ -1394,7 +1404,7 @@ function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (
               style={{ minHeight: 32, padding: "4px 12px", fontSize: "0.8rem" }}
               onClick={() => { setSearchMode("provisions"); setSelectedAct(null); }}
             >
-              Search Provisions (30,824)
+              Search Provisions (39,998)
             </button>
             <button
               type="button"
@@ -1402,7 +1412,7 @@ function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (
               style={{ minHeight: 32, padding: "4px 12px", fontSize: "0.8rem" }}
               onClick={() => { setSearchMode("acts"); setSelectedAct(null); }}
             >
-              Browse Central Acts (600+)
+              Browse Central Acts ({actsDirectory.length || 846})
             </button>
           </div>
         </div>
@@ -1440,10 +1450,10 @@ function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (
               className="input"
               value={query}
               onChange={e => setQuery(e.target.value)}
-              placeholder="Search all 30,824 provisions by Section No. or Legal Terms (e.g. 138, 482 BNSS, cheque dishonour, anticipatory bail, injunction)..."
+              placeholder="Search all 39,998 provisions by Section No. or Legal Terms (e.g. 138, 482 BNSS, cheque dishonour, anticipatory bail, injunction)..."
             />
             <button className="btn primary" type="submit" disabled={searching}>
-              <Search /> {searching ? "Searching 30k Sections..." : "Search Provisions"}
+              <Search /> {searching ? "Searching 40,000+ Sections..." : "Search Provisions"}
             </button>
           </form>
         ) : null}
@@ -1457,7 +1467,7 @@ function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (
               <div style={{ fontWeight: 700, color: "var(--muted)", fontSize: "0.9rem" }}>
                 {searched
                   ? `Showing ${activeProvisionsList.length} of ${totalMatches} matching provision${totalMatches === 1 ? "" : "s"} for "${query || "All"}"`
-                  : "Landmark Statutory Provisions (Search above to explore 30,824 sections)"}
+                  : "Landmark Statutory Provisions (Search above to explore 39,998 sections)"}
               </div>
               {searched && totalMatches > 25 ? (
                 <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
@@ -1726,39 +1736,53 @@ function LegalLibrary({ authUser, onSelect }: { authUser: AuthUser; onSelect?: (
               </div>
             ) : (
               <div>
-                <div style={{ marginBottom: 12, fontWeight: 700, color: "var(--muted)" }}>
-                  Showing {actsDirectory.length} Central Acts in Directory (Click any Act to explore all its provisions)
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, flexWrap: "wrap", gap: 10 }}>
+                  <div style={{ fontWeight: 700, color: "var(--muted)" }}>
+                    Showing {filteredActsDirectory.length} of {actsDirectory.length || 846} Central Acts in Directory (Click any Act to explore all its provisions)
+                  </div>
                 </div>
-                <div className="grid-3">
-                  {actsDirectory.map(act => (
-                    <div className="mini-card" key={act.id} style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-                      <div>
-                        <strong>{act.title}</strong>
-                        <div style={{ marginTop: 4, fontSize: "0.82rem", color: "var(--muted)" }}>
-                          {act.year} · {act.act_number ? `${act.act_number} · ` : ""}{act.total_sections > 0 ? `${act.total_sections} sections` : "Statutory Act"}
+                <div style={{ marginBottom: 14 }}>
+                  <input
+                    className="input"
+                    value={actFilter}
+                    onChange={e => setActFilter(e.target.value)}
+                    placeholder="Search 846 Central Acts by title, year, or act number (e.g. Wildlife, Tax, 1974, Banking)..."
+                  />
+                </div>
+                {filteredActsDirectory.length === 0 ? (
+                  <div style={{ padding: 24, textAlign: "center", color: "var(--muted)" }}>No Central Acts match &ldquo;{actFilter}&rdquo;.</div>
+                ) : (
+                  <div className="grid-3">
+                    {filteredActsDirectory.map(act => (
+                      <div className="mini-card" key={act.id} style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                        <div>
+                          <strong>{act.title}</strong>
+                          <div style={{ marginTop: 4, fontSize: "0.82rem", color: "var(--muted)" }}>
+                            {act.year} · {act.act_number ? `${act.act_number} · ` : ""}{act.total_sections > 0 ? `${act.total_sections} sections` : "Statutory Act"}
+                          </div>
+                        </div>
+                        <div className="actions" style={{ marginTop: 12, display: "flex", gap: 6 }}>
+                          <button
+                            type="button"
+                            className="btn primary"
+                            style={{ minHeight: 28, padding: "4px 10px", fontSize: "0.75rem" }}
+                            onClick={() => handleSelectAct(act)}
+                          >
+                            Browse All {act.total_sections > 0 ? `${act.total_sections} ` : ""}Sections
+                          </button>
+                          <button
+                            type="button"
+                            className="btn ghost"
+                            style={{ minHeight: 28, padding: "4px 8px", fontSize: "0.75rem" }}
+                            onClick={() => window.open(act.public_url, "_blank")}
+                          >
+                            <BookOpen style={{ width: 13, height: 13 }} /> India Code
+                          </button>
                         </div>
                       </div>
-                      <div className="actions" style={{ marginTop: 12, display: "flex", gap: 6 }}>
-                        <button
-                          type="button"
-                          className="btn primary"
-                          style={{ minHeight: 28, padding: "4px 10px", fontSize: "0.75rem" }}
-                          onClick={() => handleSelectAct(act)}
-                        >
-                          Browse All {act.total_sections > 0 ? `${act.total_sections} ` : ""}Sections
-                        </button>
-                        <button
-                          type="button"
-                          className="btn ghost"
-                          style={{ minHeight: 28, padding: "4px 8px", fontSize: "0.75rem" }}
-                          onClick={() => window.open(act.public_url, "_blank")}
-                        >
-                          <BookOpen style={{ width: 13, height: 13 }} /> India Code
-                        </button>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
           </div>

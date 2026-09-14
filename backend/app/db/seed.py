@@ -188,8 +188,18 @@ def seed_development_data() -> None:
                     )
                     existing_section_ids.add(sec["id"])
         if new_sections:
-            db.add_all(new_sections)
-            db.commit()
+            batch_size = 1000
+            for i in range(0, len(new_sections), batch_size):
+                batch = new_sections[i : i + batch_size]
+                db.add_all(batch)
+                db.commit()
+                print(f"Seeded sections: {min(i + batch_size, len(new_sections))} / {len(new_sections)}", flush=True)
 
     finally:
         db.close()
+
+
+if __name__ == "__main__":
+    print("Starting development data seeding...", flush=True)
+    seed_development_data()
+    print("Seeding completed successfully!", flush=True)
