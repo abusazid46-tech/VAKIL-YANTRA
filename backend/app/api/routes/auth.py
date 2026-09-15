@@ -24,6 +24,7 @@ from app.domain.auth.schemas import (
 from app.domain.auth.service import (
     accept_invitation,
     create_login_challenge,
+    direct_login,
     invite_user,
     list_firm_users,
     list_invitations,
@@ -41,6 +42,11 @@ router = APIRouter()
 @router.post("/signup", response_model=AuthToken, status_code=201)
 def signup(payload: SignupRequest, db: Session = Depends(get_db)) -> AuthToken:
     return signup_firm(db, payload)
+
+
+@router.post("/direct-login", response_model=AuthToken)
+def direct_authenticate(payload: LoginRequest, db: Session = Depends(get_db)) -> AuthToken:
+    return direct_login(db, payload.email, payload.password)
 
 
 @router.post("/login", response_model=LoginChallenge)

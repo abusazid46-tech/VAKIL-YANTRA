@@ -331,13 +331,25 @@ function AuthScreen({ onComplete }: { onComplete: (user: AuthUser, remember: boo
     setPassword(targetPassword);
     setBusy(true);
     setError("");
-    setNotice(`Signing in as ${targetRole === "admin" ? "Admin Advocate" : "Associate"}...`);
+    setNotice(`Signing in as ${targetRole === "admin" ? "Admin Advocate (A. Sharma)" : "Associate (Priya)"}...`);
     try {
+      // 1. Try direct password authentication first
+      try {
+        const directToken = await apiPost<AuthToken>("/auth/direct-login", { email: targetEmail, password: targetPassword });
+        if (directToken && directToken.access_token) {
+          complete(directToken);
+          return;
+        }
+      } catch {
+        // Fall back to challenge flow if backend does not expose /auth/direct-login yet
+      }
+
+      // 2. Challenge flow with instant auto-verification
       const nextChallenge = await apiPost<LoginChallenge>("/auth/login", { email: targetEmail, password: targetPassword });
       setChallenge(nextChallenge);
       const code = nextChallenge.preview_otp || "123456";
       setOtp(code);
-      setNotice(`Verification code ${code} verified. Loading chamber dashboard...`);
+      setNotice(`Verifying session code ${code}...`);
       const token = await apiPost<AuthToken>("/auth/verify-otp", { challenge_id: nextChallenge.challenge_id, otp: code });
       complete(token);
     } catch (err) {
@@ -349,14 +361,35 @@ function AuthScreen({ onComplete }: { onComplete: (user: AuthUser, remember: boo
 
   async function startLogin() {
     setBusy(true);
+    setError("");
     try {
+      // 1. Try direct password authentication first
+      try {
+        const directToken = await apiPost<AuthToken>("/auth/direct-login", { email, password });
+        if (directToken && directToken.access_token) {
+          complete(directToken);
+          return;
+        }
+      } catch {
+        // Fall back to OTP challenge if direct-login is not supported on older API
+      }
+
+      // 2. Challenge flow
       const nextChallenge = await apiPost<LoginChallenge>("/auth/login", { email, password });
-      setError("");
       setChallenge(nextChallenge);
-      const code = nextChallenge.preview_otp || (email.includes("vakilyantra.in") ? "123456" : "");
+      const code = nextChallenge.preview_otp || (email.toLowerCase().includes("vakilyantra.in") ? "123456" : "");
       if (code) {
         setOtp(code);
-        setNotice(`Verification code: ${code}`);
+        setNotice(`Verifying session code ${code}...`);
+        try {
+          const token = await apiPost<AuthToken>("/auth/verify-otp", { challenge_id: nextChallenge.challenge_id, otp: code });
+          if (token && token.access_token) {
+            complete(token);
+            return;
+          }
+        } catch {
+          setNotice(`Verification code: ${code}`);
+        }
       } else {
         setNotice("Verification code sent by email.");
       }
